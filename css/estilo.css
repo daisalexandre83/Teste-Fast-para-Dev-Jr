@@ -139,6 +139,8 @@
 
 .text-link{
     margin-left: 10px;
+    width: 150px;
+    border: 1px solid red;
 }
 
 .space{
@@ -149,10 +151,6 @@
 .space-text-arrow{
     display: flex;
     margin-left: 20px;
-}
-
-.arrow-down{
-    margin-left: 90px;
 }
 
 .followup-time{
