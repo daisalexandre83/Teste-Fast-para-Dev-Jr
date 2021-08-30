@@ -1,3 +1,5 @@
-function mensagemDeAviso() {
+function mensage() {
     console.log('olá');
 }
+
+//
