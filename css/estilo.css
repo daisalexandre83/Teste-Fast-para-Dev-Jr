@@ -179,17 +179,25 @@
     padding: 10px 15px;
 }
 
-.mensage{
-    background-color: red;
-    width: 370px;
-    height: 100px;
-    border-radius: 10px;
-    position: absolute;
-    color: #ffffff;
-    padding: 12px 5px 0 15px;
-    position: absolute;
-    left: 800px;
-    display: none;
+.thin-line{
+    background-color: #ffae00;
+    width: 47px;
+    height: 2px;
+    margin: 10px 0 15px 0;
+}
+
+#menu-tabs{
+    padding-left: 425px;
+    margin-top: 20px;
+}
+
+#nav-tabs{
+    margin-left: 435px;
+}
+
+.tab-content{
+    margin-top: 25px;
+    margin-left: 435px;
 }
 
 .positive-answer{
@@ -201,7 +209,67 @@
     display: none;
 }
 
+/* .word-nav-tabs{
+    margin-left: 30px;
+}
 
+ul,ol{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 
+.nav{
+    padding-left:  0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+}
 
+.nav,
+.nav-tabs{
+    background-color: #efefef;
+    height: 70px;
+    color: white;
+}
+
+.nav-tabs > li{
+    float: left;
+    margin-bottom: -1px;
+}
+
+nav,
+.nav-tabs > li > a{
+    color: #fff;
+    text-decoration-line: none;
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+}
+
+nav,
+.nav-tabs > li.active a,
+nav,
+.nav-tabs > li.active a:hover,
+nav,
+.nav-tabs > li.active a:focus{
+    background-color: #007aff;
+    color: #fff;
+    text-decoration-: none;
+}
+ */
+
+ #list-card{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+ }
+
+ .word-card{
+     margin-left: 20px;
+     text-align: right;
+ }
 

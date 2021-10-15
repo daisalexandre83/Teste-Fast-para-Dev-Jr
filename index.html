@@ -25,6 +25,8 @@
                 <div class="header-right-line"></div>
             </div>
         </div>
+    </head>
+    <main>
         <ul class="nav flex-column" id="menu">
             <div class=hamburguer-menu>
                 <i class="bi bi-list"></i>
@@ -137,38 +139,134 @@
         <div class="content">
             <div class="line-side">
             </div>
-            <div class="title">
-                Configuração de <span class="title-destaq">Convênios</span>
+            <section>
+                <div class="title">
+                    Configuração de <span class="title-destaq">Convênios</span>
+                </div>
             </div>
-        </div>
-         <div class="text">
-             Aqui você irá configurar os convênios bancários para emitir boletos bancários
-        </div>
-        <div class="subtext">
-            Você ainda não configurou o seus convênios bancários para poder emitir boletos bancários
-        </div>
-        <div class="content-line">
-        </div>
-        <div class="user-action">
-            Configurar Agora
-        </div>
-        <ul class="nav nav-pills">
-            <li class="nav-item" id="links-navigation">
-              <a class="nav-link active" href="#">1<span class="words-links"></span>Início</a></a>
-            </li>
-            <li class="nav-item" id="links-navigation">
-              <a class="nav-link" href="#">2<span class="words-links" ></span>Dados</a>
-            </li>
-            <li class="nav-item" id="links-navigation">
-              <a class="nav-link" href="#">3<span class="words-links"></span>Boleto</a>
-            </li>
-            <li class="nav-item" id="links-navigation">
-              <a class="nav-link" href="#">4<span class="words-links"></span>Retorno</a>
-            </li>
-            <li class="nav-item" id="links-navigation">
-                <a class="nav-link" href="#">5<span class="words-links"></span>Fim</a>
-            </li>
-          </ul>
+             <div class="text">
+                 Aqui você irá configurar os convênios bancários para emitir boletos bancários
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                  <div class="card" id="list-card">
+                    <div class="card-body">
+                      <h5 class="card-title">1<span>Início</span></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="card" id="list-card">
+                    <div class="card-body">
+                      <h5 class="card-title">2<span class="word-card">Dados</span></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="card" id="list-card">
+                      <div class="card-body">
+                        <h5 class="card-title">3<span class="word-card">Boleto</span></h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="card" id="list-card">
+                      <div class="card-body">
+                        <h5 class="card-title">4<span class="word-card">Retorno</span></h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-2">
+                    <div class="card" id="list-card">
+                      <div class="card-body">
+                        <h5 class="card-title">5<span class="word-card">Fim</span></h5>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          
+            <div class="subtext">
+                Você ainda não configurou o seus convênios bancários para poder emitir boletos bancários
+            </div>
+            <div class="content-line">
+            </div>
+            <div class="user-action">
+                Configurar Agora
+            </div>
+            </section>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Perfil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contato</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+              </div>
+            <div class="tab-content">
+                <div class="tab-pane active id="tab1>
+                    Você possui um convênio para emissão de boletos junto ao seu banco?
+                    <div class="thin-line"></div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Sim
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Não
+                        </label>
+                      </div>
+                </div>
+                <div class="part-two-tab1">
+                    Este convênio é para emissão de boletos sem registro?
+                    <div class="thin-line"></div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Sim
+                        </label>
+                      </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" onclick="mensagemDeAviso()" for="exampleRadios2">
+                          Não
+                        </label>
+                      </div>
+                </div>
+                <div class="part-three-tab1">
+                    Responda as seguintes perguntas
+                    <div class="thin-line"></div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </label>
+                      </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </label>
+                    </div>
+
+                </div>
+                </div>
           <div class="pag-1">
                 Você possui um convênio para emissão de boletos junto ao seu banco?
                 <div class="form-check">
@@ -196,13 +294,14 @@
                           Não
                         </label>
                       </div>
-                  </div>
+                  </div-->
                   <div class="mensage">
                     Entre em contato com seu banco e solicite o seu convênio de emissão de boletos SEM REGISTRO.
                     Verifique com seu gerente.
                   </div>
           </div>
-    </head>
+    </main>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/bee26b66cc.js"></script>
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
