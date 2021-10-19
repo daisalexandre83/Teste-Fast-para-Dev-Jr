@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="center-div">
+        <div id="questionsdiv">
+          <div class="container initial-active-area">
+            <div class="line">
+              <div class="circle-step first-dot"> <img alt="" id="q-emoji-1" src="http://emojione.com/wp-content/uploads/assets/emojis/1f4ac.svg" /></div>
+              <div class="circle-step second-dot"> <img alt="" id="q-emoji-2" src="http://emojione.com/wp-content/uploads/assets/emojis/1f516.svg" /></div>
+              <div class="circle-step third-dot"> <img alt="" id="q-emoji-3" src="http://emojione.com/wp-content/uploads/assets/emojis/2611.svg" /></div>
+            </div>
+            <div class="steps-wrapper">
+              <div class="question-submission">
+                <form class="submission first-step">
+                  <label class="input">
+                              <input type="text" class="question" id="questioninput" placeholder="What's your question?">
+                          </label>
+                  <button class="first next">Continue</button>
+                </form>
+                <form class="submission second-step">
+                  <label class="input">
+                              <input type="text" class="tags" placeholder="Add some tags!">
+                          </label>
+                  <button class="second next">Continue</button>
+                </form>
+                <div class="submission third-step">
+                  <h5>Your Question: <span class="yourquestion"></span></h5>
+                  <h5>Your tags: <span class="yourtags"></span></h5>
+                  <button class="third next" onclick="">Submit!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="attribution">
+        <p>Emojis provided free by<a href="http://emojione.com" target="_blank"> http://emojione.com</a></p>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
