@@ -4,8 +4,10 @@ $(".user-action").click(function() {
     $(".img-cash").hide();
     $(".user-action").hide();
     $("#steps-page").show();
+    $(".wizard > .actions a").hide();
+    $("#part2-block1").hide();
+    $("#part3-block1").hide();
 })
-
 
 
 $("#steps-page").steps({
@@ -14,3 +16,11 @@ $("#steps-page").steps({
     transitionEffect: "slideLeft",
     autoFocus: true
 });
+
+$("#yes-option-part1").click(function () {
+    $("#part2-block1").show();
+})
+
+$("#yes-option-part2").click(function () {
+    $("#part3-block1").show();
+})
