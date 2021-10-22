@@ -24,3 +24,14 @@ $("#yes-option-part1").click(function () {
 $("#yes-option-part2").click(function () {
     $("#part3-block1").show();
 })
+
+function showButton() {
+    
+    let input = document.querySelectorAll(".input-part3-block1");
+
+    if (input === true) {
+        $(".wizard > .actions a").show();
+    }
+}
+
+showButton();

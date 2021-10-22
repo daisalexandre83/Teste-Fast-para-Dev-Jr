@@ -210,7 +210,7 @@
     background-color: #ffae00;
     width: 47px;
     height: 2px;
-    margin: 10px 0 15px 0;
+    margin: 12px 0 15px 0;
 }
 
 #menu-tabs{
@@ -251,7 +251,6 @@
 
 #part3-block1{
     margin-top: 100px;
-    border: 1px solid blue;
 }
 
 .user-action-block1{
@@ -266,7 +265,7 @@
 }
 
 #part3-block1-text{
-    width: 550px;
+    margin-top: 30px;
 }
 
 #list-card{
@@ -688,6 +687,16 @@
       width: 900px;
       margin-top: 175px;
        display: none;
+  }
+
+  #input-part3-block1{
+      background-color: red;
+      margin-right: 15px;
+  }
+
+  .form-check-flex{
+    display: flex;
+    border: 1px solid blue;
   }
 
 
