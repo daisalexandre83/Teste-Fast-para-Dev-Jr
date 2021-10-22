@@ -4,7 +4,7 @@ $(".user-action").click(function() {
     $(".img-cash").hide();
     $(".user-action").hide();
     $("#steps-page").show();
-    $(".wizard > .actions a").hide();
+    // $(".wizard > .actions a").hide();
     $("#part2-block1").hide();
     $("#part3-block1").hide();
 })

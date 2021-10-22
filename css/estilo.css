@@ -45,7 +45,7 @@
     top: 50px;
 }
 
-.main-flex{
+.flex-elements{
     display: flex;
 }
 
@@ -697,6 +697,10 @@
   .form-check-flex{
     display: flex;
     border: 1px solid blue;
+  }
+
+  .bank-data p span{
+    font-weight: bold;
   }
 
 
