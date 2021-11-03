@@ -60,6 +60,7 @@
     border-left: 2px solid #43a4ff;
     height: 30px;
     position: relative;
+    margin-left: 10px;
 }
 
 .page-title{
@@ -72,14 +73,14 @@
 }
 
 .page-subtext{
-  margin-top: 20px;
     width: 450px;
+    margin: 20px 0 0 10px;
 }
 
 .page-text{
     color: #977b7b;
-    margin-top: 5px;
     font-size: 16px;
+    margin:5px 0 0 10px;
 }
 
 .hamburguer-menu{
@@ -164,8 +165,8 @@
     font-size: 20px;
     text-align: center;
     cursor: pointer;
-    margin-top: 60px;
     padding-top: 5px;
+    margin: 60px 0 0 10px;
 }
 
 #links-navigation{
@@ -184,10 +185,11 @@
     padding: 10px 15px;
 }
 
-.thick-line{
+.page-thick-line{
     background-color: #ffae00;
     width: 65px;
     height: 5px;
+    margin-left: 10px;
 }
 
 #links-navigation{
@@ -238,18 +240,17 @@
 
 .img-cash{
     margin-left: 425px;
-    /* margin-top: -150px; */
 }
 
-#part1-block1{
+#steps-page-content-one-part1{
     margin-top: 120px;
 }
 
-#part2-block1{
-    margin-top: 75px;
+#steps-page-content-one-part2{
+    margin-top: 65px;
 }
 
-#part3-block1{
+#steps-page-content-one-part3{
     margin-top: 100px;
 }
 
@@ -681,15 +682,15 @@
       display: list-item;
   }
 
-  #steps-page{
+  .steps-page{
       position: absolute;
       left: 225px;
       width: 900px;
-      margin-top: 175px;
-       display: none;
+      margin-top: 120px;
+      display: none;
   }
 
-  #input-part3-block1{
+  .input-part3-block1{
       background-color: red;
       margin-right: 15px;
   }
