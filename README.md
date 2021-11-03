@@ -1,2 +1,2 @@
 # Teste Fast para Dev Jr
- Exercício utilizando HTML,CSS, Javascript: Jquery
+ Exercício utilizando HTML,CSS: Bootstrap, Javascript: Jquery, Ajax.
