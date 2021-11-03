@@ -4,7 +4,7 @@ $(".user-action").click(function() {
     $(".img-cash").hide();
     $(".user-action").hide();
     $("#steps-page").show();
-    // $(".wizard > .actions a").hide();
+    $(".wizard > .actions a").hide();
     $("#part2-block1").hide();
     $("#part3-block1").hide();
 })
@@ -25,13 +25,21 @@ $("#yes-option-part2").click(function () {
     $("#part3-block1").show();
 })
 
-function showButton() {
-    
-    let input = document.querySelectorAll(".input-part3-block1");
 
-    if (input === true) {
+/* $(".input-part3-block1").click(function () {
+
+
+    input1 = document.getElementById("input1-checkbox");
+    input2 = document.getElementById("input2-checkbox");
+    input3 = document.getElementById("input3-checkbox");
+
+    if(input1 == checked && input2 == checked && input3 == checked){
         $(".wizard > .actions a").show();
     }
-}
 
-showButton();
+
+}) */
+
+$(".input-part3-block1").click(function () {
+    
+})
