@@ -208,7 +208,7 @@
     padding: 10px 15px;
 }
 
-.thin-line{
+.steps-page-thin-line{
     background-color: #ffae00;
     width: 47px;
     height: 2px;
@@ -242,11 +242,11 @@
     margin-left: 425px;
 }
 
-#steps-page-content-one-part1{
+#steps-page1-radio1{
     margin-top: 120px;
 }
 
-#steps-page-content-one-part2{
+#steps-page1-radio2{
     margin-top: 65px;
 }
 
@@ -265,7 +265,7 @@
     color: #fff;
 }
 
-#part3-block1-text{
+#steps-page1-text{
     margin-top: 30px;
 }
 
@@ -467,7 +467,7 @@
   {
       width: 95%;
       height: 95%;
-      padding: 2.5%;
+      padding: 2.0%;
   }
 
   .wizard > .content > .body ul
@@ -554,7 +554,7 @@
   .wizard > .actions a:hover,
   .wizard > .actions a:active
   {
-      background: #2184be;
+      background: #00af59;
       color: #fff;
       display: block;
       padding: 0.5em 1em;
@@ -565,13 +565,13 @@
       border-radius: 5px;
   }
 
-  .wizard > .actions .disabled a,
+   .wizard > .actions .disabled a,
   .wizard > .actions .disabled a:hover,
   .wizard > .actions .disabled a:active
   {
       background: #eee;
       color: #aaa;
-  }
+  } 
 
   /* .wizard > .loading
   {
@@ -700,11 +700,61 @@
     border: 1px solid blue;
   }
 
+  .bank-data{
+      width: 300px;
+      height: 120px;
+      border: 1px solid #BDBDBD;
+      border-radius: 3px;
+  }
+
   .bank-data p span{
+    width: 100px;  
     font-weight: bold;
+  }
+
+  .bank-data p{
+      padding-left: 20px;
   }
 
   #form-checkbox{
       padding-left: 0;
+  }
+
+  .steps-page2-text{
+      display: block;
+  }
+
+  .steps-page2-content{
+      display: flex;
+  }
+
+  .steps-page-line-vertical{
+      width: 2px;
+      border: 1px solid #BDBDBD;
+      position: relative;
+      right: 100px;
+  }
+
+  .steps-page2-image{
+      position: absolute;
+      left: 155px;
+  }
+
+  .steps-page2-image img{
+      height: 40px;
+  }
+
+  .steps-page2-pen{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left:317px;
+    border: 1px solid #BDBDBD;
+  }
+
+  .steps-page2-pen img{
+      width: 20px;
+      height: 20px;
+      padding-bottom: 10px;
   }
 
