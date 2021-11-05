@@ -741,7 +741,7 @@
   }
 
   .steps-page2-image img{
-      height: 40px;
+     width: 100%;
   }
 
   .steps-page2-pen{
