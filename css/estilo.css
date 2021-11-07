@@ -705,6 +705,7 @@
       height: 120px;
       border: 1px solid #BDBDBD;
       border-radius: 3px;
+      float: left;
   }
 
   .bank-data p span{
@@ -725,7 +726,8 @@
   }
 
   .steps-page2-content{
-      display: flex;
+      background-color: yellowgreen;
+      position: relative;
   }
 
   .steps-page-line-vertical{
@@ -757,4 +759,5 @@
       height: 20px;
       padding-bottom: 10px;
   }
+
 
