@@ -695,9 +695,12 @@
       margin-right: 15px;
   }
 
-  .form-check-flex{
+  .steps-page1-form-content{
     display: flex;
-    border: 1px solid blue;
+  }
+
+  #steps-page1-form-checkbox{
+      margin-top: 60px;
   }
 
   .bank-data{
@@ -706,15 +709,21 @@
       border: 1px solid #BDBDBD;
       border-radius: 3px;
       float: left;
+      padding-top: 5px;
+  }
+
+  .bank-data2{
+      margin-left: 200px;
   }
 
   .bank-data p span{
     width: 100px;  
     font-weight: bold;
+    margin-right: 5px;
   }
 
   .bank-data p{
-      padding-left: 20px;
+      padding-left: 10px;
   }
 
   #form-checkbox{
@@ -726,20 +735,30 @@
   }
 
   .steps-page2-content{
-      background-color: yellowgreen;
       position: relative;
   }
 
-  .steps-page-line-vertical{
-      width: 2px;
-      border: 1px solid #BDBDBD;
+  .steps-page2-content2{
       position: relative;
-      right: 100px;
+      top:50px;
+  }
+
+  .steps-page-line-vertical{
+      width: 1px;
+      border: 1px solid #BDBDBD;
+      position: absolute;
+      left: 200px;
+      height: 120px;
+  }
+
+  .copy-itau{
+      margin-left: 515px;
   }
 
   .steps-page2-image{
       position: absolute;
-      left: 155px;
+      left: 136px;
+      top: -5px;
   }
 
   .steps-page2-image img{
@@ -750,7 +769,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left:317px;
+    left: 299px;
     border: 1px solid #BDBDBD;
   }
 
@@ -758,6 +777,43 @@
       width: 20px;
       height: 20px;
       padding-bottom: 10px;
+  }
+
+  .copy-img-itau{
+      margin-left: 517px;
+      top:70px;
+  }
+
+
+  .image-bradesco{
+      width: 100px;
+      height: 80px;
+      margin: 135px  0 0 65px;
+  }
+
+  .image-bradesco-copy{
+      width: 100px;
+      height: 80px;
+      position: absolute;
+      top: 255px;
+      left: 717px; 
+  }
+
+  .line-vertical-bradesco{
+      margin-top: 120px;
+  }
+
+  .bank-data2-bradesco{
+      margin: 50px 0 0 200px;
+  }
+
+  .line-vertical-bradesco-copy{
+      position: absolute;
+      margin: 170px 0 0 517px;
+  }
+
+  .copy-img-bradesco{
+      position: absolute;
   }
 
 
