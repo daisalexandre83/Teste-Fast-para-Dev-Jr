@@ -39,3 +39,9 @@ $("#yes-option-part2").click(function () {
 
 }) 
 
+ $(".bank-data1").click(function () {
+  console.log('daiane');
+    $(".bank-data1-copy").toggleClass('bank-data-highlight');
+    $(".bank-data1-copy").toggleClass('pisca');
+}) 
+

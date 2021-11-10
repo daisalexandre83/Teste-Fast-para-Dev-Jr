@@ -703,7 +703,7 @@
       margin-top: 60px;
   }
 
-  .bank-data{
+  .bank-data1{
       width: 300px;
       height: 120px;
       border: 1px solid #BDBDBD;
@@ -712,19 +712,57 @@
       padding-top: 5px;
   }
 
-  .bank-data2{
-      margin-left: 200px;
+
+  .bank-data1-copy{
+      margin-left: 500px;
+      width: 300px;
+      height: 120px;
+      border: 1px solid #BDBDBD;
+      border-radius: 3px;
   }
 
-  .bank-data p span{
+   .bank-data-highlight{
+      border: 1px solid #0B0B61;
+  } 
+ 
+  .bank-data1-copy p{
+    padding-left: 10px;
+  }
+
+  .bank-data1-copy p span{
     width: 100px;  
     font-weight: bold;
     margin-right: 5px;
   }
 
-  .bank-data p{
+  .bank-data1 p span{
+    width: 100px;  
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .bank-data1 p{
       padding-left: 10px;
   }
+
+  .bank-data2{
+    width: 300px;
+    height: 120px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    position: absolute;
+    top: 270px;
+   }
+
+   .bank-data2 p span{
+    width: 100px;  
+    font-weight: bold;
+    margin-right: 5px;
+   }
+
+   .bank-data2 p{
+        padding-left: 10px;
+   }
 
   #form-checkbox{
       padding-left: 0;
@@ -738,18 +776,41 @@
       position: relative;
   }
 
-  .steps-page2-content2{
-      position: relative;
-      top:50px;
-  }
-
-  .steps-page-line-vertical{
+  .steps-page-line-vertical1{
       width: 1px;
       border: 1px solid #BDBDBD;
       position: absolute;
       left: 200px;
       height: 120px;
   }
+
+  .steps-page-line-vertical2{
+    width: 1px;
+    border: 1px solid #BDBDBD;
+    position: absolute;
+    left: 720px;
+    height: 120px;
+    top: 75px;
+  }
+
+  .steps-page-line-vertical3{
+    width: 1px;
+    border: 1px solid #BDBDBD;
+    position: absolute;
+    left: 200px;
+    height: 120px;
+    top: 0px;
+}
+
+.steps-page-line-vertical4{
+    width: 1px;
+    border: 1px solid #BDBDBD;
+    position: absolute;
+    left: 720px;
+    height: 120px;
+    top: 270px;
+}
+
 
   .copy-itau{
       margin-left: 515px;
@@ -779,41 +840,80 @@
       padding-bottom: 10px;
   }
 
-  .copy-img-itau{
-      margin-left: 517px;
+  .steps-page2-image2{
       top:70px;
+      position: absolute;
+      left: 656px;
   }
 
+  .steps-page2-image3{
+      position: relative;
+      top: -100px;
+      margin-left: 200px;
+    }
+    
+    .steps-page2-image3 img{
+      width: 100px;
+      height: 80px;
+  }
 
   .image-bradesco{
       width: 100px;
       height: 80px;
-      margin: 135px  0 0 65px;
+      margin: 15px  0 0 65px;
   }
 
-  .image-bradesco-copy{
-      width: 100px;
-      height: 80px;
+  .steps-page2-image4{
       position: absolute;
-      top: 255px;
+      top: 290px;
       left: 717px; 
+  }
+
+  .steps-page2-image4 img{
+    width: 100px;
+    height: 80px;
   }
 
   .line-vertical-bradesco{
       margin-top: 120px;
   }
 
-  .bank-data2-bradesco{
-      margin: 50px 0 0 200px;
+  .bank-data2-copy{
+     left: 518px;
+     border: 1px solid #BDBDBD;
+     border-radius: 3px;
+     width: 300px;
+     height: 120px;
+     position: absolute;
+     margin-top: 75px;
   }
 
-  .line-vertical-bradesco-copy{
-      position: absolute;
-      margin: 170px 0 0 517px;
+  .bank-data2-copy p{
+    padding-left: 10px;
+  }
+
+  .bank-data2-copy p span{
+    width: 100px;  
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .line-vertical-bradesco-copy4{
+    width: 1px;
+    border: 1px solid #BDBDBD;
+    position: absolute;
+    left: 200px;
+    height: 120px;
   }
 
   .copy-img-bradesco{
       position: absolute;
+  }
+
+  .pisca{
+      animation-name: pisca;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
   }
 
 
