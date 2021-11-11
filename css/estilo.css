@@ -1,3 +1,9 @@
+@keyframes pisca{
+     0%{opacity: 0.2;}
+    50%{opacity: 1;}
+    100%{opacity: 0.2;} 
+}
+
 .header{
     display: flex;
     position: absolute;
@@ -135,14 +141,14 @@
     margin-left: 20px;
 }
 
- #followup-time{
+#followup-time{
     display: flex;
     background-color: #00af59;
     margin-top: 60px;
     width: 200px;
 }
 
- #followup-task{
+#followup-task{
     background-color: #ec3333;
     display: flex;
     width: 200px;
@@ -273,14 +279,14 @@
     width: 150px;
     height: 50px;
     background-color: brown;
- }
+}
 
- .word-card{
+.word-card{
      margin-left: 20px;
      text-align: right;
- }
+}
 
- #example-basic {
+#example-basic {
     margin: 2em;
     background: #ccc;
     padding: 1.616em;
@@ -288,64 +294,64 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  h3 {
+h3 {
     font-size: 20px;
     font-weight: bold;
-  }
+}
   /*
       Common
   */
 
-  .wizard,
-  .tabcontrol
-  {
-      display: block;
-      width: 100%;
-      overflow: hidden;
+.wizard,
+.tabcontrol
+{
+    display: block;
+    width: 100%;
+    overflow: hidden;
 
-  }
+}
 
-  .wizard {
-    border: none;
-  }
+.wizard {
+   border: none;
+}
 
-  .wizard a,
-  .tabcontrol a
-  {
-      outline: 0;
-  }
+.wizard a,
+.tabcontrol a
+{
+    outline: 0;
+}
 
-  .wizard ul,
-  .tabcontrol ul
-  {
-      list-style: none !important;
-      padding: 0;
-      margin: 0;
-  }
+.wizard ul,
+.tabcontrol ul
+{
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
 
-  .wizard ul > li,
-  .tabcontrol ul > li
-  {
-      display: block;
-      padding: 0;
-  }
+.wizard ul > li,
+.tabcontrol ul > li
+{
+    display: block;
+    padding: 0;
+}
 
-  /* Accessibility */
-  .wizard > .steps .current-info,
-  .tabcontrol > .steps .current-info
-  {
-      position: absolute;
-      left: -999em;
-  }
+/* Accessibility */
+.wizard > .steps .current-info,
+.tabcontrol > .steps .current-info
+{
+    position: absolute;
+    left: -999em;
+}
 
-  .wizard > .content > .title,
-  .tabcontrol > .content > .title
-  {
-      position: absolute;
-      left: -999em;
-  }
+.wizard > .content > .title,
+.tabcontrol > .content > .title
+{
+    position: absolute;
+    left: -999em;
+}
 
 
 
@@ -353,225 +359,225 @@
       Wizard
   */
 
-  .wizard > .steps
-  {
-      position: relative;
-      display: block;
-      width: 100%;
-  }
+.wizard > .steps
+{
+    position: relative;
+    display: block;
+    width: 100%;
+}
 
-  .wizard.vertical > .steps
-  {
-      display: inline;
-      float: left;
-      width: 30%;
-  }
+.wizard.vertical > .steps
+{
+    display: inline;
+    float: left;
+    width: 30%;
+}
 
-  .wizard > .steps .number
-  {
-      font-size: 1.429em;
-  }
+.wizard > .steps .number
+{
+    font-size: 1.429em;
+}
 
-  .wizard > .steps > ul > li
-  {
-      width: 20%;
+.wizard > .steps > ul > li
+{
+    width: 20%;
 
-  }
+}
 
-  .wizard > .steps > ul > li,
-  .wizard > .actions > ul > li
-  {
-      float: left;
-  }
+.wizard > .steps > ul > li,
+.wizard > .actions > ul > li
+{
+    float: left;
+}
 
-  .wizard.vertical > .steps > ul > li
-  {
-      float: none;
-      width: 100%;
-  }
+.wizard.vertical > .steps > ul > li
+{
+    float: none;
+    width: 100%;
+}
 
-  .wizard > .steps a,
-  .wizard > .steps a:hover,
-  .wizard > .steps a:active
-  {
-      display: block;
-      width: auto;
-      margin: 0 0.5em 0.5em;
-      padding: 1em 1em;
-      text-decoration: none;
+.wizard > .steps a,
+.wizard > .steps a:hover,
+.wizard > .steps a:active
+{
+    display: block;
+    width: auto;
+    margin: 0 0.5em 0.5em;
+    padding: 1em 1em;
+    text-decoration: none;
 
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-  }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
-  .wizard > .steps .disabled a,
-  .wizard > .steps .disabled a:hover,
-  .wizard > .steps .disabled a:active
-  {
-      background: #eee;
-      color: #aaa;
-      cursor: default;
-  }
+.wizard > .steps .disabled a,
+.wizard > .steps .disabled a:hover,
+.wizard > .steps .disabled a:active
+{
+    background: #eee;
+    color: #aaa;
+    cursor: default;
+}
 
-  .wizard > .steps .current a,
-  .wizard > .steps .current a:hover,
-  .wizard > .steps .current a:active
-  {
-      background: #2184be;
-      color: #fff;
-      cursor: default;
-  }
+.wizard > .steps .current a,
+.wizard > .steps .current a:hover,
+.wizard > .steps .current a:active
+{
+    background: #2184be;
+    color: #fff;
+    cursor: default;
+}
 
-  .wizard > .steps .done a,
-  .wizard > .steps .done a:hover,
-  .wizard > .steps .done a:active
-  {
-      background: #9dc8e2;
-      color: #fff;
-  }
+.wizard > .steps .done a,
+.wizard > .steps .done a:hover,
+.wizard > .steps .done a:active
+{
+    background: #9dc8e2;
+    color: #fff;
+}
 
-  .wizard > .steps .error a,
-  .wizard > .steps .error a:hover,
-  .wizard > .steps .error a:active
-  {
-      background: #ff3111;
-      color: #fff;
-  }
+.wizard > .steps .error a,
+.wizard > .steps .error a:hover,
+.wizard > .steps .error a:active
+{
+    background: #ff3111;
+    color: #fff;
+}
 
-  .wizard > .content
-  {
-      /* background: #eee; */
-      display: block;
-      margin: 0.5em;
-      min-height: 35em;
-      overflow: hidden;
-      position: relative;
-      width: auto;
+.wizard > .content
+{
+    /* background: #eee;  */
+    display: block;
+    margin: 0.5em;
+    min-height: 35em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
 
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-  }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
-  .wizard.vertical > .content
-  {
-      display: inline;
-      float: left;
+.wizard.vertical > .content
+{
+    display: inline;
+    float: left;
 
-      margin: 0 2.5% 0.5em 2.5%;
-      width: 65%;
-  }
+    margin: 0 2.5% 0.5em 2.5%;
+    width: 65%;
+}
 
-  .wizard > .content > .body
-  {
-      width: 95%;
-      height: 95%;
-      padding: 2.0%;
-  }
+.wizard > .content > .body
+{
+    width: 95%;
+    height: 95%;
+    padding: 2.0%;
+}
 
-  .wizard > .content > .body ul
-  {
-      list-style: disc !important;
-  }
+.wizard > .content > .body ul
+{
+    list-style: disc !important;
+}
 
-  .wizard > .content > .body ul > li
-  {
-      display: list-item;
-  }
+.wizard > .content > .body ul > li
+{
+    display: list-item;
+}
 
-  .wizard > .content > .body > iframe
-  {
-      border: 0 none;
-      width: 100%;
-      height: 100%;
-  }
+.wizard > .content > .body > iframe
+{
+    border: 0 none;
+    width: 100%;
+    height: 100%;
+}
 
-  .wizard > .content > .body input
-  {
-      display: block;
-      border: 1px solid #ccc;
-  }
+.wizard > .content > .body input
+{
+    display: block;
+    border: 1px solid #ccc;
+}
 
-  .wizard > .content > .body input[type="checkbox"]
-  {
-      display: inline-block;
-  }
+.wizard > .content > .body input[type="checkbox"]
+{
+    display: inline-block;
+}
 
-  .wizard > .content > .body input.error
-  {
-      background: rgb(251, 227, 228);
-      border: 1px solid #fbc2c4;
-      color: #8a1f11;
-  }
+.wizard > .content > .body input.error
+{
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
 
-  .wizard > .content > .body label
-  {
-      display: inline-block;
-      margin-bottom: 0.5em;
-  }
+.wizard > .content > .body label
+{
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
 
-  .wizard > .content > .body label.error
-  {
-      color: #8a1f11;
-      display: inline-block;
-      margin-left: 1.5em;
-  }
+.wizard > .content > .body label.error
+{
+    color: #8a1f11;
+    display: inline-block;
+    margin-left: 1.5em;
+}
 
-  .wizard > .actions
-  {
-      position: relative;
-      display: block;
-      text-align: right;
-      width: 100%;
-  }
+.wizard > .actions
+{
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+}
 
-  .wizard.vertical > .actions
-  {
-      display: inline;
-      float: right;
-      margin: 0 2.5%;
-      width: 95%;
-  }
+.wizard.vertical > .actions
+{
+    display: inline;
+    float: right;
+    margin: 0 2.5%;
+    width: 95%;
+}
 
-  .wizard > .actions > ul
-  {
-      display: inline-block;
-      text-align: right;
-  }
+.wizard > .actions > ul
+{
+    display: inline-block;
+    text-align: right;
+}
 
-  .wizard > .actions > ul > li
-  {
-      margin: 0 0.5em;
-  }
+.wizard > .actions > ul > li
+{
+    margin: 0 0.5em;
+}
 
-  .wizard.vertical > .actions > ul > li
-  {
-      margin: 0 0 0 1em;
-  }
+.wizard.vertical > .actions > ul > li
+{
+    margin: 0 0 0 1em;
+}
 
-  .wizard > .actions a,
-  .wizard > .actions a:hover,
-  .wizard > .actions a:active
-  {
-      background: #00af59;
-      color: #fff;
-      display: block;
-      padding: 0.5em 1em;
-      text-decoration: none;
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active
+{
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
 
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-  }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
-   .wizard > .actions .disabled a,
-  .wizard > .actions .disabled a:hover,
-  .wizard > .actions .disabled a:active
-  {
-      background: #eee;
-      color: #aaa;
-  } 
+.wizard > .actions .disabled a,
+.wizard > .actions .disabled a:hover,
+.wizard > .actions .disabled a:active
+{
+    background: #eee;
+    color: #aaa;
+} 
 
   /* .wizard > .loading
   {
@@ -587,213 +593,189 @@
       Tabcontrol
   */
 
-  .tabcontrol > .steps
-  {
-      position: relative;
-      display: block;
-      width: 100%;
-  }
+.tabcontrol > .steps
+{
+    position: relative;
+    display: block;
+    width: 100%;
+}
 
-  .tabcontrol > .steps > ul
-  {
-      position: relative;
-      margin: 6px 0 0 0;
-      top: 1px;
-      z-index: 1;
-  }
+.tabcontrol > .steps > ul
+{
+    position: relative;
+    margin: 6px 0 0 0;
+    top: 1px;
+    z-index: 1;
+}
 
-  .tabcontrol > .steps > ul > li
-  {
-      float: left;
-      margin: 5px 2px 0 0;
-      padding: 1px;
+.tabcontrol > .steps > ul > li
+{
+    float: left;
+    margin: 5px 2px 0 0;
+    padding: 1px;
 
-      -webkit-border-top-left-radius: 5px;
-      -webkit-border-top-right-radius: 5px;
-      -moz-border-radius-topleft: 5px;
-      -moz-border-radius-topright: 5px;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-  }
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
-  .tabcontrol > .steps > ul > li:hover
-  {
-      background: #edecec;
-      border: 1px solid #bbb;
-      padding: 0;
-  }
+.tabcontrol > .steps > ul > li:hover
+{
+    background: #edecec;
+    border: 1px solid #bbb;
+    padding: 0;
+}
 
-  .tabcontrol > .steps > ul > li.current
-  {
-      background: #fff;
-      border: 1px solid #bbb;
-      border-bottom: 0 none;
-      padding: 0 0 1px 0;
-      margin-top: 0;
-  }
+.tabcontrol > .steps > ul > li.current
+{
+    background: #fff;
+    border: 1px solid #bbb;
+    border-bottom: 0 none;
+    padding: 0 0 1px 0;
+    margin-top: 0;
+}
 
-  .tabcontrol > .steps > ul > li > a
-  {
-      color: #5f5f5f;
-      display: inline-block;
-      border: 0 none;
-      margin: 0;
-      padding: 10px 30px;
-      text-decoration: none;
-  }
+.tabcontrol > .steps > ul > li > a
+{
+    color: #5f5f5f;
+    display: inline-block;
+    border: 0 none;
+    margin: 0;
+    padding: 10px 30px;
+    text-decoration: none;
+}
 
-  .tabcontrol > .steps > ul > li > a:hover
-  {
-      text-decoration: none;
-  }
+.tabcontrol > .steps > ul > li > a:hover
+{
+    text-decoration: none;
+}
 
-  .tabcontrol > .steps > ul > li.current > a
-  {
-      padding: 15px 30px 10px 30px;
-  }
+.tabcontrol > .steps > ul > li.current > a
+{
+    padding: 15px 30px 10px 30px;
+}
 
-  .tabcontrol > .content
-  {
-      position: relative;
-      display: inline-block;
-      width: 100%;
-      height: 35em;
-      overflow: hidden;
-      border-top: 1px solid #bbb;
-      padding-top: 20px;
-  }
+.tabcontrol > .content
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+    overflow: hidden;
+    border-top: 1px solid #bbb;
+    padding-top: 20px;
+}
 
-  .tabcontrol > .content > .body
-  {
-      float: left;
-      position: absolute;
-      width: 95%;
-      height: 95%;
-      padding: 2.5%;
-  }
+.tabcontrol > .content > .body
+{
+    float: left;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    padding: 2.5%;
+}
 
-  .tabcontrol > .content > .body ul
-  {
-      list-style: disc !important;
-  }
+.tabcontrol > .content > .body ul
+{
+    list-style: disc !important;
+}
 
-  .tabcontrol > .content > .body ul > li
-  {
-      display: list-item;
-  }
+.tabcontrol > .content > .body ul > li
+{
+    display: list-item;
+}
 
-  .steps-page{
-      position: absolute;
-      left: 225px;
-      width: 900px;
-      margin-top: 120px;
-      display: none;
-  }
+.steps-page{
+    position: absolute;
+    left: 225px;
+    width: 900px;
+    margin-top: 120px;
+    display: none;
+}
 
-  .input-part3-block1{
-      background-color: red;
-      margin-right: 15px;
-  }
+.input-part3-block1{
+    background-color: red;
+    margin-right: 15px;
+}
 
-  .steps-page1-form-content{
-    display: flex;
-  }
+.steps-page1-form-content{
+display: flex;
+}
 
-  #steps-page1-form-checkbox{
-      margin-top: 60px;
-  }
+#steps-page1-form-checkbox{
+    margin-top: 60px;
+}
 
-  .bank-data1{
-      width: 300px;
-      height: 120px;
-      border: 1px solid #BDBDBD;
-      border-radius: 3px;
-      float: left;
-      padding-top: 5px;
-  }
+.steps-page2-bank{
+width: 300px;
+height: 120px;
+border: 1px solid #BDBDBD;
+border-radius: 3px;
+}
+
+.steps-page2-bank p{
+padding-left: 10px;
+}
+
+.steps-page2-bank  p span{
+width: 100px;  
+font-weight: bold;
+margin-right: 5px;
+}
+
+.bank1{
+    float: left;
+    padding-top: 5px;
+}
 
 
-  .bank-data1-copy{
-      margin-left: 500px;
-      width: 300px;
-      height: 120px;
-      border: 1px solid #BDBDBD;
-      border-radius: 3px;
-  }
+.bank1-copy{
+    margin-left: 500px;
+    cursor: pointer;
+}
 
-   .bank-data-highlight{
-      border: 1px solid #0B0B61;
-  } 
+.bank-data-highlight{
+    border: 1px solid #0B0B61;
+} 
  
-  .bank-data1-copy p{
-    padding-left: 10px;
-  }
+.bank2{
+position: absolute;
+top: 270px;
+}
 
-  .bank-data1-copy p span{
-    width: 100px;  
-    font-weight: bold;
-    margin-right: 5px;
-  }
+#form-checkbox{
+    padding-left: 0;
+}
 
-  .bank-data1 p span{
-    width: 100px;  
-    font-weight: bold;
-    margin-right: 5px;
-  }
+.steps-page2-text{
+    display: block;
+}
 
-  .bank-data1 p{
-      padding-left: 10px;
-  }
+.steps-page2-content{
+    position: relative;
+}
 
-  .bank-data2{
-    width: 300px;
-    height: 120px;
-    border: 1px solid #BDBDBD;
-    border-radius: 3px;
+.steps-page2-line-vertical{
+width: 1px;
+height: 120px;
+border: 1px solid #BDBDBD;
+}
+
+.vertical1{
     position: absolute;
-    top: 270px;
-   }
+    left: 200px;
+}
 
-   .bank-data2 p span{
-    width: 100px;  
-    font-weight: bold;
-    margin-right: 5px;
-   }
+.vertical2{
+position: absolute;
+left: 720px;
+top: 75px;
+}
 
-   .bank-data2 p{
-        padding-left: 10px;
-   }
-
-  #form-checkbox{
-      padding-left: 0;
-  }
-
-  .steps-page2-text{
-      display: block;
-  }
-
-  .steps-page2-content{
-      position: relative;
-  }
-
-  .steps-page-line-vertical1{
-      width: 1px;
-      border: 1px solid #BDBDBD;
-      position: absolute;
-      left: 200px;
-      height: 120px;
-  }
-
-  .steps-page-line-vertical2{
-    width: 1px;
-    border: 1px solid #BDBDBD;
-    position: absolute;
-    left: 720px;
-    height: 120px;
-    top: 75px;
-  }
-
-  .steps-page-line-vertical3{
+.vertical3{
     width: 1px;
     border: 1px solid #BDBDBD;
     position: absolute;
@@ -802,118 +784,138 @@
     top: 0px;
 }
 
-.steps-page-line-vertical4{
-    width: 1px;
-    border: 1px solid #BDBDBD;
+.vertical4{
     position: absolute;
     left: 720px;
-    height: 120px;
     top: 270px;
 }
 
-
-  .copy-itau{
-      margin-left: 515px;
-  }
-
-  .steps-page2-image{
-      position: absolute;
-      left: 136px;
-      top: -5px;
-  }
-
-  .steps-page2-image img{
-     width: 100%;
-  }
-
-  .steps-page2-pen{
+.steps-page2-image{
     position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 299px;
-    border: 1px solid #BDBDBD;
-  }
+    left: 136px;
+    top: -5px;
+}
 
-  .steps-page2-pen img{
-      width: 20px;
-      height: 20px;
-      padding-bottom: 10px;
-  }
+.steps-page2-image img{
+    width: 100%;
+}
 
-  .steps-page2-image2{
-      top:70px;
-      position: absolute;
-      left: 656px;
-  }
+.steps-page2-pen{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 299px;
+border: 1px solid #BDBDBD;
+}
 
-  .steps-page2-image3{
-      position: relative;
-      top: -100px;
-      margin-left: 200px;
-    }
-    
-    .steps-page2-image3 img{
-      width: 100px;
-      height: 80px;
-  }
+.steps-page2-pen img{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 10px;
+}
 
-  .image-bradesco{
-      width: 100px;
-      height: 80px;
-      margin: 15px  0 0 65px;
-  }
+.steps-page2-image2{
+    top:70px;
+    position: absolute;
+    left: 656px;
+}
 
-  .steps-page2-image4{
-      position: absolute;
-      top: 290px;
-      left: 717px; 
-  }
+.steps-page2-image3{
+    position: relative;
+    top: -100px;
+    margin-left: 200px;
+}
 
-  .steps-page2-image4 img{
+.steps-page2-image3 img{
     width: 100px;
     height: 80px;
-  }
+}
 
-  .line-vertical-bradesco{
-      margin-top: 120px;
-  }
+.image-bradesco{
+    width: 100px;
+    height: 80px;
+    margin: 15px  0 0 65px;
+}
 
-  .bank-data2-copy{
-     left: 518px;
-     border: 1px solid #BDBDBD;
-     border-radius: 3px;
-     width: 300px;
-     height: 120px;
-     position: absolute;
-     margin-top: 75px;
-  }
-
-  .bank-data2-copy p{
-    padding-left: 10px;
-  }
-
-  .bank-data2-copy p span{
-    width: 100px;  
-    font-weight: bold;
-    margin-right: 5px;
-  }
-
-  .line-vertical-bradesco-copy4{
-    width: 1px;
-    border: 1px solid #BDBDBD;
+.steps-page2-image4{
     position: absolute;
-    left: 200px;
-    height: 120px;
-  }
+    top: 290px;
+    left: 717px; 
+}
 
-  .copy-img-bradesco{
-      position: absolute;
-  }
+.steps-page2-image4 img{
+width: 100px;
+height: 80px;
+}
 
-  .pisca{
-      animation-name: pisca;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-  }
+.line-vertical-bradesco{
+    margin-top: 120px;
+}
 
+.bank2-copy{
+    left: 518px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 75px;
+}
+
+.bank2-copy p{
+padding-left: 10px;
+}
+
+.bank2-copy p span{
+width: 100px;  
+font-weight: bold;
+margin-right: 5px;
+}
+
+.line-vertical-bradesco-copy4{
+width: 1px;
+border: 1px solid #BDBDBD;
+position: absolute;
+left: 200px;
+height: 120px;
+}
+
+.copy-img-bradesco{
+    position: absolute;
+}
+
+/* .overlay{
+   
+    z-index: 1;
+    transition: all .2s;
+    cursor: pointer;
+} */
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 2s;
+    background: rgba(233, 231, 127, 0.7);
+     animation-iteration-count: infinite; 
+     /* animation-play-state: paused; */
+}
+
+.steps-page2-action{
+    background-color: #00aeff;
+    color: #fff;
+    width: 250px;
+    margin-top: 50px;
+    padding: 5px 0 0 18px;
+    height: 35px;
+}
+
+.steps-page2-status{
+    border: 1px solid #BDBDBD;
+    margin-top: 194px;
+    width: 300px;
+    margin-left: 500px;
+    padding-left: 10px;
+}
+
+.steps-page2-status span{
+    color:red;
+    padding-left: 5px;
+}
 

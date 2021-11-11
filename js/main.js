@@ -27,21 +27,39 @@ $("#yes-option-part2").click(function () {
 })
 
 
- $(".steps-page1-ckeckbox").click(function () {
+$(".steps-page1-ckeckbox").click(function () {
 
-    let checkbox1 = $('#steps-page1-ckeckbox1');
-    let checkbox2 = $('#steps-page1-ckeckbox2');
-    let checkbox3 = $('#steps-page1-ckeckbox3');
+let checkbox1 = $('#steps-page1-ckeckbox1');
+let checkbox2 = $('#steps-page1-ckeckbox2');
+let checkbox3 = $('#steps-page1-ckeckbox3');
 
-    if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
-        $(".wizard > .actions a").show();
-    }
+if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
+    $(".wizard > .actions a").show();
+}
 
 }) 
 
- $(".bank-data1").click(function () {
+ $(".steps-page2-bank").click(function() {
   console.log('daiane');
-    $(".bank-data1-copy").toggleClass('bank-data-highlight');
-    $(".bank-data1-copy").toggleClass('pisca');
+    $(".bank1-copy").toggleClass('bank-data-highlight');
+    $(".bank1-copy").toggleClass('pisca');
 }) 
+
+$(".steps-page2-action").click(function() {
+    $(".bank1-copy").toggleClass('pisca');
+})
+
+$(".bank1-copy").click(function () {
+    console.log('souza');
+    $(".steps-page2-text").hide();
+    $(".steps-page-thin-line").hide();
+    $(".steps-page2-bank").hide();
+    $(".steps-page2-line-vertical").hide();
+    $(".steps-page2-image").hide();
+    $(".steps-page2-pen").hide();
+    $(".steps-page2-image2").hide();
+    $(".steps-page2-status").hide();
+    $(".steps-page2-image4").hide();
+    $(".steps-page2-action").hide();
+})
 
