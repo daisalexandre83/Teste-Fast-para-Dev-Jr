@@ -52,6 +52,7 @@ $(".steps-page2-action").click(function() {
 $(".bank1-copy").click(function () {
     console.log('souza');
     $(".steps-page2-text").hide();
+    
     $(".steps-page-thin-line").hide();
     $(".steps-page2-bank").hide();
     $(".steps-page2-line-vertical").hide();
