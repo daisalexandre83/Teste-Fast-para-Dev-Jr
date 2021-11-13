@@ -919,3 +919,28 @@ height: 120px;
     padding-left: 5px;
 }
 
+.steps-page2b{
+    display: none;
+}
+
+#input-big{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 200px;
+    cursor: pointer;
+}
+
+#input-medium{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 150px;
+    cursor: pointer;
+}
+
+#input-small{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 50px;
+}
+
+

@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-2/css/bootstrap.min.css" integrity="sha512-hugT+JEQi0vXZbvspjv4x2M7ONBvsLR9IFTEQAYoUsmk7s1rRc2u7I6b4xa14af/wZ+Nw7Aspf3CtAfUOGyflA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-2/css/bootstrap.min.css" 
+    integrity="sha512-hugT+JEQi0vXZbvspjv4x2M7ONBvsLR9IFTEQAYoUsmk7s1rRc2u7I6b4xa14af/wZ+Nw7Aspf3CtAfUOGyflA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
     <title>Teste Fast</title>
 </head>
 <body>
@@ -222,8 +225,10 @@
             </div>
             <h3>Dados</h3>
             <div class="content">
-                <p class="steps-page2-text">Clique no banco em que você ou sua empresa possuem um convênio.</p>
-                <div class="steps-page-thin-line"></div>
+                <div class="steps-page2-text">
+                  Clique no banco em que você ou sua empresa possuem um convênio.
+                  <div class="steps-page-thin-line"></div>
+                </div>
                 <div class="steps-page2-content">
                   <div class="steps-page2-bank bank1">
                     <p><span>Nome:</span>FastSoluções</p> 
@@ -267,12 +272,40 @@
                 </div>
                 <div class="steps-page2-status">Status:<span>Falta informar Agência e Conta</span></div>
                 <div class="steps-page2-action">+ ADICIONAR NOVO BANCO</div>
-                <div class="steps-page2b">Dados do convênio: </div>
-                <div class="steps-page-thin-line"></div>
-                <div class="md-form">
-                  <input type="text" id="defaultForm-name" class="form-control">
-                  <label for="defaultForm-name">Nome</label>
+                <div class="steps-page2b">
+                  Dados do convênio:
+                  <div class="steps-page-thin-line"></div>
                 </div>
+                <form>
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" id="input-big" class="form-control" placeholder="Nome" readonly>
+                    </div>
+                    <div class="col">
+                      <input type="text" id="input-medium" class="form-control" placeholder="Agência" readonly>
+                    </div>
+                    <div class="col">
+                      <input type="text"  id="input-small" class="form-control" placeholder="DV" readonly>
+                    </div>
+                    <div class="col">
+                      <input type="text" id="input-medium" class="form-control" placeholder="Conta" readonly>
+                    </div>
+                    <div class="col">
+                      <input type="text"  id="input-small" class="form-control" placeholder="DV" readonly>
+                    </div>
+                  </div>
+                </form>
+                <form>
+                  <div class="row">
+                    <div class="col" id="input-and-arrow">
+                      <input type="text" id="input-big" class="form-control" placeholder="Número da Carteira" readonly>
+                    </div>
+                    <div class="col">
+                      <input type="text" id="input-big" class="form-control" placeholder="Convênio" >
+                    </div>
+
+                  </div>
+                </form>
              </div>   
             <h3>Boleto</h3>
             <div class="content">
