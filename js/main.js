@@ -61,22 +61,26 @@ $(".bank1-copy").click(function () {
     $(".steps-page2-image4").hide();
     $(".steps-page2-action").hide();
     $(".steps-page2b").show();
-    $("#steps-page2b-name-input").show();
-    $("#steps-page2b-agency-input").show();
-    $("#steps-page2b-account-input").show();
-    $("#steps-page2b-dv1-input").show();
-    $("#steps-page2b-dv2-input").show();
-    $("#steps-page2b-selected-option").show();
-    $("#steps-page2b-accord-input").show();
+    $(".steps-page2b-form-a").show();
+    $(".steps-page2b-form-b").show();
+    $(".steps-page2b-form-c").show();
+    $(".steps-page2b-form-d").show();
+    $(".steps-page2b-form-e").show();
 })
 
-$("#steps-page2b-name-input").click(function () {
+$("#steps-page2b-big-input").click(function () {
     $("#steps-page2b-accord-input").hide();
     $("#steps-page2b-numbers-input").show();
     $("#steps-page2b-label").show();
 })
 
-$("#steps-page2b-agency-input").click(function () {
+$("#steps-page2b-medium-input").click(function () {
+    $("#steps-page2b-accord-input").hide();
+    $("#steps-page2b-numbers-input").show();
+    $("#steps-page2b-label").show();
+})
+
+$("#steps-page2b-small-input").click(function () {
     $("#steps-page2b-accord-input").hide();
     $("#steps-page2b-numbers-input").show();
     $("#steps-page2b-label").show();
@@ -88,17 +92,12 @@ $("#steps-page2b-account-input").click(function () {
     $("#steps-page2b-label").show();
 })
 
-$("#steps-page2b-dv1-input").click(function () {
+$("#steps-page2b-accord-input").click(function () {
     $("#steps-page2b-accord-input").hide();
     $("#steps-page2b-numbers-input").show();
     $("#steps-page2b-label").show();
 })
 
-$("#steps-page2b-dv2-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
-})
 
 $("#steps-page2b-selected-option").click(function () {
     $("#steps-page2b-accord-input").hide();
