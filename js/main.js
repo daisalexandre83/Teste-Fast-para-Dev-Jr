@@ -108,15 +108,16 @@ $("#steps-page2b-selected-option").click(function () {
 })
 
 $(".steps-page3-image").click(function () {
-   $(".steps-page3-action").toggleClass('pisca'); 
+   $("#steps-page3-action").toggleClass('pisca'); 
     $(".small-text").toggleClass('pisca');
    /*  $(".steps-page3-action").toggleClass('highlight-border');
     $(".small-text").toggleClass('highlight-border'); */
 })
 
-$(".steps-page3-action").click(function () {
-    
-})
+/* $("#steps-page3-action").click(function (){
+    console.log('lorena');
+    $(".steps-page4-content").show();
+}) */
 
 
 

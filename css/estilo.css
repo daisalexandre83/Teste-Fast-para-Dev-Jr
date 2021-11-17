@@ -1,7 +1,10 @@
 @keyframes pisca{
-    0%{background-color: #F7D358;}
-    50%{background-color: #F7D358;}
-    100%{background-color:  #fff;}
+    0%{background-color: #F7D358;
+        border: 1px solid #0000FF;}
+    50%{background-color: #F7D358;
+        border: 1px solid #0000FF;}
+    100%{background-color:  #f7d358;
+        border: 1px solid #0000FF;}
 }
 .header{
     display: flex;
@@ -910,7 +913,7 @@ height: 120px;
 .pisca{
     animation-name: pisca;
     animation-duration: 3s;
-    border: 1px solid #0B0B61;
+    
 }
 
 #steps-page2-action{
@@ -918,8 +921,8 @@ height: 120px;
     color: #fff;
     width: 350px;
     margin-top: 50px;
-    padding: 5px 0 0 18px;
-    height: 35px;
+    padding: 5px 0 0 10px;
+    height: 45px;
     font-size: 20px;
 }
 
@@ -1092,22 +1095,26 @@ height: 120px;
     width: 180px;
 }
 
-.steps-page3-action{
+#steps-page3-action{
     color: #fff;
     background-color: #00aeff;
-    margin: 40px 0 0 310px;
-    width: 250px;
+    margin: 40px 0 0 280px;
+    width: 300px;
     height: 50px;
     font-size: 20px;
 }
 
-.steps-page4-action{
-    color: #00aeff;
-    background-color: #fff;
+/* .steps-page4-content{
+    background-color: #ec3333;
+} */
+
+#steps-page4-action{
+    color: #00aeff !important;
+    background-color: #fff !important;
     width: 300px;
     height: 50px;
     border: 1px solid #00aeff;
-    margin: 40px 0 0 260px;
+    margin: 40px 0 0 250px;
     font-size: 20px;
 }
 
