@@ -10,13 +10,29 @@ $("#user-action").click(function() {
     $(".page-subtext").hide();
 })
 
+$(document).ready(function () {
+    $("#next-btn").click(function () {
+        let button = $("#next-btn");
+        let currentSection = button.parents(".steps-section");
+        let currentSectionIndex = currentSection.index();
+        let headerSection = $('.steps li a ').eq(currentSectionIndex);
+        currentSection.removeClass("is-active").next().addClass("is-active");
+        headerSection.removeClass("is-active").next().addClass("is-active");
 
-$(".steps-page").steps({
+        if (currentSectionIndex === 3) {
+            $(document).find(".steps-section").first().addClass("is-active");
+            $(document).find(".steps li a ").first().addClass("is-active");
+        }
+    })
+})
+
+
+/* $(".steps-page").steps({
     headerTag: "h3",
     bodyTag: ".content",
     transitionEffect: "slideLeft",
     autoFocus: true
-});
+}); */
 
 $("#yes-option-part1").click(function () {
     $("#steps-page1-radio2").show();
