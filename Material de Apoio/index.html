@@ -5,63 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="wrapper">
-          <ul class="steps">
-            <li class="is-active">Step 1</li>
-            <li>Step 2</li>
-            <li>Step 3</li>
-          </ul>
-          <form class="form-wrapper">
-            <fieldset class="section is-active">
-              <h3>Your Details</h3>
-              <input type="text" name="name" id="name" placeholder="Name">
-              <input type="text" name="email" id="email" placeholder="Email">
-              <div class="button">Next</div>
-            </fieldset>
-            <fieldset class="section">
-              <h3>Account Type</h3>
-              <div class="row cf">
-                <div class="four col">
-                  <input type="radio" name="r1" id="r1" checked>
-                  <label for="r1">
-                    <h4>Designer</h4>
-                  </label>
-                </div>
-                <div class="four col">
-                  <input type="radio" name="r1" id="r2"><label for="r2">
-                    <h4>Developer</h4>
-                  </label>
-                </div>
-                <div class="four col">
-                  <input type="radio" name="r1" id="r3"><label for="r3">
-                    <h4>Project Manager</h4>
-                  </label>
-                </div>
-              </div>
-              <div class="button">Next</div>
-            </fieldset>
-            <fieldset class="section">
-              <h3>Choose a Password</h3>
-              <input type="password" name="password" id="password" placeholder="Password">
-              <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
-              <input class="submit button" type="submit" value="Sign Up">
-            </fieldset>
-            <fieldset class="section">
-              <h3>Account Created!</h3>
-              <p>Your account has now been created.</p>
-              <div class="button">Reset Form</div>
-            </fieldset>
+    
+        <main>
+          <div class="stepper">
+            <div class="step--1 step-active">Step 1</div>
+            <div class="step--2">Step 2</div>
+            <div class="step--3">Step 3</div>
+            <div class="step--4">Finish</div>
+          </div>
+          <form class="form form-active">
+            <div class="form--header-container">
+              <h1 class="form--header-title">
+                Personal Info
+              </h1>
+    
+              <p class="form--header-text">
+                Tell us more about you.
+              </p>
+            </div>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Password" />
+            <button class="form__btn" id="btn-1">Next</button>
           </form>
-        </div>
-      </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-      <script src="main.js"></script>
+          <form class="form">
+            <div class="form--header-container">
+              <h1 class="form--header-title">
+                Company Info
+              </h1>
+    
+              <p class="form--header-text">
+                Tell us more about your company.
+              </p>
+            </div>
+    
+            <input type="text" placeholder="Company Name" />
+            <input type="text" placeholder="Job title" />
+            <input type="text" placeholder="Location" />
+            <button class="form__btn" id="btn-2-prev">Previous</button>
+            <button class="form__btn" id="btn-2-next">Next</button>
+          </form>
+          <form class="form">
+            <div class="form--header-container">
+              <h1 class="form--header-title">
+                Social account
+              </h1>
+    
+              <p class="form--header-text">
+                Tell us more about your social account.
+              </p>
+            </div>
+            <input type="text" placeholder="Linkedin" />
+            <input type="text" placeholder="Twitter" />
+            <input type="text" placeholder="Github" />
+            <button class="form__btn" id="btn-3">Submit</button>
+          </form>
+          <div class="form--message"></div>
+        </main>
+     <script src="main.js"></script>
 </body>
 </html>
