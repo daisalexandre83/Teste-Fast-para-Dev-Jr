@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-v4-rtl/4.6.0-2/css/bootstrap.min.css" 
-    integrity="sha512-hugT+JEQi0vXZbvspjv4x2M7ONBvsLR9IFTEQAYoUsmk7s1rRc2u7I6b4xa14af/wZ+Nw7Aspf3CtAfUOGyflA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
     <title>Teste Fast</title>
 </head>
@@ -157,40 +155,49 @@
             </div>
           </div>
           <div class="container">
-            <div class="wrapper">
-              <ul class="nav" id="steps">
-                <li class="nav-item">
-                  <a class="nav-link"  id="is-active" href="#">1<span>Início</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">2<span>Dados</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">3<span>Boleto</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">4<span>Retorno</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">5<span>Fim</span></a>
-                </li>
-              </ul>
-              <form class="form-wrapper">
-                <fieldset class="steps-section is-active">
-                  Daiane
-                  <button type="button" class="btn btn-primary" id="next-btn">PRÓXIMO</button>
-                </fieldset>
-                <fieldset class="steps-section">
-                  de Souza
-                  <button type="button" class="btn btn-primary">PRÓXIMO</button>
-                </fieldset>
-                <fieldset class="steps-section">
-                  Alexandre
-                  <button type="button" class="btn btn-primary">PRÓXIMO</button>
-                </fieldset>
-              </form>
+            <div class="row form-group">
+                  <div class="col-xs-12">
+                      <ul class="nav nav-pills nav-justified thumbnail setup-panel">
+                          <li class="active"><a href="#step-1">
+                              <h4 class="list-group-item-heading">Step 1</h4>
+                              <p class="list-group-item-text">First step description</p>
+                          </a></li>
+                          <li class="disabled"><a href="#step-2">
+                              <h4 class="list-group-item-heading">Step 2</h4>
+                              <p class="list-group-item-text">Second step description</p>
+                          </a></li>
+                          <li class="disabled"><a href="#step-3">
+                              <h4 class="list-group-item-heading">Step 3</h4>
+                              <p class="list-group-item-text">Third step description</p>
+                          </a></li>
+                      </ul>
+                  </div>
             </div>
+              <div class="row setup-content" id="step-1">
+                  <div class="col-xs-12">
+                      <div class="col-md-12 well text-center">
+                          <h2> STEP 1</h2>
+                          <button id="activate-step-2" class="btn btn-primary btn-lg">Activate Step 2</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="row setup-content" id="step-2">
+                  <div class="col-xs-12">
+                      <div class="col-md-12 well text-center">
+                          <h2> STEP 2</h2>
+                                        <button id="activate-step-3" class="btn btn-primary btn-lg">Activate Step 3</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="row setup-content" id="step-3">
+                  <div class="col-xs-12">
+                      <div class="col-md-12 well text-center">
+                          <h2> STEP 3</h2>
+                      </div>
+                  </div>
+              </div>
           </div>
+    </main>      
           <!--steps-section class="steps-page">
             <h3>Início</h3>
             <div class="content">
@@ -418,9 +425,7 @@
                 <p>The next and previous buttons help you to navigate through your content.</p>
             </div>
           </steps-section-->
-    </main>
-    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"--></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+ </body>
 </html>
