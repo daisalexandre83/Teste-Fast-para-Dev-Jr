@@ -86,7 +86,7 @@
 
 .page-text{
     color: #977b7b;
-    font-size: 16px;
+    font-size: 14px;
     margin:5px 0 0 10px;
 }
 
@@ -216,15 +216,59 @@
     padding: 10px 15px;
 }
 
+#steps{
+    border: 1px solid red;
+    display: none;
+    position: absolute;
+    margin: 115px 0 0 210px;
+}
+
+#steps-section{
+    border: none;
+}
+
+/* .steps-item1{
+    width: 80px;
+    height: 40px;
+    border: 1px solid blue;
+} */
+
+.steps-item{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+} 
+
+#step-1-radio2{
+    display: none;
+    margin-top: 50px;
+}
+
+
+.not-active{
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+
 .space-steps{
     margin-top: 50px;
 }
 
-.steps-page-thin-line{
+.step-page-thin-line{
     background-color: #ffae00;
     width: 47px;
     height: 2px;
     margin: 12px 0 15px 0;
+}
+
+.step-2-content{
+    background-color: #ffae00;
 }
 
 #menu-tabs{
@@ -254,10 +298,6 @@
     margin-left: 425px;
 }
 
-#steps-page1-radio1{
-    margin-top: 120px;
-}
-
 #steps-page1-radio2{
     margin-top: 65px;
 }
@@ -277,8 +317,12 @@
     color: #fff;
 }
 
-#steps-page1-text{
-    margin-top: 30px;
+#step-1-text{
+    margin: 30px 0 0 10px;
+}
+
+#activate-step-2{
+    display: none;
 }
 
 .steps-page3-image{
@@ -320,12 +364,18 @@
     margin-right: 15px;
 }
 
-.steps-page1-form-content{
-display: flex;
+.step-1-form-checkbox{
+    display: none;
 }
+
+
+.step-1-form{
+display: flex;
+} 
 
 #steps-page1-form-checkbox{
     margin-top: 60px;
+    display: none;
 }
 
 .steps-page2-bank{
@@ -361,9 +411,9 @@ position: absolute;
 top: 270px;
 }
 
-#form-checkbox{
-    padding-left: 0;
-}
+ #step-1-form-checkbo{
+    margin-top: 20px;
+} 
 
 .steps-page2-text{
     display: block;

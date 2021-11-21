@@ -154,167 +154,192 @@
               <img src="img/cash.jpg">
             </div>
           </div>
-          <div class="container">
+          <div class="container" id="steps">
             <div class="row form-group">
                   <div class="col-xs-12">
-                      <ul class="nav nav-pills nav-justified thumbnail setup-panel">
-                          <li class="active"><a href="#step-1">
-                              <h4 class="list-group-item-heading">Step 1</h4>
-                              <p class="list-group-item-text">First step description</p>
+                      <ul class="nav nav-pills nav-justified thumbnail setup-panel" id="steps-section">
+                          <li class="active" ><a  class="not-active" href="#step-1">
+                              <p>1<span>Início</span></p>
                           </a></li>
-                          <li class="disabled"><a href="#step-2">
-                              <h4 class="list-group-item-heading">Step 2</h4>
-                              <p class="list-group-item-text">Second step description</p>
+                          <li class="steps-item" ><a class="not-active" href="#step-2">
+                            <p>2<span>Dados</span></p>
                           </a></li>
-                          <li class="disabled"><a href="#step-3">
-                              <h4 class="list-group-item-heading">Step 3</h4>
-                              <p class="list-group-item-text">Third step description</p>
+                          <li class="steps-item"><a  class="not-active" href="#step-3">
+                            <p>3<span>Boleto</span></p>
                           </a></li>
+                          <li class="steps-item"><a class="not-active" href="#step-4">
+                            <p>4<span>Retorno</span></p>
+                        </a></li>
+                        <li class="steps-item"><a class="not-active" href="#step-5">
+                          <p>5<span>Fim</span></p>
+                      </a></li>
                       </ul>
                   </div>
             </div>
               <div class="row setup-content" id="step-1">
                   <div class="col-xs-12">
-                      <div class="col-md-12 well text-center">
-                          <h2> STEP 1</h2>
-                          <button id="activate-step-2" class="btn btn-primary btn-lg">Activate Step 2</button>
+                      <div class="col-md-12">
+                        <div id="step-1-radio1">
+                          Você possui um convênio para emissão de boletos junto ao seu banco?
+                          <div class="step-page-thin-line"></div>
+                          <div class="form-check">
+                            <input class="form-check-input"  id="step-1-yes1-option" type="radio" name="exampleRadios"  value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Sim
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Não
+                            </label>
+                          </div>
+                        </div>
+                        <div id="step-1-radio2">
+                          Este convênio é para emissão de boletos sem registro?
+                          <div class="step-page-thin-line"></div>
+                          <div class="form-check">
+                              <input class="form-check-input" id="step-1-yes2-option" type="radio" name="exampleRadios"  value="option1" checked>
+                              <label class="form-check-label" for="exampleRadios1">
+                                Sim
+                              </label>
+                          </div>
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                              <label class="form-check-label" onclick="mensagemDeAviso()" for="exampleRadios2" id="">
+                                Não
+                              </label>
+                          </div>
+                        </div>
+                        <div class="step-1-form-checkbox">
+                          <div class="form-check">
+                            Responda as seguintes perguntas
+                            <div class="step-page-thin-line"></div>
+                            <div class="step-1-form">
+                              <input class="step-1-ckeckbox" type="checkbox" value="" id="step-1-confirm1">
+                              <label class="form-check-label" for="flexCheckDefault" id="step-1-text">
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                              </label>
+                            </div>
+                          </div>
+                          <div class="form-check">
+                            <div class="step-1-form">
+                              <input class="step-1-ckeckbox" type="checkbox" value="" id="step-1-confirm2">
+                              <label class="form-check-label" for="flexCheckDefault" id="step-1-text">
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                              </label>
+                            </div>
+                          </div>
+                          <div class="form-check">
+                            <div class="step-1-form">
+                              <input class="step-1-ckeckbox" type="checkbox" value="" id="step-1-confirm3">
+                              <label class="form-check-label" for="flexCheckDefault" id="step-1-text">
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                          <button id="activate-step-2" class="btn btn-primary btn-lg">PRÓXIMO</button>
                       </div>
                   </div>
               </div>
               <div class="row setup-content" id="step-2">
                   <div class="col-xs-12">
-                      <div class="col-md-12 well text-center">
-                          <h2> STEP 2</h2>
-                                        <button id="activate-step-3" class="btn btn-primary btn-lg">Activate Step 3</button>
+                      <div class="col-md-12">
+                          <!--h2> STEP 2</h2-->
+                          <div class="step-2-content">
+                            <div class="steps-page2-text">
+                              Clique no banco em que você ou sua empresa possuem um convênio.
+                              <div class="step-page-thin-line"></div>
+                            </div>
+                            <div class="steps-page2-content">
+                              <div class="steps-page2-bank bank1">
+                                <p><span>Nome:</span>FastSoluções</p> 
+                                <p><span>Conta:</span>12345-6</p>  
+                                <p><span>Agência:</span>123.456-8</p>
+                              </div>
+                              <span class="steps-page2-line-vertical  vertical1"></span>
+                              <div class="steps-page2-image">
+                                <img src="img/logoitau.png">
+                              </div>  
+                              <div class="steps-page2-pen">
+                                <img src="img/caneta.png">
+                              </div> 
+                            </div>
+                            <div class="steps-page2-bank bank1-copy">
+                              <p><span>Nome:</span>FastSoluções</p> 
+                              <p><span>Conta:</span>12345-6</p>  
+                              <p><span>Agência:</span>123.456-8</p>
+                            </div>
+                            <span class="steps-page2-line-vertical vertical2"></span>
+                            <div class="steps-page2-image2">
+                              <img src="img/logoitau.png">
+                            </div> 
+                            <div class="steps-page2-bank bank2">
+                              <p><span>Nome:</span>FastSoluções</p> 
+                              <p><span>Conta:</span>12345-6</p>  
+                              <p><span>Agência:</span>123.456-8</p>
+                              <span class="steps-page2-line-vertical vertical3"></span>
+                              <div class="steps-page2-image3">
+                                <img src="img/logobradesco.png">
+                              </div>  
+                            </div>
+                          <button id="activate-step-3" class="btn btn-primary btn-lg">Activate Step 3</button>
                       </div>
                   </div>
+                  <div class="steps-page2-bank bank2-copy">
+                    <p><span>Nome:</span>FastSoluções</p> 
+                    <p><span>Conta:</span></p>  
+                    <p><span>Agência:</span></p>
+                  </div>
+                  <span class="steps-page2-line-vertical vertical4"></span>
+                  <div class="steps-page2-image4">
+                    <img src="img/logobradesco.png">
+                  </div>
+                  <div class="steps-page2-status">Status:<span>Falta informar Agência e Conta</span></div>
               </div>
               <div class="row setup-content" id="step-3">
                   <div class="col-xs-12">
                       <div class="col-md-12 well text-center">
                           <h2> STEP 3</h2>
+                          <button id="activate-step-4" class="btn btn-primary btn-lg">Activate Step 3</button>
                       </div>
                   </div>
               </div>
+              <div class="row setup-content" id="step-4">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h2> STEP 4</h2>
+                        <button id="activate-step-5" class="btn btn-primary btn-lg">Activate Step 3</button>
+                    </div>
+                </div>
+              </div>
+              <div class="row setup-content" id="step-5">
+                <div class="col-xs-12">
+                    <div class="col-md-12 well text-center">
+                        <h2> STEP 5</h2>
+                    </div>
+                </div>
+            </div>
           </div>
     </main>      
           <!--steps-section class="steps-page">
             <h3>Início</h3>
             <div class="content">
-              <div class="steps-page1-radio1">
-                Você possui um convênio para emissão de boletos junto ao seu banco?
-                <div class="steps-page-thin-line"></div>
-                <div class="form-check">
-                  <input class="form-check-input"  id="yes-option-part1" type="radio" name="exampleRadios"  value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Sim
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Não
-                  </label>
-                </div>
-              </div>
-              <div id="steps-page1-radio2">
-                Este convênio é para emissão de boletos sem registro?
-                <div class="steps-page-thin-line"></div>
-                <div class="form-check">
-                    <input class="form-check-input" id="yes-option-part2" type="radio" name="exampleRadios"  value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
-                      Sim
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                    <label class="form-check-label" onclick="mensagemDeAviso()" for="exampleRadios2" id="">
-                      Não
-                    </label>
-                </div>
-              </div>
+             
+             
               
-              <div id="steps-page1-form-checkbox">
-                Responda as seguintes perguntas
-                <div class="steps-page-thin-line"></div>
-                <div class="form-check" id="form-checkbox">
-                  <div class="steps-page1-form-content">
-                    <input class="steps-page1-ckeckbox" type="checkbox" value="" id="steps-page1-ckeckbox1">
-                    <label class="form-check-label" for="flexCheckDefault" id="steps-page1-text">
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                    </label>
-                  </div>
-                </div>
-                <div class="form-check" id="form-checkbox">
-                  <div class="steps-page1-form-content">
-                    <input class="steps-page1-ckeckbox" type="checkbox" value="" id="steps-page1-ckeckbox2">
-                    <label class="form-check-label" for="flexCheckDefault" id="steps-page1-text">
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                    </label>
-                  </div>
-                </div>
-                <div class="form-check" id="form-checkbox">
-                  <div class="steps-page1-form-content">
-                    <input class="steps-page1-ckeckbox" type="checkbox" value="" id="steps-page1-ckeckbox3">
-                    <label class="form-check-label" for="flexCheckDefault" id="steps-page1-text">
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
+              
+                
             <h3>Dados</h3>
-            <div class="content">
-                <div class="steps-page2-text">
-                  Clique no banco em que você ou sua empresa possuem um convênio.
-                  <div class="steps-page-thin-line"></div>
-                </div>
-                <div class="steps-page2-content">
-                  <div class="steps-page2-bank bank1">
-                    <p><span>Nome:</span>FastSoluções</p> 
-                    <p><span>Conta:</span>12345-6</p>  
-                    <p><span>Agência:</span>123.456-8</p>
-                  </div>
-                  <span class="steps-page2-line-vertical  vertical1"></span>
-                  <div class="steps-page2-image">
-                    <img src="img/logoitau.png">
-                  </div>  
-                  <div class="steps-page2-pen">
-                    <img src="img/caneta.png">
-                  </div> 
-                </div>
-                <div class="steps-page2-bank bank1-copy">
-                  <p><span>Nome:</span>FastSoluções</p> 
-                  <p><span>Conta:</span>12345-6</p>  
-                  <p><span>Agência:</span>123.456-8</p>
-                </div>
-                <span class="steps-page2-line-vertical vertical2"></span>
-                <div class="steps-page2-image2">
-                  <img src="img/logoitau.png">
-                </div> 
-                <div class="steps-page2-bank bank2">
-                  <p><span>Nome:</span>FastSoluções</p> 
-                  <p><span>Conta:</span>12345-6</p>  
-                  <p><span>Agência:</span>123.456-8</p>
-                  <span class="steps-page2-line-vertical vertical3"></span>
-                  <div class="steps-page2-image3">
-                    <img src="img/logobradesco.png">
-                  </div>  
-                </div>
-                <div class="steps-page2-bank bank2-copy">
-                  <p><span>Nome:</span>FastSoluções</p> 
-                  <p><span>Conta:</span></p>  
-                  <p><span>Agência:</span></p>
-                </div>
-                <span class="steps-page2-line-vertical vertical4"></span>
-                <div class="steps-page2-image4">
-                  <img src="img/logobradesco.png">
-                </div>
-                <div class="steps-page2-status">Status:<span>Falta informar Agência e Conta</span></div>
+            
+               
                 <button type="button" class="btn btn-primary" id="steps-page2-action">+ ADICIONAR NOVO BANCO</button>
                 <div class="steps-page2b">
                   Dados do convênio:
-                  <div class="steps-page-thin-line"></div>
+                  <div class="step-page-thin-line"></div>
                 </div>
                 <form class="steps-page2b-form-a">
                   <div class="row">
@@ -352,7 +377,7 @@
                 </form>
                 <div class="steps-page-text space-steps">
                   Dados do cedente:<span>(quem emite a cobrança; ou seja aquele que irá receber a quantia cobrada)</span>
-                  <div class="steps-page-thin-line"></div>
+                  <div class="step-page-thin-line"></div>
                 </div>
                 <form class="steps-page2b-form-c">
                   <div class="row">
@@ -400,7 +425,7 @@
             <div class="content">
               <div class="steps-page-text">
                 Gerar boleto teste:<span>(Essa etapa é importante para poder validar se os dados estão corretos).</span>
-                <div class="steps-page-thin-line"></div>
+                <div class="step-page-thin-line"></div>
               </div>
               <div class="steps-page3-image">
                 <img src="img/index.png">
@@ -412,7 +437,7 @@
             <div class="content">
               <div class="steps-page-text">
                 Arquivo de retorno:<span>(Essa arquivo você deve solicitar ao seu gerente).</span>
-                <div class="steps-page-thin-line"></div>
+                <div class="step-page-thin-line"></div>
               </div>
               <div  class="steps-page3-image">
                 <img src="img/SistemaOnline.png">
