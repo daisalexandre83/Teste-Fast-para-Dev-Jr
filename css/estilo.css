@@ -45,6 +45,10 @@
     right: 55px;
 }
 
+.step-1-ckeckbox{
+    background-color: #fff;
+}
+
 #menu{
     width: 200px;
     background-color: #434a54;
@@ -217,7 +221,6 @@
 }
 
 #steps{
-    border: 1px solid red;
     display: none;
     position: absolute;
     margin: 115px 0 0 210px;
@@ -241,13 +244,13 @@
     border-radius: 4px;
     color: #fff;
     font-size: 20px;
+    right: 5px;
 } 
 
 #step-1-radio2{
     display: none;
     margin-top: 50px;
 }
-
 
 .not-active{
   pointer-events: none;
@@ -268,7 +271,8 @@
 }
 
 .step-2-content{
-    background-color: #ffae00;
+    position: absolute;
+    margin: 210px 0 0 255px;
 }
 
 #menu-tabs{
@@ -378,18 +382,18 @@ display: flex;
     display: none;
 }
 
-.steps-page2-bank{
+.step-2-bank{
 width: 300px;
 height: 120px;
 border: 1px solid #BDBDBD;
 border-radius: 3px;
 }
 
-.steps-page2-bank p{
+.step-2-bank p{
 padding-left: 10px;
 }
 
-.steps-page2-bank  p span{
+.step-2-bank  p span{
 width: 100px;  
 font-weight: bold;
 margin-right: 5px;
@@ -415,15 +419,15 @@ top: 270px;
     margin-top: 20px;
 } 
 
-.steps-page2-text{
+.steps-2-text{
     display: block;
 }
 
-.steps-page2-content{
+.step-2-content-bank{
     position: relative;
 }
 
-.steps-page2-line-vertical{
+.step-2-line-vertical{
 width: 1px;
 height: 120px;
 border: 1px solid #BDBDBD;
@@ -436,8 +440,8 @@ border: 1px solid #BDBDBD;
 
 .vertical2{
 position: absolute;
-left: 720px;
-top: 71px;
+left: 700px;
+top: 49px;
 }
 
 .vertical3{
@@ -451,8 +455,8 @@ top: 71px;
 
 .vertical4{
     position: absolute;
-    left: 720px;
-    top: 270px;
+    left: 985px;
+    top: 480px;
 }
 
 .steps-page2-image{
@@ -480,14 +484,14 @@ border: 1px solid #BDBDBD;
 }
 
 .steps-page2-image2{
-    top:70px;
+    top:42px;
     position: absolute;
-    left: 656px;
+    left: 637px;
 }
 
 .steps-page2-image3{
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 20px;
     margin-left: 200px;
 }
 
@@ -504,8 +508,8 @@ border: 1px solid #BDBDBD;
 
 .steps-page2-image4{
     position: absolute;
-    top: 290px;
-    left: 717px; 
+    top: 500px;
+    left: 985px; 
 }
 
 .steps-page2-image4 img{
@@ -518,11 +522,11 @@ height: 80px;
 }
 
 .bank2-copy{
-    left: 518px;
+    left: 784px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     position: absolute;
-    margin-top: 75px;
+    margin-top: 480px;
 }
 
 .bank2-copy p{
@@ -554,25 +558,32 @@ height: 120px;
     
 }
 
-#steps-page2-action{
+#step-2-action{
     background-color: #00aeff;
     color: #fff;
     width: 350px;
-    margin-top: 50px;
     padding: 5px 0 0 10px;
     height: 45px;
     font-size: 20px;
+    margin: 50px 0 0 270px;
 }
 
-.steps-page2-status{
+.step-2-part2{
     border: 1px solid #BDBDBD;
-    margin-top: 194px;
+    margin-top: 599px;
     width: 300px;
-    margin-left: 500px;
+    margin-left: 769px;
     padding-left: 10px;
 }
 
-.steps-page2-status span{
+.step-2-part2-content{
+    display: none;
+    position: absolute;
+    position: absolute;
+    margin: 200px 0 0 300px;
+}
+
+.step-2-part2 span{
     color:red;
     padding-left: 5px;
 }
@@ -590,31 +601,30 @@ height: 120px;
     color: #9e8c8c;
 }
 
-.steps-page2b-form-a{
-    display: none;
-}
+/* .steps-page2b-form-a{
+    border: 1px solid blue;
+}  */
 
-.steps-page2b-form-b{
+/* .steps-page2b-form-b{
     display: none;
-}
+} */
 
-.steps-page2b-form-c{
+/* .steps-page2b-form-c{
     display: none;
-}
+} */
 
-.steps-page2b-form-d{
+/* .steps-page2b-form-d{
     display: none;
-}
+} */
 
-.steps-page2b-form-e{
+/* .steps-page2b-form-e{
     display: none;
-}
-
+} */
 
 #steps-page2b-big-input{
     border: none;
     border-bottom: 1px solid #9e8c8c;
-    width: 200px;
+    width: 230px;
     cursor: pointer;
 }
 
@@ -623,6 +633,8 @@ height: 120px;
     border-bottom: 1px solid #BDBDBD;
     width: 200px;
     cursor: pointer;
+    position: absolute;
+    right: 306px;
 }
 
 #steps-page2b-name2-input{
@@ -685,7 +697,7 @@ height: 120px;
 #steps-page2b-medium-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 150px;
+    width: 190px;
     cursor: pointer;
 }
 
@@ -699,15 +711,14 @@ height: 120px;
 #steps-page2b-small-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 50px;
+    width: 70px;
     cursor: pointer;
 }
 
-
 #steps-page2b-arrow{
-    right: 215px;
+    right: 164px;
     position: absolute;
-    top:  18px;
+    top: 8px;
 }
 
 #steps-page2b-arrow-b{
@@ -763,4 +774,26 @@ height: 120px;
 
 .pag-4{
     margin-left: 320px;
+}
+
+.step-doubts{
+    position: absolute;
+    top: 0;
+    left: 540px;
+}
+
+.step-doubts span{
+    color: #ffae00;
+}
+
+.doubts-part2{
+    position: absolute;
+    top: 155px;
+}
+
+#activate-step-3{
+    position: absolute;
+    left: 700px;
+    margin-top: 700px;
+    display: none;
 }

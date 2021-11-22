@@ -81,35 +81,36 @@ if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checke
     
 }) */
 
- $(".steps-page2-bank").click(function() {
+ $(".step-2-bank").click(function() {
   console.log('daiane');
     // $(".bank1-copy").toggleClass('bank-data-highlight');
     // $(".bank1-copy").toggleClass('highlight-border');
     $(".bank1-copy").toggleClass('pisca');
 }) 
 
-$("#steps-page2-action").click(function() {
+$("#step-2-action").click(function() {
     $(".bank1-copy").toggleClass('pisca');
 })
 
 $(".bank1-copy").click(function () {
     console.log('souza');
-    $(".steps-page2-text").hide();
-    $(".steps-page2-bank").hide();
-    $(".steps-page2-line-vertical").hide();
+    $(".steps-2-text").hide();
+    $(".step-2-bank").hide();
+    $(".step-2-line-vertical").hide();
     $(".steps-page2-image").hide();
     $(".steps-page2-pen").hide();
     $(".steps-page2-image2").hide();
-    $(".steps-page2-status").hide();
+    $(".step-2-part2").hide();
     $(".steps-page2-image4").hide();
-    $("#steps-page2-action").hide();
+    $("#step-2-action").hide();
     $(".steps-page2b").show();
     $(".steps-page-text").show();
-    $(".steps-page2b-form-a").show();
+    $(".step-2-part2-content").show();
+    /* $(".steps-page2b-form-a").show();
     $(".steps-page2b-form-b").show();
     $(".steps-page2b-form-c").show();
     $(".steps-page2b-form-d").show();
-    $(".steps-page2b-form-e").show();
+    $(".steps-page2b-form-e").show(); */
 })
 
 $("#steps-page2b-big-input").click(function () {
@@ -161,6 +162,12 @@ $(".steps-page3-image").click(function () {
     $(".steps-page4-content").show();
 }) */
 
+
+$(".step-doubts").click(function () {
+    console.log('daiane');
+    $("#exampleRadios1").toggleClass('pisca');
+    $("#exampleRadios2").toggleClass('pisca');
+})
 
 
 
