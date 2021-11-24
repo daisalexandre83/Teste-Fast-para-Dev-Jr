@@ -237,14 +237,12 @@
 } */
 
 .steps-item{
-    width: 80px;
     height: 40px;
     background-color: gray;
     border: 1px solid red;
     border-radius: 4px;
     color: #fff;
     font-size: 20px;
-    right: 5px;
 } 
 
 #step-1-radio2{
@@ -257,6 +255,10 @@
   cursor: default;
   text-decoration: none;
   color: black;
+}
+
+#step-label-option{
+    margin: 2px 0  0 23px;
 }
 
 .space-steps{
@@ -372,6 +374,17 @@
     display: none;
 }
 
+#step-1-confirm1{
+    margin-top: 12px;
+}
+
+#step-1-confirm2{
+    margin-top: 12px;
+}
+
+#step-1-confirm3{
+    margin-top: 12px;
+}
 
 .step-1-form{
 display: flex;
@@ -565,7 +578,8 @@ height: 120px;
     padding: 5px 0 0 10px;
     height: 45px;
     font-size: 20px;
-    margin: 50px 0 0 270px;
+    margin: 50px 0 0 10px;
+    border: 1px solid red;
 }
 
 .step-2-part2{
