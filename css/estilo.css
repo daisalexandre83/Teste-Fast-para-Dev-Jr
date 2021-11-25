@@ -579,20 +579,16 @@ height: 120px;
     height: 45px;
     font-size: 20px;
     margin: 50px 0 0 10px;
-    border: 1px solid red;
 }
 
 .step-2-part2{
     border: 1px solid #BDBDBD;
-    margin-top: 599px;
     width: 300px;
-    margin-left: 769px;
     padding-left: 10px;
+    margin: 399px 0 0 469px;
 }
 
 .step-2-part2-content{
-    display: none;
-    position: absolute;
     position: absolute;
     margin: 200px 0 0 300px;
 }
