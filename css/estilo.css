@@ -611,9 +611,13 @@ height: 120px;
     color: #9e8c8c;
 }
 
-/* .steps-page2b-form-a{
+.step-2-part2-content{
+    display: none;
+}
+
+ .steps-page2b-form-a{
     border: 1px solid blue;
-}  */
+}  
 
 /* .steps-page2b-form-b{
     display: none;
