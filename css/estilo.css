@@ -220,6 +220,11 @@
     padding: 10px 15px;
 }
 
+.nav-pills li{
+    display: inline-block;
+    width: 100px;
+}
+
 #steps{
     display: none;
     position: absolute;
@@ -237,12 +242,9 @@
 } */
 
 .steps-item{
-    height: 40px;
-    background-color: gray;
-    border: 1px solid red;
     border-radius: 4px;
-    color: #fff;
     font-size: 20px;
+    background-color: gray;
 } 
 
 #step-1-radio2{
