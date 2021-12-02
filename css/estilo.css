@@ -470,8 +470,8 @@ top: 49px;
 
 .vertical4{
     position: absolute;
-    left: 985px;
-    top: 480px;
+    left: 700px;
+    top: 270px;
 }
 
 .steps-page2-image{
@@ -523,8 +523,8 @@ border: 1px solid #BDBDBD;
 
 .steps-page2-image4{
     position: absolute;
-    top: 500px;
-    left: 985px; 
+    top: 290px;
+    left: 700px; 
 }
 
 .steps-page2-image4 img{
@@ -537,11 +537,11 @@ height: 80px;
 }
 
 .bank2-copy{
-    left: 784px;
+    left: 500px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     position: absolute;
-    margin-top: 480px;
+    margin-top: 101px;
 }
 
 .bank2-copy p{
