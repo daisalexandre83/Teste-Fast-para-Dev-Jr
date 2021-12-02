@@ -422,12 +422,14 @@ margin-right: 5px;
 .bank1-copy{
     margin-left: 500px;
     cursor: pointer;
+    padding-top: 5px;
 }
 
  
 .bank2{
-position: absolute;
-top: 270px;
+    position: absolute;
+    top: 270px;
+    padding-top: 5px;
 }
 
  #step-1-form-checkbo{
@@ -542,6 +544,7 @@ height: 80px;
     border-radius: 3px;
     position: absolute;
     margin-top: 101px;
+    padding-top: 5px;
 }
 
 .bank2-copy p{
@@ -577,22 +580,24 @@ height: 120px;
     background-color: #00aeff;
     color: #fff;
     width: 350px;
-    padding: 5px 0 0 10px;
+    padding: 5px 0 0 0px;
     height: 45px;
-    font-size: 20px;
-    margin: 50px 0 0 10px;
+    font-size: 18px;
+    margin: 50px 0 0 255px;
 }
 
-.step-2-part2{
+.step-2-content-bank2{
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 398px 0 0 468px;
+    margin: 599px 0 0 755px;
 }
 
 .step-2-part2-content{
     position: absolute;
     margin: 200px 0 0 300px;
+    background-color: #ec3333;
+    display: none;
 }
 
 .step-2-part2 span{

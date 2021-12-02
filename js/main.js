@@ -101,7 +101,7 @@ $(".bank1-copy").click(function () {
     $(".steps-page2-image").hide();
     $(".steps-page2-pen").hide();
     $(".steps-page2-image2").hide();
-    $(".step-2-part2").hide();
+    // $(".step-2-part2").hide();
     $(".steps-page2-image4").hide();
     $(".steps-page2b").show();
     $(".steps-page-text").show();
