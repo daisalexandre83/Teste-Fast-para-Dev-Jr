@@ -279,6 +279,10 @@
     margin: 210px 0 0 255px;
 }
 
+.step-2-part-a{
+    display: block;
+}
+
 #menu-tabs{
     padding-left: 425px;
     margin-top: 20px;
@@ -579,25 +583,30 @@ height: 120px;
 #step-2-action{
     background-color: #00aeff;
     color: #fff;
-    width: 350px;
+    width: 270px;
     padding: 5px 0 0 0px;
     height: 45px;
     font-size: 18px;
-    margin: 50px 0 0 255px;
+    position: absolute;
+    top: 450px;
+    right: 523px;
 }
 
 .step-2-content-bank2{
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 599px 0 0 755px;
+    margin: 220px 0 0 500px;
 }
 
-.step-2-part2-content{
+.step-2-part-b{
     position: absolute;
-    margin: 200px 0 0 300px;
-    background-color: #ec3333;
+    margin: 200px 0 0 250px;
     display: none;
+}
+
+.step-2-part-b form{
+    font-size: 18px;
 }
 
 .step-2-part2 span{
@@ -622,25 +631,9 @@ height: 120px;
     display: none;
 }
 
- .steps-page2b-form-a{
-    border: 1px solid blue;
-}  
-
-/* .steps-page2b-form-b{
-    display: none;
-} */
-
-/* .steps-page2b-form-c{
-    display: none;
-} */
-
-/* .steps-page2b-form-d{
-    display: none;
-} */
-
-/* .steps-page2b-form-e{
-    display: none;
-} */
+.step-2-part2-form input{
+    font-size: 14px;
+}
 
 #steps-page2b-big-input{
     border: none;
@@ -649,14 +642,6 @@ height: 120px;
     cursor: pointer;
 }
 
-#steps-page2b-accord-input{
-    border: none;
-    border-bottom: 1px solid #BDBDBD;
-    width: 200px;
-    cursor: pointer;
-    position: absolute;
-    right: 306px;
-}
 
 #steps-page2b-name2-input{
     border: none;
@@ -688,11 +673,10 @@ height: 120px;
 #steps-page2b-accord-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 200px;
+    width: 328px;
     cursor: pointer;
     position: absolute;
-    right: 390px;
-    top: -1px;
+    right: 377px;
 }
 
 #steps-page2b-numbers-input{
@@ -725,7 +709,7 @@ height: 120px;
  #steps-page2b-account-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 200px;
+    width: 231px;
     cursor: pointer;
 } 
 
@@ -737,7 +721,7 @@ height: 120px;
 }
 
 #steps-page2b-arrow{
-    right: 164px;
+    right: 251px;
     position: absolute;
     top: 8px;
 }

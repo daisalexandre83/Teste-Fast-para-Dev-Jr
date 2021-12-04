@@ -93,19 +93,12 @@ $("#step-2-action").click(function() {
     $(".bank1-copy").toggleClass('pisca');
 })
 
+
+
 $(".bank1-copy").click(function () {
     console.log('souza');
-    $(".steps-2-text").hide();
-    $(".step-2-bank").hide();
-    $(".step-2-line-vertical").hide();
-    $(".steps-page2-image").hide();
-    $(".steps-page2-pen").hide();
-    $(".steps-page2-image2").hide();
-    // $(".step-2-part2").hide();
-    $(".steps-page2-image4").hide();
-    $(".steps-page2b").show();
-    $(".steps-page-text").show();
-    $(".step-2-part2-content").show();
+    $(".step-2-part-a").hide();
+    $(".step-2-part-b").show();
     /* $(".steps-page2b-form-a").show();
     $(".steps-page2b-form-b").show();
     $(".steps-page2b-form-c").show();
