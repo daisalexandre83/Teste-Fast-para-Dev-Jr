@@ -279,7 +279,7 @@
     margin: 210px 0 0 255px;
 }
 
-.step-2-part-a{
+.step-2a{
     display: block;
 }
 
@@ -440,8 +440,8 @@ margin-right: 5px;
     margin-top: 20px;
 } 
 
-.steps-2-text{
-    display: block;
+.step-2a-text{
+    margin: 0 0 50px 0;
 }
 
 .step-2-content-bank{
@@ -462,7 +462,7 @@ border: 1px solid #BDBDBD;
 .vertical2{
 position: absolute;
 left: 700px;
-top: 49px;
+top: 84px;
 }
 
 .vertical3{
@@ -505,7 +505,7 @@ border: 1px solid #BDBDBD;
 }
 
 .steps-page2-image2{
-    top:42px;
+    top:77px;
     position: absolute;
     left: 637px;
 }
@@ -547,7 +547,7 @@ height: 80px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     position: absolute;
-    margin-top: 101px;
+    margin-top: 67px;
     padding-top: 5px;
 }
 
@@ -596,16 +596,16 @@ height: 120px;
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 220px 0 0 500px;
+    margin: 186px 0 0 500px;
 }
 
-.step-2-part-b{
+.step-2b{
     position: absolute;
     margin: 200px 0 0 250px;
     display: none;
 }
 
-.step-2-part-b form{
+.step-2b form{
     font-size: 18px;
 }
 
@@ -614,15 +614,15 @@ height: 120px;
     padding-left: 5px;
 }
 
-.steps-page2b{
+.step-2b-text-a{
     margin: 15px 0 25px 0;
 }
 
-.steps-page-text{
+.step-2b-text-b{
     margin: 50px 0 25px 0;
 }
 
-.steps-page-text span{
+.step-2b-text-b span{
     font-size: 14px;
     color: #9e8c8c;
 }
@@ -631,7 +631,7 @@ height: 120px;
     display: none;
 }
 
-.step-2-part2-form input{
+.step-2b-form input{
     font-size: 14px;
 }
 
@@ -665,7 +665,7 @@ height: 120px;
 #steps-page2b-bigger-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 300px;
+    width: 350px;
     cursor: pointer;
     right: 150px;
 }
@@ -728,14 +728,14 @@ height: 120px;
 
 #steps-page2b-arrow-b{
     position: absolute;
-    top:17px;
-    margin-left: 30px;
+    top:7px;
+    margin-left: 50px;
 }
 
 #steps-page2b-arrow-c{
     position: absolute;
-    top: 20px;
-    margin-left: 130px;
+    top: 8px;
+    margin-left: 167px;
 }
 
 .bi-caret-down-fill{
@@ -750,14 +750,14 @@ height: 120px;
 
 .small-text{
     font-size: 14px;
-    margin-left: 340px;
+    margin-left: 585px;
     width: 180px;
 }
 
 #steps-page3-action{
     color: #fff;
     background-color: #00aeff;
-    margin: 40px 0 0 280px;
+    margin: 40px 0 0 520px;
     width: 300px;
     height: 50px;
     font-size: 20px;
@@ -796,9 +796,21 @@ height: 120px;
     top: 155px;
 }
 
+#activate-step-2{
+    margin: 75px 0 0 600px;
+}
+
 #activate-step-3{
     position: absolute;
     left: 700px;
-    margin-top: 700px;
     display: none;
+    margin: 675px 0 0 440px;
+}
+
+#activate-step-4{
+    margin: 150px 0 0 900px;
+}
+
+.step-3-text{
+    margin: 210px 0 0 249px;
 }

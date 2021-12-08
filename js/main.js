@@ -97,13 +97,9 @@ $("#step-2-action").click(function() {
 
 $(".bank1-copy").click(function () {
     console.log('souza');
-    $(".step-2-part-a").hide();
-    $(".step-2-part-b").show();
-    /* $(".steps-page2b-form-a").show();
-    $(".steps-page2b-form-b").show();
-    $(".steps-page2b-form-c").show();
-    $(".steps-page2b-form-d").show();
-    $(".steps-page2b-form-e").show(); */
+    $(".step-2a").hide();
+    $(".step-2b").show();
+   $("#activate-step-3").show();
 })
 
 $("#steps-page2b-big-input").click(function () {
