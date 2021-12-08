@@ -96,9 +96,8 @@ $("#step-2-action").click(function() {
 
 
 $(".bank1-copy").click(function () {
-    console.log('souza');
-    $(".step-2a").hide();
-    $(".step-2b").show();
+    $(".step-2-a").hide();
+    $(".step-2-b").show();
    $("#activate-step-3").show();
 })
 
