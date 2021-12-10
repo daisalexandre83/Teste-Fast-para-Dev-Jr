@@ -1,11 +1,24 @@
 @keyframes pisca{
-    0%{background-color: #F7D358;
+    0%{background-color: #A9F5D0;
         border: 1px solid #0000FF;}
-    50%{background-color: #F7D358;
+    50%{background-color: #A9F5D0;
         border: 1px solid #0000FF;}
-    100%{background-color:  #f7d358;
+    100%{background-color: #A9F5D0;
         border: 1px solid #0000FF;}
 }
+
+@keyframes pisca-small{
+    0%{background-color: #A9F5D0;
+        border: 1px solid #0000FF;
+    width: 30%;}
+    50%{background-color: #A9F5D0;
+        border: 1px solid #0000FF;
+    width: 30%;}
+    100%{background-color: #A9F5D0;
+        border: 1px solid #0000FF;
+    width: 30px;}
+}
+
 .header{
     display: flex;
     position: absolute;
@@ -369,6 +382,18 @@
     height: 150px;
 }
 
+.step-4-image{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-4-image img{
+   width: 100px;
+   height: 100px;
+}
+
 #list-card{
     width: 150px;
     height: 50px;
@@ -597,7 +622,11 @@ height: 120px;
 .pisca{
     animation-name: pisca;
     animation-duration: 3s;
-    
+}
+
+.pisca-small{
+    animation-name: pisca;
+    animation-duration: 3s;
 }
 
 #step-2-action{
@@ -704,9 +733,9 @@ height: 120px;
     border-bottom: 1px solid #00aeff;
     width: 220px;
     color: #585858;
-    margin-left: 245px;
-    position: relative;
-    top: -71px;
+    left: 254px;
+    position: absolute;
+    top: 119px;
     display: none;
     cursor: pointer;
 }
@@ -715,8 +744,8 @@ height: 120px;
     font-size: 12px;
     position: relative;
     display: none;
-    top: -30px;
-    right: 223px;
+    top: 30px;
+    right: 495px;
 }
 
 #steps-page2b-medium-input{
@@ -788,8 +817,8 @@ height: 120px;
 } */
 
 #steps-page4-action{
-    color: #00aeff !important;
-    background-color: #fff !important;
+    color: #00aeff!important;
+    background-color: #fff;
     width: 300px;
     height: 50px;
     border: 1px solid #00aeff;
@@ -797,8 +826,11 @@ height: 120px;
     font-size: 20px;
 }
 
-.pag-4{
+.small-text-pag-4{
     margin-left: 550px;
+    font-size: 14px;
+    margin-left: 550px;
+    width: 180px;
 }
 
 .step-doubts{
@@ -828,6 +860,10 @@ height: 120px;
 }
 
 #activate-step-4{
+    margin: 150px 0 0 900px;
+}
+
+#activate-step-5{
     margin: 150px 0 0 900px;
 }
 

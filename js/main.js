@@ -141,10 +141,16 @@ $("#steps-page2b-selected-option").click(function () {
 $(".step-3-image").click(function () {
    $("#steps-page3-action").toggleClass('pisca'); 
     $(".small-text").toggleClass('pisca');
+    // $("#steps-page4-action").toggleClass('pisca');
     $("#activate-step-4").toggleClass('pisca');
-   /*  $(".steps-page3-action").toggleClass('highlight-border');
-    $(".small-text").toggleClass('highlight-border'); */
 })
+
+$(".step-4-image").click(function () {
+    console.log('laura');
+    $("#steps-page4-action").toggleClass('pisca');
+    // $(".pag-4").toggleClass('pisca-small');
+})
+
 
 /*  $("#steps-page3-action").click(function (){
     console.log('lorena');
