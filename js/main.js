@@ -101,46 +101,47 @@ $(".bank1-copy").click(function () {
    $("#activate-step-3").show();
 })
 
-$("#steps-page2b-big-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+$("#step-2-text-big-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
-$("#steps-page2b-medium-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+$("#step-2-medium-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
-$("#steps-page2b-small-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+$("#step-2-small-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
-$("#steps-page2b-account-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+$("#step-2-account-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
-$("#steps-page2b-accord-input").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+$("#step-2-accord-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
 
 $("#steps-page2b-selected-option").click(function () {
-    $("#steps-page2b-accord-input").hide();
-    $("#steps-page2b-numbers-input").show();
-    $("#steps-page2b-label").show();
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
 })
 
 $(".step-3-image").click(function () {
    $("#steps-page3-action").toggleClass('pisca'); 
     $(".small-text").toggleClass('pisca');
+
     // $("#steps-page4-action").toggleClass('pisca');
     $("#activate-step-4").toggleClass('pisca');
 })

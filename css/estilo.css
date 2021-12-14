@@ -719,7 +719,7 @@ height: 120px;
     right: 150px;
 }
 
-#steps-page2b-accord-input{
+#step-2-accord-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 328px;
@@ -728,7 +728,7 @@ height: 120px;
     right: 377px;
 }
 
-#steps-page2b-numbers-input{
+#step-2-numbers-input{
     border: none;
     border-bottom: 1px solid #00aeff;
     width: 220px;
@@ -740,7 +740,7 @@ height: 120px;
     cursor: pointer;
 }
 
-#steps-page2b-label{
+#step-2-label{
     font-size: 12px;
     position: relative;
     display: none;
@@ -748,21 +748,21 @@ height: 120px;
     right: 495px;
 }
 
-#steps-page2b-medium-input{
+#step-2-medium-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 190px;
     cursor: pointer;
 }
 
- #steps-page2b-account-input{
+ #step-2-account-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 231px;
     cursor: pointer;
 } 
 
-#steps-page2b-small-input{
+#step-2-small-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 70px;
