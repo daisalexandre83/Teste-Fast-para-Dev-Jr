@@ -78,14 +78,8 @@ if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checke
 
 }) 
 
-/* $("#activate-step-2").click(function name(params) {
-    
-}) */
-
- $(".step-2-bank").click(function() {
+$(".step-2-bank").click(function() {
   console.log('daiane');
-    // $(".bank1-copy").toggleClass('bank-data-highlight');
-    // $(".bank1-copy").toggleClass('highlight-border');
     $(".bank1-copy").toggleClass('pisca');
 }) 
 
@@ -149,7 +143,12 @@ $(".step-3-image").click(function () {
 $(".step-4-image").click(function () {
     console.log('laura');
     $("#steps-page4-action").toggleClass('pisca');
-    // $(".pag-4").toggleClass('pisca-small');
+    $("small-text-pag-4").toggleClass('pisca-small');
+})
+
+$("#step-4-btn-fake").click(function(){
+    $("#steps-page4-action").toggleClass('pisca');
+    $("small-text-pag-4").toggleClass('pisca-small');
 })
 
 
@@ -161,9 +160,10 @@ $(".step-4-image").click(function () {
 
 $(".step-doubts").click(function () {
     console.log('daiane');
-    $("#exampleRadios1").toggleClass('pisca');
-    $("#exampleRadios2").toggleClass('pisca');
+    $("#step-label-not1").toggleClass('pisca');
+    $("#step-label-not2").toggleClass('pisca');
 })
+
 
 
 

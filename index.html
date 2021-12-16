@@ -184,13 +184,14 @@
                           Você possui um convênio para emissão de boletos junto ao seu banco?
                           <div class="step-page-thin-line"></div>
                           <div class="step-doubts">Não sabe o que é<span>?</span></div>
+                          <span class="gray-line"></span>
                           <div class="form-check">
                             <input class="form-check-input"  id="step-1-yes1-option" type="radio" name="exampleRadios"  value="option1" checked>
                             <label class="form-check-label"  id="step-label-option" for="exampleRadios1">
                               Sim
                             </label>
                           </div>
-                          <div class="form-check">
+                          <div class="form-check" id="step-label-not1">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                             <label class="form-check-label" id="step-label-option" for="exampleRadios1">
                               Não
@@ -201,13 +202,14 @@
                           Este convênio é para emissão de boletos sem registro?
                           <div class="step-page-thin-line"></div>
                           <div class="step-doubts doubts-part2">Não sabe o que é<span>?</span></div>
+                          <span class="gray-line "></span>
                           <div class="form-check">
                               <input class="form-check-input" id="step-1-yes2-option" type="radio" name="exampleRadios"  value="option1" checked>
                               <label class="form-check-label" id="step-label-option" for="exampleRadios1">
                                 Sim
                               </label>
                           </div>
-                          <div class="form-check">
+                          <div class="form-check" id="step-label-not2">
                               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                               <label class="form-check-label" id="step-label-option" onclick="mensagemDeAviso()" for="exampleRadios2" id="">
                                 Não
@@ -414,12 +416,15 @@
                         Arquivo de retorno:<span>(Essa arquivo você deve solicitar ao seu gerente).</span>
                         <div class="step-page-thin-line"></div>
                       </div>
-                      <div class="step-4-image">
-                        <img src="img/SistemaOnline.png">
+                      <div class="step-4-a">
+                        <div class="step-4-image">
+                          <img src="img/SistemaOnline.png">
+                        </div>
+                        <button type="button" class="btn btn-primary" id="steps-page4-action">ARQUIVO DE RETORNO</button>
+                        <div class="small-text-pag-4">(Essa etapa pode ser pulada)</div>
+                        <button type="button" class="btn btn-primary" id="step-4-btn-fake">PRÓXIMO</button>
+                        <button id="activate-step-5" class="btn btn-primary btn-lg">PRÓXIMO</button>
                       </div>
-                      <button type="button" class="btn btn-primary" id="steps-page4-action">ARQUIVO DE RETORNO</button>
-                      <div class="small-text- pag-4">(Essa etapa pode ser pulada)</div>
-                      <button id="activate-step-5" class="btn btn-primary btn-lg">Activate Step 3</button>
                     </div>
                 </div>
               </div>
