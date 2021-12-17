@@ -151,6 +151,11 @@ $("#step-4-btn-fake").click(function(){
     $("small-text-pag-4").toggleClass('pisca-small');
 })
 
+$("#steps-page4-action").click(function () {
+    $(".step-4-a").hide();
+    $(".step-4-b").show();
+})
+
 
 /*  $("#steps-page3-action").click(function (){
     console.log('lorena');

@@ -447,10 +447,10 @@ display: flex;
 }
 
 .step-2-bank{
-width: 300px;
-height: 120px;
-border: 1px solid #BDBDBD;
-border-radius: 3px;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
 }
 
 .step-2-bank p{
@@ -458,9 +458,9 @@ padding-left: 10px;
 }
 
 .step-2-bank  p span{
-width: 100px;  
-font-weight: bold;
-margin-right: 5px;
+    width: 100px;  
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 .bank1{
@@ -494,9 +494,9 @@ margin-right: 5px;
 }
 
 .step-2-line-vertical{
-width: 1px;
-height: 120px;
-border: 1px solid #BDBDBD;
+    width: 1px;
+    height: 120px;
+    border: 1px solid #BDBDBD;
 }
 
 .vertical1{
@@ -505,9 +505,9 @@ border: 1px solid #BDBDBD;
 }
 
 .vertical2{
-position: absolute;
-left: 700px;
-top: 84px;
+    position: absolute;
+    left: 700px;
+    top: 84px;
 }
 
 .vertical3{
@@ -536,11 +536,11 @@ top: 84px;
 }
 
 .step-2-pen{
-position: absolute;
-width: 30px;
-height: 30px;
-left: 299px;
-border: 1px solid #BDBDBD;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 299px;
+    border: 1px solid #BDBDBD;
 }
 
 .step-2-pen img{
@@ -579,8 +579,8 @@ border: 1px solid #BDBDBD;
 }
 
 .step-2-image4 img{
-width: 100px;
-height: 80px;
+    width: 100px;
+    height: 80px;
 }
 
 .line-vertical-bradesco{
@@ -597,21 +597,21 @@ height: 80px;
 }
 
 .bank2-copy p{
-padding-left: 10px;
+    padding-left: 10px;
 }
 
 .bank2-copy p span{
-width: 100px;  
-font-weight: bold;
-margin-right: 5px;
+    width: 100px;  
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 .line-vertical-bradesco-copy4{
-width: 1px;
-border: 1px solid #BDBDBD;
-position: absolute;
-left: 200px;
-height: 120px;
+    width: 1px;
+    border: 1px solid #BDBDBD;
+    position: absolute;
+    left: 200px;
+    height: 120px;
 }
 
 .copy-img-bradesco{
@@ -868,7 +868,7 @@ height: 120px;
     display: none;
 }
 
-.step-3-text{
+.step-text{
     margin: 210px 0 0 249px;
 }
 
@@ -884,6 +884,41 @@ height: 120px;
 .gray-line-2{
     position: absolute;
     top:172px;
+}
+
+#step-4-btn-fake{
+    margin: 150px 0 0 850px;
+}
+
+.step-4-a{
+    display: block;
+}
+
+.step-4-b{
+    display: none;
+}
+
+.step-4-b-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-4-b-image image{
+    width: 100px;
+    height: 100px;
+}
+
+.step-4-b-text1{
+    margin: 50px 0 0 600px;
+}
+
+.step-4-b-text1 p span{
+    color: #ec3333;
+}
+
+.step-4-b-text2{
+    margin-left: 510px;
 }
 
 
