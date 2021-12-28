@@ -922,7 +922,13 @@ padding-left: 10px;
 }
 
 .step-4-b-actions{
-    margin: 50px  0 0 530px;
+    margin: 50px  0 0 490px;
 }
+
+#step-4-b-actions1{
+    margin-right: 100px;
+}
+
+
 
 
