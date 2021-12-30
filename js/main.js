@@ -133,11 +133,9 @@ $("#steps-page2b-selected-option").click(function () {
 })
 
 $(".step-3-image").click(function () {
-   $("#steps-page3-action").toggleClass('pisca'); 
+//    $("#steps-page3-action").toggleClass('pisca'); 
+$("#activate-step-4").toggleClass('pisca');
     $(".small-text").toggleClass('pisca');
-
-    // $("#steps-page4-action").toggleClass('pisca');
-    $("#activate-step-4").toggleClass('pisca');
 })
 
 $(".step-4-image").click(function () {
@@ -156,13 +154,6 @@ $("#steps-page4-action").click(function () {
     $(".step-4-b").show();
 })
 
-
-/*  $("#steps-page3-action").click(function (){
-    console.log('lorena');
-    $(".steps-page4-content").show();
-})  */
-
-
 $(".step-doubts").click(function () {
     console.log('daiane');
     $("#step-label-not1").toggleClass('pisca');
@@ -172,6 +163,10 @@ $(".step-doubts").click(function () {
 $("#step-4-b-actions1").click(function () {
     $(".step-4-a").show();
     $(".step-4-b").hide();
+})
+
+$("#step-4-b-actions2").click(function () {
+    $()
 })
 
 
