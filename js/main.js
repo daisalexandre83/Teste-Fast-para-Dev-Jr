@@ -169,7 +169,7 @@ $(".step-doubts").click(function () {
     $("#step-label-not2").toggleClass('pisca');
 })
 
-$("#steps-4-b-actions1").click(function () {
+$("#step-4-b-actions1").click(function () {
     $(".step-4-a").show();
     $(".step-4-b").hide();
 })
