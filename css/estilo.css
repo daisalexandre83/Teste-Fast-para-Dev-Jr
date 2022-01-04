@@ -382,6 +382,12 @@
     height: 150px;
 }
 
+.step-3-action{
+   position: relative;
+   right: 300px;
+   top: -70px;
+}
+
 .step-4-image{
     margin-top: 70px;
     display: flex;
@@ -799,7 +805,7 @@ padding-left: 10px;
 
 .small-text{
     font-size: 14px;
-    margin-left: 585px;
+    margin-left: 875px;
     width: 180px;
 }
 
@@ -886,7 +892,7 @@ padding-left: 10px;
     top:172px;
 }
 
-#step-4-btn-fake{
+#step-btn-fake{
     margin: 150px 0 0 850px;
 }
 

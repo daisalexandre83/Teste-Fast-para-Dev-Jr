@@ -136,6 +136,7 @@ $(".step-3-image").click(function () {
 //    $("#steps-page3-action").toggleClass('pisca'); 
 $("#activate-step-4").toggleClass('pisca');
     $(".small-text").toggleClass('pisca');
+    $("#step-btn-fake").toggleClass('pisca');
 })
 
 $(".step-4-image").click(function () {
@@ -144,7 +145,7 @@ $(".step-4-image").click(function () {
     $("small-text-pag-4").toggleClass('pisca-small');
 })
 
-$("#step-4-btn-fake").click(function(){
+$("#step-btn-fake").click(function(){
     $("#steps-page4-action").toggleClass('pisca');
     $("small-text-pag-4").toggleClass('pisca-small');
 })
@@ -152,6 +153,7 @@ $("#step-4-btn-fake").click(function(){
 $("#steps-page4-action").click(function () {
     $(".step-4-a").hide();
     $(".step-4-b").show();
+    $("#activate-step-2").show();
 })
 
 $(".step-doubts").click(function () {
@@ -165,9 +167,6 @@ $("#step-4-b-actions1").click(function () {
     $(".step-4-b").hide();
 })
 
-$("#step-4-b-actions2").click(function () {
-    $()
-})
 
 
 
