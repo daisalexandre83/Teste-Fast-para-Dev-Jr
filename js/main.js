@@ -35,6 +35,11 @@ jQuery(document).ready(function () {
     $(this).remove();
     })
 
+    $('#activate-return-step-2').on('click',function(e) {
+    $('ul.setup-panel li a [href="#step-2"]').trigger('click');
+    $(this).remove();
+    })
+
     $('#activate-step-3').on('click',function(e) {
     // $('ul.setup-panel li:eq(2)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-3"]').trigger('click');
@@ -166,6 +171,8 @@ $("#step-4-b-actions1").click(function () {
     $(".step-4-a").show();
     $(".step-4-b").hide();
 })
+
+
 
 
 
