@@ -385,7 +385,6 @@
 .step-3-action{
    position: relative;
    right: 300px;
-   top: -70px;
 }
 
 .step-4-image{
@@ -937,6 +936,11 @@ padding-left: 10px;
 
 .step-4-c{
     display: none;
+}
+
+#activate-step-4-2{
+    position: relative;
+    margin: 40px 0 0 895px;
 }
 
 

@@ -52,6 +52,11 @@ jQuery(document).ready(function () {
         $(this).remove();
         }) 
 
+    $("#activate-step-4-2").on('click',function (e) {
+        $('ul.setup-panel li a[href="#step-4"]').trigger('click');
+        $(this).remove();
+    })
+
     $('#activate-step-5').on('click',function(e) {
         // $('ul.setup-panel li:eq(4)').removeClass('disabled');
         $('ul.setup-panel li a[href="#step-5"]').trigger('click');
@@ -139,7 +144,7 @@ $("#steps-page2b-selected-option").click(function () {
 
 $(".step-3-image").click(function () {
 //    $("#steps-page3-action").toggleClass('pisca'); 
-$("#activate-step-4").toggleClass('pisca');
+$("#activate-step-4-2").toggleClass('pisca');
     $(".small-text").toggleClass('pisca');
     $("#step-btn-fake").toggleClass('pisca');
 })
