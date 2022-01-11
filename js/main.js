@@ -175,6 +175,11 @@ $(".step-doubts").click(function () {
 $("#step-4-b-actions1").click(function () {
     $(".step-4-a").show();
     $(".step-4-b").hide();
+   $("#steps-page4-action").click(function () {
+    $(".step-4-b").hide();
+    $(".step-4-c").show();
+    $("#activate-step-5").show();
+   })
 })
 
 
@@ -189,6 +194,11 @@ $("#step-4-b-actions1").click(function () {
     $('ul.setup-panel li a[href="#step-2"]').trigger('click');
     $(this).remove();
 }) */
+
+$("#step-btn-fake2").click(function () {
+    $("#step-4-b-actions1").toggleClass('pisca');
+    $("#activate-return-step-2").toggleClass('pisca');
+})
 
 
 

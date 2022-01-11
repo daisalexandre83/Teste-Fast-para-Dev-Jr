@@ -871,6 +871,7 @@ padding-left: 10px;
 #activate-step-5{
     margin: 150px 0 0 900px;
     display: none;
+    background-color: #ec3333;
 }
 
 .step-text{
@@ -941,6 +942,28 @@ padding-left: 10px;
 #activate-step-4-2{
     position: relative;
     margin: 40px 0 0 895px;
+}
+
+.step-4-c-image{
+    margin: 30px 0 0 500px;
+}
+
+.step-4-c-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.step-4-c-text1{
+    margin-left: 20px;
+}
+
+.step-4-c-text2{
+    position: relative;
+    right: 60px;
+}
+
+#step-btn-fake2{
+    margin: 100px 0 0 785px;
 }
 
 
