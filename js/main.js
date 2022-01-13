@@ -100,8 +100,8 @@ $("#step-2-action").click(function() {
 
 
 $(".bank1-copy").click(function () {
-    $(".step-2-a").hide();
-    $(".step-2-b").show();
+    $(".step-2-part1").hide();
+    $(".step-2-part2").show();
    $("#activate-step-3").show();
 })
 
@@ -144,7 +144,8 @@ $("#steps-page2b-selected-option").click(function () {
 
 $(".step-3-image").click(function () {
 //    $("#steps-page3-action").toggleClass('pisca'); 
-$("#activate-step-4-2").toggleClass('pisca');
+    $("#activate-step-4-2").toggleClass('pisca');
+    $("#activate-step-4").toggleClass('pisca');
     $(".small-text").toggleClass('pisca');
     $("#step-btn-fake").toggleClass('pisca');
 })
@@ -161,8 +162,8 @@ $("#step-btn-fake").click(function(){
 })
 
 $("#steps-page4-action").click(function () {
-    $(".step-4-a").hide();
-    $(".step-4-b").show();
+    $(".step-4-part1").hide();
+    $(".step-4-part2").show();
     $("#activate-step-2").show();
 })
 
@@ -172,14 +173,19 @@ $(".step-doubts").click(function () {
     $("#step-label-not2").toggleClass('pisca');
 })
 
-$("#step-4-b-actions1").click(function () {
-    $(".step-4-a").show();
-    $(".step-4-b").hide();
+$("#step-4-part2-actions1").click(function () {
+    $(".step-4-part1").show();
+    $(".step-4-part2").hide();
    $("#steps-page4-action").click(function () {
-    $(".step-4-b").hide();
+    $(".step-4-part2").hide();
     $(".step-4-c").show();
     $("#activate-step-5").show();
    })
+})
+
+$(".step-4-part2-image").click(function () {
+    $("#step-4-part2-actions1").toggleClass('pisca');
+    $("#activate-return-step-2").toggleClass('pisca');
 })
 
 
@@ -196,7 +202,7 @@ $("#step-4-b-actions1").click(function () {
 }) */
 
 $("#step-btn-fake2").click(function () {
-    $("#step-4-b-actions1").toggleClass('pisca');
+    $("#step-4-part2-actions1").toggleClass('pisca');
     $("#activate-return-step-2").toggleClass('pisca');
 })
 

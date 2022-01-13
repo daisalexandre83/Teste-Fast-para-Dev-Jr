@@ -312,7 +312,7 @@
     margin: 210px 0 0 255px;
 }
 
-.step-2-a{
+.step-2-part1{
     display: block;
 }
 
@@ -490,7 +490,7 @@ padding-left: 10px;
     margin-top: 20px;
 } 
 
-.step-2-a-text{
+.step-2-part1-text{
     margin: 0 0 50px 0;
 }
 
@@ -653,13 +653,13 @@ padding-left: 10px;
     margin: 186px 0 0 500px;
 }
 
-.step-2-b{
+.step-2-part2{
     position: absolute;
     margin: 200px 0 0 250px;
     display: none;
 }
 
-.step-2-b form{
+.step-2-part2 form{
     font-size: 18px;
 }
 
@@ -668,20 +668,20 @@ padding-left: 10px;
     padding-left: 5px;
 }
 
-.step-2-b-texta{
+.step-2-part2-texta{
     margin: 15px 0 25px 0;
 }
 
-.step-2-b-textb{
+.step-2-part2-textb{
     margin: 50px 0 25px 0;
 }
 
-.step-2-b-textb span{
+.step-2-part2-textb span{
     font-size: 14px;
     color: #9e8c8c;
 }
 
-.step-2-b-content{
+.step-2-part2-content{
     display: none;
 }
 
@@ -869,9 +869,9 @@ padding-left: 10px;
 }
 
 #activate-step-5{
-    margin: 150px 0 0 900px;
+    position: relative;
+    margin: 150px 0 0 400px;
     display: none;
-    background-color: #ec3333;
 }
 
 .step-text{
@@ -896,46 +896,46 @@ padding-left: 10px;
     margin: 150px 0 0 850px;
 }
 
-.step-4-a{
+.step-4-part1{
     display: block;
 }
 
-.step-4-b{
+.step-4-part2{
     display: none;
 }
 
-.step-4-b-image{
+.step-4-part2-image{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.step-4-b-image image{
+.step-4-part2-image image{
     width: 100px;
     height: 100px;
 }
 
-.step-4-b-text1{
+.step-4-part2-text1{
     margin: 50px 0 0 600px;
 }
 
-.step-4-b-text1 p span{
+.step-4-part2-text1 p span{
     color: #ec3333;
 }
 
-.step-4-b-text2{
+.step-4-part2-text2{
     margin-left: 510px;
 }
 
-.step-4-b-actions{
+.step-4-part2-actions{
     margin: 50px  0 0 490px;
 }
 
-#step-4-b-actions1{
+#step-4-part2-actions1{
     margin-right: 100px;
 }
 
-.step-4-c{
+.step-4-part3{
     display: none;
 }
 
@@ -944,20 +944,20 @@ padding-left: 10px;
     margin: 40px 0 0 895px;
 }
 
-.step-4-c-image{
+.step-4-part3-image{
     margin: 30px 0 0 500px;
 }
 
-.step-4-c-image img{
+.step-4-part3-image img{
     width: 150px;
     height: 150px;
 }
 
-.step-4-c-text1{
+.step-4-part3-text1{
     margin-left: 20px;
 }
 
-.step-4-c-text2{
+.step-4-part3-text2{
     position: relative;
     right: 60px;
 }
