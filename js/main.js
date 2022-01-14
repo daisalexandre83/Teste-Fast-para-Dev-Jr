@@ -33,7 +33,6 @@ jQuery(document).ready(function () {
     $('#activate-step-2').on('click',function(e) {
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-2"]').trigger('click');
-    // $('ul.setup-panel li a[href="#step-2"]').toggleClass('triangle');
     $(this).remove();
     })
 
