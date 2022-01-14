@@ -58,6 +58,10 @@
     right: 55px;
 }
 
+.col-xs-12{
+    width: 100vw;
+}
+
 .step-1-ckeckbox{
     background-color: #fff;
 }
@@ -235,7 +239,7 @@
 
 .nav-pills li{
     display: inline-block;
-    width: 125px;
+    width: 180px;
     height: 50px;
 }
 
@@ -685,7 +689,7 @@ padding-left: 10px;
     display: none;
 }
 
-.step-2-b-form input{
+.step-2-part2-form input{
     font-size: 14px;
 }
 
@@ -939,11 +943,6 @@ padding-left: 10px;
     display: none;
 }
 
-#activate-step-4-2{
-    position: relative;
-    margin: 40px 0 0 895px;
-}
-
 .step-4-part3-image{
     margin: 30px 0 0 500px;
 }
@@ -952,6 +951,12 @@ padding-left: 10px;
     width: 150px;
     height: 150px;
 }
+
+#activate-step-4-2{
+    position: relative;
+    margin: 40px 0 0 895px;
+}
+
 
 .step-4-part3-text1{
     margin-left: 20px;
@@ -964,6 +969,23 @@ padding-left: 10px;
 
 #step-btn-fake2{
     margin: 100px 0 0 785px;
+}
+
+.step-5-image{
+    margin: 50px 0 0 200px;
+}
+
+.step-5-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #5386e4;
 }
 
 

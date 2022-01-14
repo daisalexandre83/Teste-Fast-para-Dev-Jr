@@ -28,10 +28,12 @@ jQuery(document).ready(function () {
         }
     });
     $('ul.setup-panel li.active a').trigger('click');
+   
 
     $('#activate-step-2').on('click',function(e) {
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+    // $('ul.setup-panel li a[href="#step-2"]').toggleClass('triangle');
     $(this).remove();
     })
 
@@ -178,7 +180,7 @@ $("#step-4-part2-actions1").click(function () {
     $(".step-4-part2").hide();
    $("#steps-page4-action").click(function () {
     $(".step-4-part2").hide();
-    $(".step-4-c").show();
+    $(".step-4-part3").show();
     $("#activate-step-5").show();
    })
 })
@@ -189,21 +191,13 @@ $(".step-4-part2-image").click(function () {
 })
 
 
-
-/* $("#activate-return-step-2").click(function () {
-    $('ul.setup-panel li a [href="#step-2"]').trigger('click');
-    $(this).remove();
-    console.log('mercedes');
-}) */
-
-/* $("#activate-return-step-2").click(function(){
-    $('ul.setup-panel li a[href="#step-2"]').trigger('click');
-    $(this).remove();
-}) */
-
 $("#step-btn-fake2").click(function () {
     $("#step-4-part2-actions1").toggleClass('pisca');
     $("#activate-return-step-2").toggleClass('pisca');
+})
+
+$(".step-4-part3-image").click(function () {
+    $("#activate-step-5").toggleClass('pisca');
 })
 
 
