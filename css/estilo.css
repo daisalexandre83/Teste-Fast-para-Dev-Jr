@@ -971,8 +971,9 @@ padding-left: 10px;
     margin: 100px 0 0 785px;
 }
 
-.step-5-image{
-    margin: 50px 0 0 200px;
+.step-5-text{
+    /* margin: 50px 0 0 200px; */
+    background-color: #ffae00;
 }
 
 .step-5-image img{
