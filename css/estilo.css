@@ -392,7 +392,6 @@
 }
 
 .step-4-image{
-    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -901,7 +900,8 @@ padding-left: 10px;
 }
 
 .step-4-part1{
-    display: block;
+    /* display: block; */
+    margin-top: 70px;
 }
 
 .step-4-part2{
@@ -957,28 +957,30 @@ padding-left: 10px;
     margin: 40px 0 0 895px;
 }
 
-
-.step-4-part3-text1{
-    margin-left: 20px;
+.step-4-part3{
+    display: none;
 }
 
-.step-4-part3-text2{
-    position: relative;
-    right: 60px;
+.step-4-part3-image{
+   margin-top: 50px;
+}
+
+.step-4-part3-image img{
+   width: 150px;
+   height: 150px;
 }
 
 #step-btn-fake2{
     margin: 100px 0 0 785px;
 }
 
-.step-5-text{
-    /* margin: 50px 0 0 200px; */
-    background-color: #ffae00;
+.step-5-image{
+    margin: 300px 0px 0 600px;
 }
 
 .step-5-image img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .triangle{
