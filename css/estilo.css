@@ -259,6 +259,27 @@
     border: 1px solid blue;
 } */
 
+#step-initial{
+    border-radius: 4px;
+    background-color: #315061;
+    position: relative;
+    top: -24px;
+}
+
+.step-initial-text{
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    /* font-size: 32px; */
+}
+
+.step-initial-text span{
+    font-size: 18px;
+   /*  position: absolute; 
+    margin: 30px 0 0 50px; */
+    font-weight: normal;
+}
+
 .steps-item{
     border-radius: 4px;
     background-color: gray;
@@ -284,7 +305,7 @@
     font-weight: normal;
 } 
   
-#step-1-radio2{
+#step-1-part2{
     display: none;
     margin-top: 50px;
 }
@@ -429,7 +450,7 @@
     margin-right: 15px;
 }
 
-.step-1-form-checkbox{
+.step-1-part3{
     display: none;
 }
 
@@ -671,8 +692,12 @@ padding-left: 10px;
     padding-left: 5px;
 }
 
-.step-2-part2-texta{
+.step-2-part2-text1{
     margin: 15px 0 25px 0;
+}
+
+.step-2-part2-text2{
+    margin-top: 80px;
 }
 
 .step-2-part2-textb{
@@ -719,7 +744,31 @@ padding-left: 10px;
 }
 
 
-#steps-page2b-bigger-input{
+#step-2-bigger-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 350px;
+    cursor: pointer;
+    right: 150px;
+}
+
+#step-2-bigger2-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 350px;
+    cursor: pointer;
+    right: 150px;
+}
+
+#step-2-bigger3-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 350px;
+    cursor: pointer;
+    right: 150px;
+}
+
+#step-2-bigger4-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 350px;
@@ -763,6 +812,41 @@ padding-left: 10px;
     cursor: pointer;
 }
 
+#step-2-medium2-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 190px;
+    cursor: pointer;
+}
+
+#step-2-medium3-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 190px;
+    cursor: pointer;
+}
+
+#step-2-medium4-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 190px;
+    cursor: pointer;
+}
+
+#step-2-medium5-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 190px;
+    cursor: pointer;
+}
+
+#step-2-medium6-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 190px;
+    cursor: pointer;
+}
+
  #step-2-account-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
@@ -777,11 +861,31 @@ padding-left: 10px;
     cursor: pointer;
 }
 
+#step-2-small2-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 70px;
+    cursor: pointer;
+}
+
+#step-2-small3-input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 70px;
+    cursor: pointer;
+}
+
 #steps-page2b-arrow{
     right: 251px;
     position: absolute;
     top: 8px;
 }
+
+/* .steps-page2b-arrow:before{
+    position: absolute;
+    right: 251px;
+    display: none;
+} */
 
 #steps-page2b-arrow-b{
     position: absolute;

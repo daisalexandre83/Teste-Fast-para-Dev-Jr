@@ -4,7 +4,7 @@ $("#user-action").click(function() {
     $(".img-cash").hide();
     $("#user-action").hide();
      $("#steps").show();
-    $("#step-1-radio2").hide();
+    $("#step-1-part2").hide();
     $(".page-subtext").hide(); 
     
 })
@@ -68,11 +68,11 @@ jQuery(document).ready(function () {
 
 
 $("#step-1-yes1-option").click(function () {
-    $("#step-1-radio2").show();
+    $("#step-1-part2").show();
 })
 
 $("#step-1-yes2-option").click(function () {
-    $(".step-1-form-checkbox").show();
+    $(".step-1-part3").show();
    
 })
 
@@ -112,7 +112,63 @@ $("#step-2-text-big-input").click(function () {
     $("#step-2-label").show();
 })
 
+$("#step-2-bigger-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-bigger2-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-bigger3-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-bigger4-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+
+
 $("#step-2-medium-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-medium2-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-medium3-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-medium4-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-medium5-input').click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$('#step-2-medium6-input').click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#step-2-label").show();
@@ -124,10 +180,23 @@ $("#step-2-small-input").click(function () {
     $("#step-2-label").show();
 })
 
+$("#step-2-small2-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
+$("#step-2-small3-input").click(function () {
+    $("#step-2-accord-input").hide();
+    $("#step-2-numbers-input").show();
+    $("#step-2-label").show();
+})
+
 $("#step-2-account-input").click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#step-2-label").show();
+    // $(".steps-page2b-arrow:before").show();
 })
 
 $("#step-2-accord-input").click(function () {

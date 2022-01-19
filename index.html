@@ -159,8 +159,8 @@
             <div class="row form-group">
                   <div class="col-xs-12">
                       <ul class="nav nav-pills nav-justified thumbnail setup-panel" id="steps-section">
-                          <li class="active" ><a  class="not-active" href="#step-1">
-                              <p>1<span>Início</span></p>
+                          <li class="active" id="step-initial"><a  class="not-active" href="#step-1">
+                              <p class="step-initial-text">1<span>Início</span></p>
                           </a></li>
                           <li class="steps-item" ><a class="not-active" href="#step-2">
                             <p>2<span>Dados</span></p>
@@ -180,7 +180,7 @@
               <div class="row setup-content" id="step-1">
                   <div class="col-xs-12">
                       <div class="col-md-12">
-                        <div id="step-1-radio1">
+                        <div id="step-1-part1">
                           Você possui um convênio para emissão de boletos junto ao seu banco?
                           <div class="step-page-thin-line"></div>
                           <div class="step-doubts">Não sabe o que é<span>?</span></div>
@@ -198,7 +198,7 @@
                             </label>
                           </div>
                         </div>
-                        <div id="step-1-radio2">
+                        <div id="step-1-part2">
                           Este convênio é para emissão de boletos sem registro?
                           <div class="step-page-thin-line"></div>
                           <div class="step-doubts doubts-part2">Não sabe o que é<span>?</span></div>
@@ -216,7 +216,7 @@
                               </label>
                           </div>
                         </div>
-                        <div class="step-1-form-checkbox">
+                        <div class="step-1-part3">
                           <div class="form-check">
                             Responda as seguintes perguntas
                             <div class="step-page-thin-line"></div>
@@ -305,7 +305,7 @@
                           </div>
                         </div>
                         <div class="step-2-part2">
-                          <div class="step-2-part2-texta">
+                          <div class="step-2-part2-text1">
                             Dados do convênio:
                             <div class="step-page-thin-line"></div>
                           </div>
@@ -315,16 +315,16 @@
                                 <input type="text" id="step-2-text-big-input" class="form-control" placeholder="Nome" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-text-medium-input" class="form-control" placeholder="Agência" readonly>
+                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="Agência" readonly>
                               </div>
                               <div class="col">
                                 <input type="text"  id="step-2-small-input" class="form-control" placeholder="DV" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="Conta" readonly>
+                                <input type="text" id="step-2-medium2-input" class="form-control" placeholder="Conta" readonly>
                               </div>
                               <div class="col">
-                                <input type="text"  id="step-2-small-input" class="form-control" placeholder="DV" readonly>
+                                <input type="text"  id="step-2-small2-input" class="form-control" placeholder="DV" readonly>
                               </div>
                             </div>
                           </form>
@@ -343,47 +343,47 @@
                               </div>
                             </div>
                           </form>
-                          <div class="step-2-b-textb">
+                          <div class="step-2-part2-text2">
                             Dados do cedente:<span>(quem emite a cobrança; ou seja aquele que irá receber a quantia cobrada)</span>
                             <div class="step-page-thin-line"></div>
                           </div>
                           <form class="step-2-part2-form">
                             <div class="row">
                               <div class="col">
-                                <input type="text" id="steps-page2b-bigger-input" class="form-control" placeholder="Nome" readonly>
+                                <input type="text" id="step-2-bigger-input" class="form-control" placeholder="Nome" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="steps-page2b-bigger-input" class="form-control" placeholder="CPF/CNPJ do cliente" readonly>
-                              </div>
-                            </div>
-                          </form>
-                          <form class="step-2-part2-form">
-                            <div class="row">
-                              <div class="col">
-                                <input type="text" id="steps-page2b-bigger-input" class="form-control" placeholder="Endereço" readonly>
-                              </div>
-                              <div class="col">
-                                <input type="text" id="steps-page2b-bigger-input" class="form-control" placeholder="Complemento" readonly>
+                                <input type="text" id="step-2-bigger2-input" class="form-control" placeholder="CPF/CNPJ do cliente" readonly>
                               </div>
                             </div>
                           </form>
                           <form class="step-2-part2-form">
                             <div class="row">
                               <div class="col">
-                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="Número" readonly>
+                                <input type="text" id="step-2-bigger3-input" class="form-control" placeholder="Endereço" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="Bairro" readonly>
+                                <input type="text" id="step-2-bigger4-input" class="form-control" placeholder="Complemento" readonly>
+                              </div>
+                            </div>
+                          </form>
+                          <form class="step-2-part2-form">
+                            <div class="row">
+                              <div class="col">
+                                <input type="text" id="step-2-medium3-input" class="form-control" placeholder="Número" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="CEP" readonly>
+                                <input type="text" id="step-2-medium4-input" class="form-control" placeholder="Bairro" readonly>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-small-input" class="form-control" placeholder="UF" readonly>
+                                <input type="text" id="step-2-medium5-input" class="form-control" placeholder="CEP" readonly>
+                              </div>
+                              <div class="col">
+                                <input type="text" id="step-2-small3-input" class="form-control" placeholder="UF" readonly>
                                 <i class="bi bi-caret-down-fill" id="steps-page2b-arrow-b"></i>
                               </div>
                               <div class="col">
-                                <input type="text" id="step-2-medium-input" class="form-control" placeholder="Cidade" readonly>
+                                <input type="text" id="step-2-medium6-input" class="form-control" placeholder="Cidade" readonly>
                                 <i class="bi bi-caret-down-fill" id="steps-page2b-arrow-c"></i>
                               </div>
                             </div>
