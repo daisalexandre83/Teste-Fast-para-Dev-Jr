@@ -260,23 +260,28 @@
 } */
 
 #step-initial{
+    position: relative;
     border-radius: 4px;
     background-color: #315061;
     position: relative;
-    top: -24px;
+    top: 30px; 
 }
 
 .step-initial-text{
     color: #fff;
     text-align: left;
     font-weight: bold;
-    /* font-size: 32px; */
+    height: 20px;
+    position: relative;
+    top: -30px;
+    font-size: 64px;
 }
 
 .step-initial-text span{
     font-size: 18px;
-   /*  position: absolute; 
-    margin: 30px 0 0 50px; */
+    position: absolute; 
+    margin: 30px 0 0 20px; 
+    /* margin-top: 30px; */
     font-weight: normal;
 }
 
@@ -301,7 +306,7 @@
 .steps-item p span{
     font-size: 18px;
     position: absolute; 
-    margin: 30px 0 0 50px;
+    margin: 30px 0 0 70px;
     font-weight: normal;
 } 
   
@@ -1086,6 +1091,23 @@ padding-left: 10px;
     width: 200px;
     height: 200px;
 }
+
+.step-5-text1{
+    position: relative;
+    right: 45px;
+    font-size: 18px;
+}
+
+.step-5-text1 span{
+    color: blue;
+}
+
+.step-5-text2{
+    position: relative;
+    right: 85px;
+    font-size: 18px;
+}
+
 
 .triangle{
     width: 0;
