@@ -290,6 +290,10 @@
     background-color: gray;
 } 
 
+.steps-past{
+    background-color: #315061;
+}
+
    .steps-item p{
     color: #fff;
     font-size: 64px;
@@ -982,7 +986,7 @@ padding-left: 10px;
 
 #activate-step-5{
     position: relative;
-    margin: 150px 0 0 400px;
+    margin: 150px 0 0 1050px;
     display: none;
 }
 
@@ -1109,13 +1113,13 @@ padding-left: 10px;
 }
 
 
-.triangle{
-    width: 0;
-    height: 0;
+/* .triangle{
+    width: 180px;
+    height: 50px;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid #5386e4;
-}
+    border-top: 25px solid #5386e4;
+} */
 
 
 

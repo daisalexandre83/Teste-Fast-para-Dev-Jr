@@ -34,6 +34,7 @@ jQuery(document).ready(function () {
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-2"]').trigger('click');
     $(this).remove();
+    // $('ul.setup-panel li a[href="#step-2"]').addClass('triangle');
     })
 
      $('#activate-return-step-2').on('click',function(e) {
@@ -45,24 +46,29 @@ jQuery(document).ready(function () {
     // $('ul.setup-panel li:eq(2)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-3"]').trigger('click');
     $(this).remove();
+    // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
+    $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
     }) 
 
     $('#activate-step-4').on('click',function(e) {
         // $('ul.setup-panel li:eq(3)').removeClass('disabled');
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
         $(this).remove();
-        }) 
+        $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
+    }) 
 
     $("#activate-step-4-2").on('click',function (e) {
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
         $(this).remove();
+        $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
     })
 
     $('#activate-step-5').on('click',function(e) {
         // $('ul.setup-panel li:eq(4)').removeClass('disabled');
         $('ul.setup-panel li a[href="#step-5"]').trigger('click');
         $(this).remove();
-        })     
+        $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
+    })     
 
 }); 
 
@@ -266,6 +272,11 @@ $("#step-btn-fake2").click(function () {
 
 $(".step-4-part3-image").click(function () {
     $("#activate-step-5").toggleClass('pisca');
+})
+
+
+$('#activate-step-4').click(function () {
+    $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
 })
 
 
