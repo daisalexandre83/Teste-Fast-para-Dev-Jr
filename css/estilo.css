@@ -1113,13 +1113,29 @@ padding-left: 10px;
 }
 
 
-/* .triangle{
-    width: 180px;
-    height: 50px;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 25px solid #5386e4;
-} */
+ .steps-triangle{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #337ab7;
+    width: 20px;
+    margin-left: 80px;
+} 
+
+.triangle-2{
+    display:none;
+}
+
+.triangle-3{
+    display: none;
+}
+
+.triangle-4{
+    display: none;
+}
+
+.triangle-5{
+    display: none;
+}
 
 
 

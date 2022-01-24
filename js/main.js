@@ -34,7 +34,9 @@ jQuery(document).ready(function () {
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
     $('ul.setup-panel li a[href="#step-2"]').trigger('click');
     $(this).remove();
-    // $('ul.setup-panel li a[href="#step-2"]').addClass('triangle');
+    $('.steps-triangle').hide();
+    $('.triangle-2').show();
+    // $('ul.setup-panel li a[href="#step-2"]').addClass('steps-triangle');
     })
 
      $('#activate-return-step-2').on('click',function(e) {
@@ -48,6 +50,8 @@ jQuery(document).ready(function () {
     $(this).remove();
     // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
     $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
+    $('.triangle-2').hide();
+    $('.triangle-3').show();
     }) 
 
     $('#activate-step-4').on('click',function(e) {
@@ -61,6 +65,8 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
         $(this).remove();
         $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
+        $('.triangle-3').hide();
+        $('.triangle-4').show();
     })
 
     $('#activate-step-5').on('click',function(e) {
@@ -68,6 +74,8 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-5"]').trigger('click');
         $(this).remove();
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
+        $('.triangle-4').hide();
+        $('.triangle-5').show();
     })     
 
 }); 
