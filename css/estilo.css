@@ -461,6 +461,7 @@
 
 .step-1-part3{
     display: none;
+    margin-top: 70px;
 }
 
 #step-1-confirm1{
@@ -524,7 +525,7 @@ padding-left: 10px;
 } 
 
 .step-2-part1-text{
-    margin: 0 0 50px 0;
+    margin: 25px 0 50px 0;
 }
 
 .step-2-content-bank{
@@ -545,7 +546,7 @@ padding-left: 10px;
 .vertical2{
     position: absolute;
     left: 700px;
-    top: 84px;
+    top: 109px;
 }
 
 .vertical3{
@@ -560,7 +561,7 @@ padding-left: 10px;
 .vertical4{
     position: absolute;
     left: 700px;
-    top: 270px;
+    top: 268px;
 }
 
 .step-2-image{
@@ -588,7 +589,7 @@ padding-left: 10px;
 }
 
 .step-2-image2{
-    top:77px;
+    top:104px;
     position: absolute;
     left: 637px;
 }
@@ -612,7 +613,7 @@ padding-left: 10px;
 
 .step-2-image4{
     position: absolute;
-    top: 290px;
+    top: 288px;
     left: 700px; 
 }
 
@@ -683,7 +684,7 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 186px 0 0 500px;
+    margin: 158px 0 0 500px;
 }
 
 .step-2-part2{
@@ -702,7 +703,7 @@ padding-left: 10px;
 }
 
 .step-2-part2-text1{
-    margin: 15px 0 25px 0;
+    margin: 25px 0 25px 0;
 }
 
 .step-2-part2-text2{
@@ -1113,7 +1114,7 @@ padding-left: 10px;
 }
 
 
- .steps-triangle{
+ .steps-indication{
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 15px solid #337ab7;
@@ -1121,19 +1122,19 @@ padding-left: 10px;
     margin-left: 80px;
 } 
 
-.triangle-2{
+.indication-2{
     display:none;
 }
 
-.triangle-3{
+.indication-3{
     display: none;
 }
 
-.triangle-4{
+.indication-4{
     display: none;
 }
 
-.triangle-5{
+.indication-5{
     display: none;
 }
 
