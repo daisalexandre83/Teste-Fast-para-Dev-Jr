@@ -32,30 +32,31 @@ jQuery(document).ready(function () {
 
     $('#activate-step-2').on('click',function(e) {
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
-    $('ul.setup-panel li a[href="#step-2"]').trigger('click');
-    $(this).remove();
-    $('.steps-indication').hide();
-    $('.indication-2').show();
+        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+        $(this).remove();
+        $('.steps-indication').hide();
+        $('.indication-2').show();
     // $('ul.setup-panel li a[href="#step-2"]').addClass('steps-indication');
     })
 
-     $('#activate-return-step-2').on('click',function(e) {
-    $('ul.setup-panel li a[href="#step-2"]').trigger('click');
-    $('.indication-4').hide();
-    $('.indication-3').hide();
-    $('.indication-2').show();
-    $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
-    $(this).remove();
+    $('#activate-return-step-2').on('click',function(e) {
+        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+        $('.indication-4').hide();
+        $('.indication-3').hide();
+        $('.indication-2').show();
+        // $('#activate-step-3').show();
+        $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
+        $(this).remove();
     }) 
 
     $('#activate-step-3').on('click',function(e) {
     // $('ul.setup-panel li:eq(2)').removeClass('disabled');
-    $('ul.setup-panel li a[href="#step-3"]').trigger('click');
-    $(this).remove();
-    // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
-    $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
-    $('.indication-2').hide();
-    $('.indication-3').show();
+        $('ul.setup-panel li a[href="#step-3"]').trigger('click');
+        $(this).remove();
+        // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
+        $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
+        $('.indication-2').hide();
+        $('.indication-3').show();
     }) 
 
     $('#activate-step-4').on('click',function(e) {
@@ -80,9 +81,16 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
+        setTimeout(function () {
+            $('.step-5-image').hide();
+            $('#steps').hide();
+        },3000)
     })     
 
 }); 
+
+
+
 
 
 $("#step-1-yes1-option").click(function () {
@@ -97,18 +105,18 @@ $("#step-1-yes2-option").click(function () {
 
 $(".step-1-ckeckbox").click(function () {
 
-let checkbox1 = $('#step-1-confirm1');
-let checkbox2 = $('#step-1-confirm2');
-let checkbox3 = $('#step-1-confirm3');
+    let checkbox1 = $('#step-1-confirm1');
+    let checkbox2 = $('#step-1-confirm2');
+    let checkbox3 = $('#step-1-confirm3');
 
-if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
-    $("#activate-step-2").show();
+    if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
+      $("#activate-step-2").show();
  }
 
 }) 
 
 $(".step-2-bank").click(function() {
-  console.log('daiane');
+    console.log('daiane');
     $(".bank1-copy").toggleClass('pisca');
 }) 
 
@@ -121,12 +129,14 @@ $("#step-2-action").click(function() {
 $(".bank1-copy").click(function () {
     $(".step-2-part1").hide();
     $(".step-2-part2").show();
-   $("#activate-step-3").show();
+    $("#activate-step-3").show();
 })
 
 $("#step-2-text-big-input").click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
+    $("#steps-page2b-arrow").hide();
+    $("#steps-page2b-arrow1").show();
     $("#step-2-label").show();
 })
 
