@@ -103,7 +103,7 @@
 
 .page-text{
     color: #977b7b;
-    font-size: 14px;
+    font-size: 12px;
     margin:5px 0 0 10px;
 }
 
@@ -236,7 +236,8 @@
 .nav-pills li{
     display: inline-block;
     width: 150px;
-    height: 50px;
+    height: 45px;
+    margin:  0 15px 0 15px;
 }
 
 /* .nav-pills a
@@ -262,54 +263,49 @@
 } */
 
 #step-initial{
-    position: relative;
     border-radius: 4px;
     background-color: #315061;
     position: relative;
-    top: 30px; 
+    top: 26px; 
 }
 
 .step-initial-text{
     color: #fff;
     text-align: left;
     font-weight: bold;
-    height: 20px;
+    height: 15px;
     position: relative;
     top: -30px;
-    font-size: 64px;
-    left: -17px;
+    font-size: 60px;
+    left: -12px;
 }
 
 .step-initial-text span{
     font-size: 18px;
     position: absolute; 
-    margin: 30px 0 0 20px; 
-    /* margin-top: 30px; */
+    margin: 30px 0 0 58px; 
     font-weight: normal;
 }
 
 .steps-item{
     border-radius: 4px;
     background-color: gray;
+    position: relative;
+    top: -4px;
 } 
 
 .steps-past{
     background-color: #315061;
 }
 
-   .steps-item p{
+.steps-item p{
     color: #fff;
-    font-size: 64px;
+    font-size: 60px;
     margin-top: -30px;
-    height: 50px;
+    height: 45px;
     width: 100px;
-    /* display: flex;
-    justify-content: left;
-    text-align: left;
-    font-weight: bold;
-    left: 4px;  */
     position: relative;
-    left: -45px;
+    left: -41px;
     font-weight: bold;
 }
 
@@ -319,10 +315,22 @@
     margin: 30px 0 0 15px;
     font-weight: normal;
 } 
+
+.item-standard p span{
+   margin-left: 45px;
+}
+
+.item-4 p span{
+  margin-left: 35px;
+}
+
+.item-5 p span{
+  margin-left: 65px;
+}
   
 #step-1-part2{
     display: none;
-    margin-top: 50px;
+    margin: 50px 0 0 10px;
 }
 
 .not-active{
@@ -333,7 +341,7 @@
 }
 
 #step-label-option{
-    margin: 2px 0  0 23px;
+    margin: 2px 0  0 12px;
 }
 
 .space-steps{
@@ -349,7 +357,7 @@
 
 .step-2-content{
     position: absolute;
-    margin: 210px 0 0 255px;
+    margin: 210px 0 0 225px;
 }
 
 .step-2-part1{
@@ -402,12 +410,19 @@
     color: #fff;
 }
 
+#step-1-part1{
+  margin-left: 10px;
+}
+
 #step-1-text{
-    margin: 30px 0 0 10px;
+    margin-top: 25px;
+    width: 75%;
 }
 
 #activate-step-2{
     display: none;
+    margin: 75px 0 0 800px;
+    background-color: #00af59;
 }
 
 .step-3-image{
@@ -467,19 +482,19 @@
 
 .step-1-part3{
     display: none;
-    margin-top: 70px;
+    margin: 70px 0 0 10px;
 }
 
 #step-1-confirm1{
-    margin-top: 12px;
+    margin-top: 6px;
 }
 
 #step-1-confirm2{
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 #step-1-confirm3{
-    margin-top: 12px;
+    margin-top: 7px;
 }
 
 .step-1-form{
@@ -514,7 +529,7 @@ padding-left: 10px;
 }
 
 .bank1-copy{
-    margin-left: 500px;
+    margin-left: 491px;
     cursor: pointer;
     padding-top: 5px;
 }
@@ -522,7 +537,7 @@ padding-left: 10px;
  
 .bank2{
     position: absolute;
-    top: 270px;
+    top: 262px;
     padding-top: 5px;
 }
 
@@ -531,7 +546,7 @@ padding-left: 10px;
 } 
 
 .step-2-part1-text{
-    margin: 25px 0 50px 0;
+    margin-bottom: 35px;
 }
 
 .step-2-content-bank{
@@ -552,8 +567,8 @@ padding-left: 10px;
 
 .vertical2{
     position: absolute;
-    left: 700px;
-    top: 109px;
+    left: 685px;
+    top: 69px;
 }
 
 .vertical3{
@@ -566,8 +581,8 @@ padding-left: 10px;
 
 .vertical4{
     position: absolute;
-    left: 700px;
-    top: 270px;
+    left: 685px;
+    top: 263px;
 }
 
 .step-2-image{
@@ -595,9 +610,9 @@ padding-left: 10px;
 }
 
 .step-2-image2{
-    top:93px;
+    top:53px;
     position: absolute;
-    left: 637px;
+    left: 624px;
 }
 
 .step-2-image3{
@@ -620,7 +635,7 @@ padding-left: 10px;
 .step-2-image4{
     position: absolute;
     top: 275px;
-    left: 700px; 
+    left: 690px; 
 }
 
 .step-2-image4 img{
@@ -633,11 +648,11 @@ padding-left: 10px;
 }
 
 .bank2-copy{
-    left: 500px;
+    left: 491px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     position: absolute;
-    margin-top: 61px;
+    margin-top: 94px;
     padding-top: 5px;
 }
 
@@ -683,19 +698,19 @@ padding-left: 10px;
     font-size: 18px;
     position: absolute;
     top: 450px;
-    right: 523px;
+    right: 515px;
 }
 
 .step-2-content-bank2{
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 160px 0 0 500px;
+    margin: 193px 0 0 491px;
 }
 
 .step-2-part2{
     position: absolute;
-    margin: 200px 0 0 250px;
+    margin: 100px 0 0 110px;
     display: none;
 }
 
@@ -709,11 +724,12 @@ padding-left: 10px;
 }
 
 .step-2-part2-text1{
-    margin: 25px 0 25px 0;
+    margin: 30px 0 10px 0;
+    display: block ruby;
 }
 
 .step-2-part2-text2{
-    margin-top: 80px;
+    display: block ruby;
 }
 
 .step-2-part2-textb{
@@ -964,7 +980,8 @@ padding-left: 10px;
 .step-doubts{
     position: absolute;
     top: 0;
-    left: 540px;
+    left: 735px;
+    display: block ruby;
 }
 
 .step-doubts span{
@@ -976,15 +993,12 @@ padding-left: 10px;
     top: 155px;
 }
 
-#activate-step-2{
-    margin: 75px 0 0 600px;
-}
-
 #activate-step-3{
     position: absolute;
-    left: 700px;
+    left: 659px;
     display: none;
     margin: 100px 0 0 150px;
+    background-color: #00af59;
 }
 
 #activate-step-4{
@@ -1006,8 +1020,12 @@ padding-left: 10px;
     width: 120px;
     height: 2px;
     background: #ececec ;
-    left: 539px;
+    left: 732px;
     top: 17px;
+}
+
+.gray-line2{
+  margin-top: 155px;
 }
 
 .gray-line-2{
@@ -1125,8 +1143,10 @@ padding-left: 10px;
     border-right: 15px solid transparent;
     border-top: 15px solid #337ab7;
     width: 20px;
-    margin-left: 55px;
+    margin-left: 60px;
 } 
+
+
 
 .indication-2{
     display:none;
