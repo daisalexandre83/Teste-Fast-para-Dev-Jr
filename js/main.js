@@ -132,7 +132,7 @@ $(".bank1-copy").click(function () {
     $("#activate-step-3").show();
 })
 
-$("#step-2-text-big-input").click(function () {
+$("#step-2-big-input").click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#steps-page2b-arrow").hide();
