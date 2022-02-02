@@ -728,12 +728,12 @@ padding-left: 10px;
 }
 
 .step-2-part2-text1{
-    margin: 120px 0 10px 126px;
+    margin: 135px 0 10px 126px;
     /* display: block ruby; */
 }
 
 .step-2-part2-text2{
-    display: block ruby;
+   margin: 85px 0 0 124px;
 }
 
 .step-2-part2-textb{
@@ -783,7 +783,7 @@ padding-left: 10px;
 #step-2-bigger-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 350px;
+    width: 275px;
     cursor: pointer;
     right: 150px;
 }
@@ -791,34 +791,36 @@ padding-left: 10px;
 #step-2-bigger2-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 350px;
+    width: 280px;
+    position: absolute;
     cursor: pointer;
-    right: 150px;
+    right: 270px;
 }
 
 #step-2-bigger3-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 350px;
+    width: 280px;
     cursor: pointer;
-    right: 150px;
+    /* right: 150px; */
 }
 
 #step-2-bigger4-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 350px;
+    width: 280px;
     cursor: pointer;
-    right: 150px;
+    position: absolute;
+    right: 270px;
 }
 
 #step-2-accord-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 328px;
+    width: 220px;
     cursor: pointer;
     position: absolute;
-    right: 328px;
+    right: 405px;
 }
 
 #step-2-numbers-input{
@@ -865,35 +867,39 @@ padding-left: 10px;
 #step-2-medium3-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 105px;
     cursor: pointer;
 }
 
 #step-2-medium4-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 180px;
     cursor: pointer;
 }
 
 #step-2-medium5-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 100px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
 }
 
 #step-2-medium6-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 160px;
     cursor: pointer;
+    position: absolute;
+    right: 80px;
 }
 
  #step-2-account-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 231px;
+    width: 220px;
     cursor: pointer;
 } 
 
@@ -914,8 +920,10 @@ padding-left: 10px;
 #step-2-small3-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 70px;
+    width: 65px;
     cursor: pointer;
+    position: absolute;
+    left: 5px;
 }
 
 #steps-page2b-arrow{
@@ -933,13 +941,13 @@ padding-left: 10px;
 #steps-page2b-arrow-b{
     position: absolute;
     top:7px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 #steps-page2b-arrow-c{
     position: absolute;
     top: 8px;
-    margin-left: 167px;
+    margin-left: 55px;
 }
 
 .bi-caret-down-fill{
