@@ -1,4 +1,4 @@
-@keyframes pisca{
+@keyframes highlight{
     0%{background-color: #A9F5D0;
         border: 1px solid #0000FF;}
     50%{background-color: #A9F5D0;
@@ -7,7 +7,7 @@
         border: 1px solid #0000FF;}
 }
 
-@keyframes pisca-small{
+@keyframes highlight-small{
     0%{background-color: #A9F5D0;
         border: 1px solid #0000FF;
     width: 30px;}
@@ -217,6 +217,12 @@
     margin-left: 10px;
 }
 
+.page-thick-line2{
+    display: block !important;
+    position: relative;
+    margin: 5px 0 0 235px;
+}
+
 #links-navigation{
     background-color: #e4e4e4;
     width: 170px;
@@ -355,7 +361,7 @@
     margin: 12px 0 15px 0;
 }
 
-.step-2-content{
+.step-2-part1-content{
     position: absolute;
     margin: 210px 0 0 225px;
 }
@@ -423,13 +429,11 @@
     display: none;
     margin: 75px 0 0 800px;
     background-color: #00af59;
+    font-size: 16px;
 }
 
 .step-3-image{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 50px 0 0 540px;
 }
 
 .step-3-image img{
@@ -439,13 +443,11 @@
 
 .step-3-action{
    position: relative;
-   right: 300px;
+   right: 330px;
 }
 
 .step-4-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 565px;
 }
 
 .step-4-image img{
@@ -506,18 +508,19 @@ display: flex;
     display: none;
 }
 
-.step-2-bank{
+.step-bank{
     width: 300px;
     height: 100px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
+    padding-top: 5px;
 }
 
-.step-2-bank p{
+.step-bank p{
 padding-left: 10px;
 }
 
-.step-2-bank  p span{
+.step-bank  p span{
     width: 100px;  
     font-weight: bold;
     margin-right: 5px;
@@ -525,20 +528,17 @@ padding-left: 10px;
 
 .bank1{
     float: left;
-    padding-top: 5px;
 }
 
 .bank1-copy{
     margin-left: 491px;
     cursor: pointer;
-    padding-top: 5px;
 }
 
  
 .bank2{
     position: absolute;
     top: 262px;
-    padding-top: 5px;
 }
 
  #step-1-form-checkbo{
@@ -653,7 +653,6 @@ padding-left: 10px;
     border-radius: 3px;
     position: absolute;
     margin-top: 94px;
-    padding-top: 5px;
 }
 
 .bank2-copy p{
@@ -679,13 +678,13 @@ padding-left: 10px;
 }
 
 
-.pisca{
-    animation-name: pisca;
+.highlight{
+    animation-name: highlight;
     animation-duration: 3s;
 }
 
-.pisca-small{
-    animation-name: pisca;
+.highlight-small{
+    animation-name: highlight;
     animation-duration: 3s;
 }
 
@@ -705,7 +704,7 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 193px 0 0 491px;
+    margin: 191px 0 0 491px;
 }
 
 .step-2-part2{
@@ -794,7 +793,8 @@ padding-left: 10px;
     width: 280px;
     position: absolute;
     cursor: pointer;
-    right: 270px;
+    /* right: 270px; */
+    right: -10px;
 }
 
 #step-2-bigger3-input{
@@ -811,36 +811,37 @@ padding-left: 10px;
     width: 280px;
     cursor: pointer;
     position: absolute;
-    right: 270px;
+    /* right: 270px; */
+    right: -10px;
 }
 
 #step-2-accord-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 220px;
+    width: 240px;
     cursor: pointer;
     position: absolute;
-    right: 405px;
+    right: 68px;
 }
 
 #step-2-numbers-input{
     border: none;
     border-bottom: 1px solid #00aeff;
-    width: 220px;
+    width: 240px;
     color: #585858;
     left: 270px;
     position: absolute;
-    top: 129px;
     display: none;
     cursor: pointer;
+    left: 389px;
 }
 
 #step-2-label{
     font-size: 12px;
     position: relative;
     display: none;
-    top: 30px;
-    right: 495px;
+    top: 35px;
+    right: 90px;
 }
 
 #step-2-big-input{
@@ -853,15 +854,19 @@ padding-left: 10px;
 #step-2-medium-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 115px;
     cursor: pointer;
+    position: absolute;
+    left: 47px;
 }
 
 #step-2-medium2-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 190px;
+    width: 115px;
     cursor: pointer;
+    position: absolute;
+    margin-left: 90px;
 }
 
 #step-2-medium3-input{
@@ -893,7 +898,7 @@ padding-left: 10px;
     width: 160px;
     cursor: pointer;
     position: absolute;
-    right: 80px;
+    right: -150px;
 }
 
  #step-2-account-input{
@@ -906,15 +911,19 @@ padding-left: 10px;
 #step-2-small-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 70px;
+    width: 50px;
     cursor: pointer;
+    position: absolute;
+    left: 90px;
 }
 
 #step-2-small2-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    width: 70px;
+    width: 50px;
     cursor: pointer;
+    position: absolute;
+    left: 150px;
 }
 
 #step-2-small3-input{
@@ -923,13 +932,16 @@ padding-left: 10px;
     width: 65px;
     cursor: pointer;
     position: absolute;
-    left: 5px;
+    left: 60px;
 }
 
 #steps-page2b-arrow{
-    right: 251px;
+   /*  right: 70px;
     position: absolute;
-    top: 8px;
+    top: 8px; */
+    left: 200px;
+    position: relative;
+    top: -38px;
 }
 
  .steps-page2b-arrow-1{
@@ -941,13 +953,13 @@ padding-left: 10px;
 #steps-page2b-arrow-b{
     position: absolute;
     top:7px;
-    margin-left: 40px;
+    margin-left: 95px;
 }
 
 #steps-page2b-arrow-c{
     position: absolute;
     top: 8px;
-    margin-left: 55px;
+    margin-left: 205px;
 }
 
 .bi-caret-down-fill{
@@ -985,14 +997,13 @@ padding-left: 10px;
     width: 300px;
     height: 50px;
     border: 1px solid #00aeff;
-    margin: 40px 0 0 490px;
+    margin: 40px 0 0 460px;
     font-size: 20px;
 }
 
 .small-text-pag-4{
-    margin-left: 550px;
+    margin-left: 520px;
     font-size: 14px;
-    margin-left: 550px;
     width: 180px;
 }
 
@@ -1014,24 +1025,27 @@ padding-left: 10px;
 
 #activate-step-3{
     position: absolute;
-    left: 659px;
-    display: none;
-    margin: 100px 0 0 150px;
+    margin: 100px 0 0 800px;
     background-color: #00af59;
+    font-size: 16px;
 }
 
 #activate-step-4{
-    margin: 150px 0 0 900px;
+    margin: 150px 0 0 950px;
+    font-size: 16px;
+    background-color: #00af59;
 }
 
 #activate-step-5{
-    position: relative;
-    margin: 150px 0 0 1050px;
+    /* position: relative; */
+    margin: 150px 0 0 920px;
     display: none;
+    background-color: #00af59;
+    font-size: 16px;
 }
 
 .step-text{
-    margin: 210px 0 0 249px;
+    margin: 210px 0 0 225px;
 }
 
 .gray-line{
@@ -1053,7 +1067,9 @@ padding-left: 10px;
 }
 
 #step-btn-fake{
-    margin: 150px 0 0 850px;
+    margin: 150px 0 0 920px;
+    background-color: #00af59;
+    font-size: 16px;
 }
 
 .step-4-part1{
@@ -1071,13 +1087,13 @@ padding-left: 10px;
     align-items: center;
 }
 
-.step-4-part2-image image{
-    width: 100px;
-    height: 100px;
+.step-4-part2-image img{
+    width: 150px;
+    height: 150px;
 }
 
 .step-4-part2-text1{
-    margin: 50px 0 0 600px;
+    margin: 50px 0 0 595px;
 }
 
 .step-4-part2-text1 p span{
@@ -1085,23 +1101,41 @@ padding-left: 10px;
 }
 
 .step-4-part2-text2{
-    margin-left: 510px;
+    margin-left: 505px;
 }
 
 .step-4-part2-actions{
-    margin: 50px  0 0 490px;
+    margin: 50px  0 0 458px;
 }
 
 #step-4-part2-actions1{
-    margin-right: 100px;
+    font-size: 12px;
 }
 
 .step-4-part3{
     display: none;
 }
 
+.step-4-part3-text{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.step-4-part3-text1{
+    margin-left: 572px;
+}
+
+.step-4-part3-text1 span{
+    color: #337ab7;
+    margin-left: 5px;
+}
+
+.step-4-part3-text2{
+    margin-left: 480px;
+}
+
 .step-4-part3-image{
-    margin: 30px 0 0 500px;
+    margin: 30px 0 0 560px;
 }
 
 .step-4-part3-image img{
@@ -1111,24 +1145,25 @@ padding-left: 10px;
 
 #activate-step-4-2{
     position: relative;
-    margin: 40px 0 0 895px;
+    width: 250px;
+    margin: 40px 0 0 840px;
+    font-size: 16px;
+}
+
+#activate-return-step-2{
+    font-size: 12px;
+    margin-left: 73px;
 }
 
 .step-4-part3{
     display: none;
 }
 
-.step-4-part3-image{
-   margin-top: 50px;
-}
-
-.step-4-part3-image img{
-   width: 150px;
-   height: 150px;
-}
 
 #step-btn-fake2{
-    margin: 100px 0 0 785px;
+    margin: 200px 0 0 920px;
+    font-size: 16px;
+    background-color: #00af59;
 }
 
 .step-5-image{
@@ -1181,8 +1216,31 @@ padding-left: 10px;
     display: none;
 }
 
-.step-2-part2-form1{
+.step-2-part2-form{
     margin: 25px 0 0 124px;
+}
+
+.page2{
+    display: none;
+}
+
+.page2-text{
+    margin: 120px 0 0 234px;
+    font-size: 16px;
+    width: 27%;
+}
+
+.page2-bank1{
+    margin: 45px 0 0 235px;
+}
+
+.page2-step-image{
+    position: absolute;
+    margin: 273px 0 0 235px;
+}
+
+.page2-line-vertical{
+    margin-left: 410px;
 }
 
 

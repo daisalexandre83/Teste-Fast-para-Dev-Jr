@@ -44,7 +44,7 @@ jQuery(document).ready(function () {
         $('.indication-4').hide();
         $('.indication-3').hide();
         $('.indication-2').show();
-        // $('#activate-step-3').show();
+        $('#activate-step-3').show();
         $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
         $(this).remove();
     }) 
@@ -64,6 +64,8 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
         $(this).remove();
         $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
+        $('.indication-3').hide();
+        $('.indication-4').show();
     }) 
 
     $("#activate-step-4-2").on('click',function (e) {
@@ -84,6 +86,7 @@ jQuery(document).ready(function () {
         setTimeout(function () {
             $('.step-5-image').hide();
             $('#steps').hide();
+            $('.page2').show();
         },3000)
     })     
 
@@ -115,13 +118,13 @@ $(".step-1-ckeckbox").click(function () {
 
 }) 
 
-$(".step-2-bank").click(function() {
+$(".step-bank").click(function() {
     console.log('daiane');
-    $(".bank1-copy").toggleClass('pisca');
+    $(".bank1-copy").toggleClass('highlight');
 }) 
 
 $("#step-2-action").click(function() {
-    $(".bank1-copy").toggleClass('pisca');
+    $(".bank1-copy").toggleClass('highlight');
 })
 
 
@@ -129,14 +132,11 @@ $("#step-2-action").click(function() {
 $(".bank1-copy").click(function () {
     $(".step-2-part1").hide();
     $(".step-2-part2").show();
-    $("#activate-step-3").show();
 })
 
 $("#step-2-big-input").click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
-    $("#steps-page2b-arrow").hide();
-    $("#steps-page2b-arrow1").show();
     $("#step-2-label").show();
 })
 
@@ -241,22 +241,23 @@ $("#steps-page2b-selected-option").click(function () {
 })
 
 $(".step-3-image").click(function () {
-//    $("#steps-page3-action").toggleClass('pisca'); 
-    $("#activate-step-4-2").toggleClass('pisca');
-    $("#activate-step-4").toggleClass('pisca');
-    $(".small-text").toggleClass('pisca');
-    $("#step-btn-fake").toggleClass('pisca');
+//    $("#steps-page3-action").toggleClass('highlight'); 
+    $("#activate-step-4-2").toggleClass('highlight');
+    $("#activate-step-4").toggleClass('highlight');
+    $(".small-text").toggleClass('highlight');
+    $("#step-btn-fake").toggleClass('highlight');
 })
 
 $(".step-4-image").click(function () {
     console.log('laura');
-    $("#steps-page4-action").toggleClass('pisca');
-    $("small-text-pag-4").toggleClass('pisca-small');
+    $("#steps-page4-action").toggleClass('highlight');
+    $("small-text-pag-4").toggleClass('highlight-small');
 })
 
 $("#step-btn-fake").click(function(){
-    $("#steps-page4-action").toggleClass('pisca');
-    $("small-text-pag-4").toggleClass('pisca-small');
+    $("#steps-page4-action").toggleClass('highlight');
+    $("small-text-pag-4").toggleClass('highlight-small');
+
 })
 
 $("#steps-page4-action").click(function () {
@@ -267,8 +268,8 @@ $("#steps-page4-action").click(function () {
 
 $(".step-doubts").click(function () {
     console.log('daiane');
-    $("#step-label-not1").toggleClass('pisca');
-    $("#step-label-not2").toggleClass('pisca');
+    $("#step-label-not1").toggleClass('highlight');
+    $("#step-label-not2").toggleClass('highlight');
 })
 
 $("#step-4-part2-actions1").click(function () {
@@ -282,18 +283,19 @@ $("#step-4-part2-actions1").click(function () {
 })
 
 $(".step-4-part2-image").click(function () {
-    $("#step-4-part2-actions1").toggleClass('pisca');
-    $("#activate-return-step-2").toggleClass('pisca');
+    $("#step-4-part2-actions1").toggleClass('highlight');
+    $("#activate-return-step-2").toggleClass('highlight');
 })
 
 
 $("#step-btn-fake2").click(function () {
-    $("#step-4-part2-actions1").toggleClass('pisca');
-    $("#activate-return-step-2").toggleClass('pisca');
+    $("#step-4-part2-actions1").toggleClass('highlight');
+    $("#activate-return-step-2").toggleClass('highlight');
+    $(".indication-3").hide();
 })
 
 $(".step-4-part3-image").click(function () {
-    $("#activate-step-5").toggleClass('pisca');
+    $("#activate-step-5").toggleClass('highlight');
 })
 
 
