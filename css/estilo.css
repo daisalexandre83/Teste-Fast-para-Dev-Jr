@@ -595,7 +595,7 @@ padding-left: 10px;
     width: 100%;
 }
 
-.step-2-pen{
+.step-pen{
     position: absolute;
     width: 30px;
     height: 30px;
@@ -603,10 +603,26 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
 }
 
-.step-2-pen img{
-    width: 20px;
-    height: 20px;
+.step-pen img{
+    margin-top: 6px;
+    width: 25px;
+    height: 25px;
     padding-bottom: 10px;
+}
+
+.page2-trash{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 534px;
+    border: 1px solid #BDBDBD;
+    margin-top: -100px;
+}
+
+.page2-trash img{
+    width: 28px;
+    height: 32px;
+    padding: 0 5px 0 2px;
 }
 
 .step-2-image2{
@@ -704,7 +720,7 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 191px 0 0 491px;
+    margin: 193px 0 0 491px;
 }
 
 .step-2-part2{
@@ -856,8 +872,7 @@ padding-left: 10px;
     border-bottom: 1px solid #BDBDBD;
     width: 115px;
     cursor: pointer;
-    position: absolute;
-    left: 47px;
+    margin-left: 30px;
 }
 
 #step-2-medium2-input{
@@ -866,7 +881,7 @@ padding-left: 10px;
     width: 115px;
     cursor: pointer;
     position: absolute;
-    margin-left: 90px;
+    margin-left: 10px;
 }
 
 #step-2-medium3-input{
@@ -908,13 +923,11 @@ padding-left: 10px;
     cursor: pointer;
 } 
 
-#step-2-small-input{
+#step-2-small1-input{
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 50px;
     cursor: pointer;
-    position: absolute;
-    left: 90px;
 }
 
 #step-2-small2-input{
@@ -923,7 +936,7 @@ padding-left: 10px;
     width: 50px;
     cursor: pointer;
     position: absolute;
-    left: 150px;
+    margin-left: 100px;
 }
 
 #step-2-small3-input{
@@ -1240,7 +1253,36 @@ padding-left: 10px;
 }
 
 .page2-line-vertical{
-    margin-left: 410px;
+    margin-left: 432px;
+    border: 1px solid #bdbdbd;
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.step-pen-page2{
+    position: relative;
+    left: 534px;
+    margin-top: -1px;
+}
+
+.page2-bank2{
+    margin: 190px 0 0 235px;
+}
+
+.img-cash-page2{
+    margin-left: 500px;
+    display: block !important;
+    margin: -110px 0 0 690px;
+}
+
+#activate-page{
+    margin: 50px 0 0 235px;
+    font-size: 16px;
+    border: none;
+    background-color: #00aeff;
+    color: #fff;
 }
 
 

@@ -2,10 +2,10 @@ $("#user-action").click(function() {
     $(".page-subtext").hide();
     $(".page-thick-line").hide();
     $(".img-cash").hide();
-    $("#user-action").hide();
-     $("#steps").show();
+    $("#user-action").hide(); 
+    $("#steps").show();
     $("#step-1-part2").hide();
-    $(".page-subtext").hide(); 
+    $(".page-subtext").hide();  
     
 })
 
@@ -202,7 +202,8 @@ $('#step-2-medium6-input').click(function () {
     $("#step-2-label").show();
 })
 
-$("#step-2-small-input").click(function () {
+$("#step-2-small1-input").click(function () {
+    console.log('biel')
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#step-2-label").show();
@@ -301,6 +302,11 @@ $(".step-4-part3-image").click(function () {
 
 $('#activate-step-4').click(function () {
     $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
+})
+
+$('#activate-page').click(function () {
+    console.log('lorena');
+    $('.page2').hide();
 })
 
 
