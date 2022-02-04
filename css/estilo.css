@@ -7,17 +7,6 @@
         border: 1px solid #0000FF;}
 }
 
-@keyframes highlight-small{
-    0%{background-color: #A9F5D0;
-        border: 1px solid #0000FF;
-    width: 30px;}
-    50%{background-color: #A9F5D0;
-        border: 1px solid #0000FF;
-    width: 30px;}
-    100%{background-color: #A9F5D0;
-        border: 1px solid #0000FF;
-    width: 30px;}
-}
 
 .header{
     display: flex;
@@ -97,7 +86,7 @@
 }
 
 .page-subtext{
-    width: 450px;
+    width: 50%;
     margin: 20px 0 0 10px;
 }
 
@@ -184,10 +173,10 @@
 
 #user-action{
     background-color: #00aeff;
-    width: 350px;
+    width: 26%;
     color: #ffffff;
     height: 40px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
     padding-top: 5px;
@@ -585,6 +574,12 @@ padding-left: 10px;
     top: 263px;
 }
 
+.page3-vertical4{
+    position: absolute;
+    top: 443px;
+    left: 436px;
+}
+
 .step-2-image{
     position: absolute;
     left: 136px;
@@ -659,6 +654,12 @@ padding-left: 10px;
     height: 80px;
 }
 
+.page2-step-2-image4{
+    position: absolute;
+    top: 455px;
+    left: 435px;
+}
+
 .line-vertical-bradesco{
     margin-top: 120px;
 }
@@ -699,10 +700,6 @@ padding-left: 10px;
     animation-duration: 3s;
 }
 
-.highlight-small{
-    animation-name: highlight;
-    animation-duration: 3s;
-}
 
 #step-2-action{
     background-color: #00aeff;
@@ -985,10 +982,11 @@ padding-left: 10px;
 }
 
 
-.small-text{
+.step-3-skip{
     font-size: 14px;
     margin-left: 875px;
     width: 180px;
+    cursor: pointer;
 }
 
 #steps-page3-action{
@@ -1179,26 +1177,27 @@ padding-left: 10px;
     background-color: #00af59;
 }
 
-.step-5-image{
+.step-5-part2{
     margin: 300px 0px 0 600px;
+    display: none;
 }
 
-.step-5-image img{
+.step-5-part2 img{
     width: 200px;
     height: 200px;
 }
 
-.step-5-text1{
+.step-5-part2-text1{
     position: relative;
     right: 45px;
     font-size: 18px;
 }
 
-.step-5-text1 span{
+.step-5-part2-text1 span{
     color: blue;
 }
 
-.step-5-text2{
+.step-5-part2-text2{
     position: relative;
     right: 85px;
     font-size: 18px;
@@ -1233,21 +1232,21 @@ padding-left: 10px;
     margin: 25px 0 0 124px;
 }
 
-.page2{
+.page3{
     display: none;
 }
 
-.page2-text{
+.page3-text{
     margin: 120px 0 0 234px;
     font-size: 16px;
     width: 27%;
 }
 
-.page2-bank1{
+.page3-bank1{
     margin: 45px 0 0 235px;
 }
 
-.page2-step-image{
+.page3-step-image{
     position: absolute;
     margin: 273px 0 0 235px;
 }
@@ -1261,30 +1260,54 @@ padding-left: 10px;
     margin-top: -100px;
 }
 
-.step-pen-page2{
+.page3-step-pen{
     position: relative;
     left: 534px;
     margin-top: -1px;
 }
 
 .page2-bank2{
-    margin: 190px 0 0 235px;
+    margin: 350px 0 0 235px;
 }
 
-.img-cash-page2{
+.page3-img-cash{
     margin-left: 500px;
     display: block !important;
     margin: -110px 0 0 690px;
 }
 
-#activate-page{
-    margin: 50px 0 0 235px;
+#page2-btn{
+    margin: 15px 0 0 235px;
     font-size: 16px;
     border: none;
     background-color: #00aeff;
     color: #fff;
 }
 
+.page3-bank2-copy{
+    left: 236px;
+    position: absolute;
+    margin-top: 112px;
+}
+
+.page3-step-2-content-bank2{
+    margin: 211px 0 0 236px;
+}
+
+.step-5-part1{
+    margin: 200px  0 0 215px;
+}
+
+.step-5-part1 img{
+    width: 150px;
+    height: 150px;
+    margin: 75px 0 0 400px;
+}
+
+.step-5-part1-title{
+    margin: 31px 0 0 292px;
+    font-size: 20px;
+}
 
 
 

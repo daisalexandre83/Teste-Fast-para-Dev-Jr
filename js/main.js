@@ -83,11 +83,11 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
-        setTimeout(function () {
-            $('.step-5-image').hide();
+      /*   setTimeout(function () {
+            $('.step-5-part2').hide();
             $('#steps').hide();
             $('.page2').show();
-        },3000)
+        },3000) */
     })     
 
 }); 
@@ -245,19 +245,19 @@ $(".step-3-image").click(function () {
 //    $("#steps-page3-action").toggleClass('highlight'); 
     $("#activate-step-4-2").toggleClass('highlight');
     $("#activate-step-4").toggleClass('highlight');
-    $(".small-text").toggleClass('highlight');
     $("#step-btn-fake").toggleClass('highlight');
+    $('.step-3-skip').toggleClass('highlight');
 })
 
 $(".step-4-image").click(function () {
     console.log('laura');
     $("#steps-page4-action").toggleClass('highlight');
-    $("small-text-pag-4").toggleClass('highlight-small');
+    // $("small-text-pag-4").toggleClass('highlight-small');
 })
 
 $("#step-btn-fake").click(function(){
     $("#steps-page4-action").toggleClass('highlight');
-    $("small-text-pag-4").toggleClass('highlight-small');
+    // $("small-text-pag-4").toggleClass('highlight-small');
 
 })
 
@@ -304,11 +304,21 @@ $('#activate-step-4').click(function () {
     $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
 })
 
-$('#activate-page').click(function () {
-    console.log('lorena');
-    $('.page2').hide();
+$('.step-3-skip').click(function () {
+    $('ul.setup-panel li a[href="#step-5"]').trigger('click');
+    $(this).remove();
+
 })
 
+/* $('#activate-page').click(function () {
+    console.log('lorena');
+    $('.page2').hide();
+    $(".page-subtext").show();
+    $(".page-thick-line").show();
+    $(".img-cash").show();
+    $("#user-action").show();
+})
+ */
 
 
 
