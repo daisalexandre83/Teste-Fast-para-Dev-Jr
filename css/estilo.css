@@ -1187,6 +1187,20 @@ padding-left: 10px;
     height: 200px;
 }
 
+.step-5-part1-text{
+   margin: 25px 0 0 177px;
+}
+
+.step-5-part1-text span{
+    color: black;
+    padding-left: 5px;
+
+}
+
+/* .step-5-part1-text2{
+    border: 1px solid blue;
+}
+ */
 .step-5-part2-text1{
     position: relative;
     right: 45px;
@@ -1296,6 +1310,7 @@ padding-left: 10px;
 
 .step-5-part1{
     margin: 200px  0 0 215px;
+    font-size: 16px;
 }
 
 .step-5-part1 img{
@@ -1305,8 +1320,8 @@ padding-left: 10px;
 }
 
 .step-5-part1-title{
-    margin: 31px 0 0 292px;
-    font-size: 20px;
+    margin: 85px 0 0 292px;
+    font-size: 18px;
 }
 
 
