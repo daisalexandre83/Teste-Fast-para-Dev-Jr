@@ -417,7 +417,7 @@
 #activate-step-2{
     display: none;
     margin: 75px 0 0 800px;
-    background-color: #00af59;
+    background-color: #11c164;
     font-size: 16px;
 }
 
@@ -1012,10 +1012,16 @@ padding-left: 10px;
     font-size: 20px;
 }
 
-.small-text-pag-4{
+.activate-step-5-2{
+    margin-left: 520px;
+    cursor: pointer;
+}
+
+.step-4-skip{
     margin-left: 520px;
     font-size: 14px;
     width: 180px;
+    cursor: pointer;
 }
 
 .step-doubts{
@@ -1034,24 +1040,44 @@ padding-left: 10px;
     top: 155px;
 }
 
+#activate-page{
+    background-color: #5a95f5;
+    font-size: 16px;
+    margin: 280px 0 0 235px;
+}
+
 #activate-step-3{
     position: absolute;
     margin: 100px 0 0 800px;
-    background-color: #00af59;
+    background-color: #11c164;
     font-size: 16px;
+}
+
+#activate-return-step-4{
+    font-size: 16px;
+    color: white;
 }
 
 #activate-step-4{
     margin: 150px 0 0 950px;
     font-size: 16px;
-    background-color: #00af59;
+    background-color: #11c164;
+}
+
+#activate-page2{
+    background-color: #11c164;
+    font-size: 16px;
+}
+
+.step-5-part1-btns{
+    margin: 20px  0 0 350px;
 }
 
 #activate-step-5{
     /* position: relative; */
     margin: 150px 0 0 920px;
     display: none;
-    background-color: #00af59;
+    background-color: #11c164;
     font-size: 16px;
 }
 
@@ -1188,7 +1214,8 @@ padding-left: 10px;
 }
 
 .step-5-part1-text{
-   margin: 25px 0 0 177px;
+   margin: 25px 0 0 155px;
+   width: 62%;
 }
 
 .step-5-part1-text span{
@@ -1246,11 +1273,15 @@ padding-left: 10px;
     margin: 25px 0 0 124px;
 }
 
+.page2{
+    display: none;
+}
+
 .page3{
     display: none;
 }
 
-.page3-text{
+.page-subtext1{
     margin: 120px 0 0 234px;
     font-size: 16px;
     width: 27%;
@@ -1274,13 +1305,28 @@ padding-left: 10px;
     margin-top: -100px;
 }
 
+.page2-bank2{
+    margin: 190px 0 0 235px;
+}
+
+.page2-img-cash{
+    margin-left: 650px;
+    position: absolute;
+    top: 225px;
+    display: block !important;
+}
+
+.page2-content-imgs{
+    display: flex;
+}
+
 .page3-step-pen{
     position: relative;
     left: 534px;
     margin-top: -1px;
 }
 
-.page2-bank2{
+.page3-bank2{
     margin: 350px 0 0 235px;
 }
 
@@ -1310,7 +1356,7 @@ padding-left: 10px;
 
 .step-5-part1{
     margin: 200px  0 0 215px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .step-5-part1 img{
