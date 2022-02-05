@@ -440,7 +440,7 @@
                           <img src="img/SistemaOnline.png">
                         </div>
                         <button type="button" class="btn btn-primary" id="steps-page4-action">ARQUIVO DE RETORNO</button>
-                        <div class="small-text-pag-4">(Essa etapa pode ser pulada)</div>
+                        <div class="activate-step-5-2">(Essa etapa po<span class="step-4-skip2">de ser pulada)</span></div>
                         <button type="button" class="btn btn-primary" id="step-btn-fake">PRÓXIMO</button>
                       </div>
                       <div class="step-4-part2">
@@ -481,6 +481,10 @@
                         <p class="step-5-part1-text">VOCÊ PULA A ETAPA DE VALIDAÇÃO TESTE, ESSA ETAPA É<SPAN>IMPORTANTE</SPAN></p>
                         <p class="step-5-part1-text">PARA VERIFICARMOS SE OS DADOS INFORMADOS ESTÃO CORRETOS PARA EVITAR QUAIS QUER PREJUÍZO.</p> 
                         <p class="step-5-part1-text">VOCÊ TEM CERTEZA QUE NÃO IRÁ REALIZAR ESTA ETAPA?</p>
+                        <div class="step-5-part1-btns">
+                          <button id="activate-page2" type="button" class="btn btn-link">SIM</button>
+                          <button id="activate-return-step-4" type="button" class="btn btn-danger">NÃO</button>
+                        </div>
                       </div>
                       <div class="step-5-part2">
                         <img src="img/button-ok.webp">
@@ -491,14 +495,43 @@
                 </div>
              </div>
           </div>
-          <div class="page-action-step">
-
-          </div>
-          <div class="page3">
-            <div class="page3-text">
+          <div class="page2">
+            <div class="page-subtext1">
               Você já configurou um convênio bancário para emitir boletos,mas pode configurar outros.
             </div>
             <div class="page-thick-line page-thick-line2"></div>
+            <div class="step-bank page3-bank1">
+              <p><span>Nome:</span>FastSoluções</p> 
+              <p><span>Conta:</span>12345-6</p>  
+              <p><span>Agência:</span>123.456-8</p>
+            </div>
+            <span class="page2-line-vertical"></span>
+            <div class="step-2-image page3-step-image">
+              <img src="img/logoitau.png">
+            </div> 
+            <div class="page2-trash">
+              <img src="img/trash.png">
+            </div> 
+            <div class="step-pen page3-step-pen">
+              <img src="img/caneta.png">
+            </div> 
+            <div class="page2-content-imgs">
+              <div class="step-bank bank2 page2-bank2">
+                <p><span>Nome:</span>FastSoluções</p> 
+                <p><span>Conta:</span>12345-6</p>  
+                <p><span>Agência:</span>123.456-8</p>
+                <span class="step-2-line-vertical vertical3"></span>
+                <div class="step-2-image3">
+                  <img src="img/logobradesco.png">
+                </div>  
+              </div>
+            </div>
+            <div class="img-cash page2-img-cash">
+              <img src="img/cash.jpg">
+            </div>
+            <button id="activate-page" type="button" class="btn btn-primary" id="user-action">ADICIONAR</button>
+          </div>
+          <div class="page3">
             <div class="step-bank page3-bank1">
               <p><span>Nome:</span>FastSoluções</p> 
               <p><span>Conta:</span>12345-6</p>  
@@ -524,7 +557,7 @@
               <img src="img/logobradesco.png">
             </div>
             <div class="step-2-content-bank2 page3-step-2-content-bank2">Status:<span>Falta Validar Arquivo de Retorno</span></div>
-            <div class="step-bank bank2 page2-bank2">
+            <div class="step-bank bank2 page3-bank2">
               <p><span>Nome:</span>FastSoluções</p> 
               <p><span>Conta:</span>12345-6</p>  
               <p><span>Agência:</span>123.456-8</p>
