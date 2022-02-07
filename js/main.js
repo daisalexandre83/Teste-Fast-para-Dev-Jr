@@ -40,13 +40,17 @@ jQuery(document).ready(function () {
     })
 
     $('#activate-return-step-2').on('click',function(e) {
-        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+       /*  $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.indication-4').hide();
         $('.indication-3').hide();
         $('.indication-2').show();
-        $('#activate-step-3').show();
         $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
+        $(this).remove(); */
+        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $(this).remove();
+        $('.steps-indication').hide();
+        $('.indication-2').show();
+        // $('#activate-step-3-1').show();
     }) 
 
     $('#activate-step-3').on('click',function(e) {
@@ -91,6 +95,14 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
+        $('.step-5-part1').hide();
+        $('.step-5-part2').show();
+        setTimeout(function () {
+            $('.step-5-part2').hide();
+            $('#steps').hide();
+            $('.page-subtext1').show();
+            $('.page3').show();
+        },3000)  
     })
 
     $('#activate-step-5').on('click',function(e) {
@@ -105,7 +117,8 @@ jQuery(document).ready(function () {
         setTimeout(function () {
             $('.step-5-part2').hide();
             $('#steps').hide();
-            $('.page2').show();
+            $('.page-subtext1').show();
+            $('.page3').show();
         },3000)  
     })     
 
@@ -276,8 +289,7 @@ $(".step-4-image").click(function () {
 
 $("#step-btn-fake").click(function(){
     $("#steps-page4-action").toggleClass('highlight');
-    // $("small-text-pag-4").toggleClass('highlight-small');
-
+    $('.step-4-skip2').toggleClass('highlight');
 })
 
 $("#steps-page4-action").click(function () {
