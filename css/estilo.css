@@ -352,11 +352,12 @@
 
 .step-2-part1-content{
     position: absolute;
-    margin: 210px 0 0 225px;
+    margin: 215px 0 0 225px;
 }
 
-.step-2-part1{
-    display: block;
+.step-2-part1 span{
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #menu-tabs{
@@ -513,6 +514,7 @@ padding-left: 10px;
     width: 100px;  
     font-weight: bold;
     margin-right: 5px;
+    font-size: 14px;
 }
 
 .bank1{
@@ -557,7 +559,7 @@ padding-left: 10px;
 .vertical2{
     position: absolute;
     left: 685px;
-    top: 69px;
+    top: 52px;
 }
 
 .vertical3{
@@ -565,13 +567,13 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     position: absolute;
     left: 200px;
-    top: 0px;
+    top: -1px;
 }
 
 .vertical4{
     position: absolute;
     left: 685px;
-    top: 263px;
+    top: 262px;
 }
 
 .page3-vertical4{
@@ -621,7 +623,7 @@ padding-left: 10px;
 }
 
 .step-2-image2{
-    top:53px;
+    top:33px;
     position: absolute;
     left: 624px;
 }
@@ -669,7 +671,7 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     position: absolute;
-    margin-top: 94px;
+    margin-top: 110px;
 }
 
 .bank2-copy p{
@@ -717,7 +719,14 @@ padding-left: 10px;
     border: 1px solid #BDBDBD;
     width: 300px;
     padding-left: 10px;
-    margin: 193px 0 0 491px;
+    margin: 209px 0 0 491px;
+}
+
+.step-2-content-bank2 span{
+    color: red;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 5px;
 }
 
 .step-2-part2{
@@ -1051,6 +1060,14 @@ padding-left: 10px;
     margin: 100px 0 0 800px;
     background-color: #11c164;
     font-size: 16px;
+}
+
+#activate-step-3-1{
+    position: absolute;
+    margin: 100px 0 0 800px;
+    background-color: #11c164;
+    font-size: 16px;
+    display: none;
 }
 
 #activate-return-step-4{
