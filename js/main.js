@@ -38,20 +38,20 @@ jQuery(document).ready(function () {
         $('.indication-2').show();
     // $('ul.setup-panel li a[href="#step-2"]').addClass('steps-indication');
     })
-
+    
+ 
     $('#activate-return-step-2').on('click',function(e) {
-       /*  $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.indication-4').hide();
         $('.indication-3').hide();
         $('.indication-2').show();
         $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
-        $(this).remove(); */
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $(this).remove();
         $('.steps-indication').hide();
-        $('.indication-2').show();
-        // $('#activate-step-3-1').show();
-    }) 
+        $('.step-2-part1').hide();
+        $('.step-2-part2').show();
+    })   
 
     $('#activate-step-3').on('click',function(e) {
     // $('ul.setup-panel li:eq(2)').removeClass('disabled');
