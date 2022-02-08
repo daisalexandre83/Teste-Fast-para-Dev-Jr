@@ -1062,14 +1062,6 @@ padding-left: 10px;
     font-size: 16px;
 }
 
-#activate-step-3-1{
-    position: absolute;
-    margin: 100px 0 0 800px;
-    background-color: #11c164;
-    font-size: 16px;
-    display: none;
-}
-
 #activate-return-step-4{
     font-size: 16px;
     color: white;
