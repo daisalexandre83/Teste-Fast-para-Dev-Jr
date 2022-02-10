@@ -991,7 +991,7 @@ padding-left: 10px;
 }
 
 
-.step-3-skip{
+.activate-step-5-2{
     font-size: 14px;
     margin-left: 875px;
     width: 180px;
@@ -1021,7 +1021,7 @@ padding-left: 10px;
     font-size: 20px;
 }
 
-.activate-step-5-2{
+.activate-step-5-3{
     margin-left: 520px;
     cursor: pointer;
 }
@@ -1062,13 +1062,6 @@ padding-left: 10px;
     font-size: 16px;
 }
 
-#activate-step-3-1{
-    position: absolute;
-    margin: 100px 0 0 800px;
-    background-color: #11c164;
-    font-size: 16px;
-    display: none;
-}
 
 #activate-return-step-4{
     font-size: 16px;
