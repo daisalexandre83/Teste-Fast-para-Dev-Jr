@@ -31,9 +31,9 @@ jQuery(document).ready(function () {
    
 
     $('#activate-step-2').on('click',function(e) {
+        e.preventDefault();
     // $('ul.setup-panel li:eq(1)').removeClass('disabled');
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
-        $(this).remove();
         $('.steps-indication').hide();
         $('.indication-2').show();
     // $('ul.setup-panel li a[href="#step-2"]').addClass('steps-indication');
@@ -42,48 +42,37 @@ jQuery(document).ready(function () {
     
     
     $('#activate-return-step-2').on('click',function(e) {
+        
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.indication-4').hide();
         $('.indication-3').hide();
         $('.indication-2').show();
         $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
-        $(this).remove();
         $('#activate-step-3-1').show();
         // $('.steps-indication').hide();
     })   
 
     $('#activate-step-3').on('click',function(e) {
-    // $('ul.setup-panel li:eq(2)').removeClass('disabled');
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-3"]').trigger('click');
-        $(this).remove();
-        // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
         $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
         $('.indication-2').hide();
         $('.indication-3').show();
     }) 
 
-    $('#activate-step-3-1').on('click',function(e) {
-        // $('ul.setup-panel li:eq(2)').removeClass('disabled');
-            $('ul.setup-panel li a[href="#step-3"]').trigger('click');
-            $(this).remove();
-            // $('ul.setup-panel li a[href="#step-2').removeClass('steps-item');
-            $('ul.setup-panel li a[href="#step-2').addClass('steps-past');
-            $('.indication-2').hide();
-            $('.indication-3').show();
-        }) 
 
     $('#activate-step-4').on('click',function(e) {
-        // $('ul.setup-panel li:eq(3)').removeClass('disabled');
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
-        $(this).remove();
         $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
         $('.indication-3').hide();
         $('.indication-4').show();
     }) 
     
     $('#activate-return-step-4').on('click', function (e) {
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
-        $(this).remove();
         $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
         $('.indication-3').hide();
         $('.indication-4').show();
@@ -91,16 +80,16 @@ jQuery(document).ready(function () {
     })
 
     $("#activate-step-4-2").on('click',function (e) {
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-4"]').trigger('click');
-        $(this).remove();
         $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
         $('.indication-3').hide();
         $('.indication-4').show();
     })
 
-    $('.activate-step-5-2').on('click', function (e) {
+    $('.activate-step-5-3').on('click', function (e) {
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-5"]').trigger('click');
-        $(this).remove();
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
@@ -110,14 +99,13 @@ jQuery(document).ready(function () {
             $('.step-5-part2').hide();
             $('#steps').hide();
             $('.page-subtext1').show();
-            $('.page3').show();
+            $('.page2').show();
         },3000)  
     })
 
     $('#activate-step-5').on('click',function(e) {
-        // $('ul.setup-panel li:eq(4)').removeClass('disabled');
+        e.preventDefault();
         $('ul.setup-panel li a[href="#step-5"]').trigger('click');
-        $(this).remove();
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
@@ -128,7 +116,7 @@ jQuery(document).ready(function () {
             $('#steps').hide();
             $('.page-subtext1').show();
             $('.page3').show();
-        },3000)  
+        },3000)   
     })     
 
 }); 
@@ -266,7 +254,6 @@ $("#step-2-account-input").click(function () {
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#step-2-label").show();
-    // $(".steps-page2b-arrow:before").show();
 })
 
 $("#step-2-accord-input").click(function () {
@@ -287,7 +274,7 @@ $(".step-3-image").click(function () {
     $("#activate-step-4-2").toggleClass('highlight');
     $("#activate-step-4").toggleClass('highlight');
     $("#step-btn-fake").toggleClass('highlight');
-    $('.step-3-skip').toggleClass('highlight');
+    $('.activate-step-5-2').toggleClass('highlight');
 })
 
 $(".step-4-image").click(function () {
@@ -344,9 +331,8 @@ $('#activate-step-4').click(function () {
     $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
 })
 
-$('.step-3-skip').click(function () {
+$('.activate-step-5-2').click(function () {
     $('ul.setup-panel li a[href="#step-5"]').trigger('click');
-    $(this).remove();
     $('.indication-3').hide();
     $('ul.setup-panel li a[href="#step-3').addClass('steps-past');
     $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
@@ -366,7 +352,9 @@ $('#activate-page2').click(function () {
     $(".page-thick-line").show();
     $(".img-cash").show();
     $("#user-action").show();
+    
 })
+
  
 
 
