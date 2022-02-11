@@ -93,14 +93,6 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-4').addClass('steps-past');
         $('.indication-4').hide();
         $('.indication-5').show();
-        $('.step-5-part1').show();
-        $('.step-5-part2').hide();
-        setTimeout(function () {
-            $('.step-5-part2').hide();
-            $('#steps').hide();
-            $('.page-subtext1').show();
-            $('.page2').show();
-        },3000)  
     })
 
     $('#activate-step-5').on('click',function(e) {
@@ -116,6 +108,7 @@ jQuery(document).ready(function () {
             $('#steps').hide();
             $('.page-subtext1').show();
             $('.page3').show();
+            $('ul.setup-panel li a[href="#step-5"]').empity();
         },3000)   
     })     
 
@@ -352,7 +345,6 @@ $('#activate-page2').click(function () {
     $(".page-thick-line").show();
     $(".img-cash").show();
     $("#user-action").show();
-    
 })
 
  
