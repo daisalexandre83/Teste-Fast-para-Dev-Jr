@@ -64,10 +64,10 @@
 }
 
 .page{
-    position: absolute;
     top: 85px;
     left: 225px;
     font-size: 20px;
+    margin: 30px 0 0 220px;
 }
 
 .page-line-side{
@@ -144,11 +144,6 @@
     margin-top: 20px;
 }
 
-.space-text-arrow{
-    display: flex;
-    margin-left: 20px;
-}
-
 #followup-time{
     display: flex;
     background-color: #00af59;
@@ -162,14 +157,6 @@
     width: 200px;
 }
 
-.content-line{
-    width: 70px;
-    height: 7px;
-    background-color: #ffae00;
-    position: relative;
-    left: 423px;
-    margin-top: 5px;
-}
 
 #user-action{
     background-color: #00aeff;
@@ -181,18 +168,6 @@
     cursor: pointer;
     padding-top: 5px;
     margin: 60px 0 0 10px;
-}
-
-#links-navigation{
-    background-color: #e4e4e4;
-    width: 170px;
-    height: 50px;
-    color: #ffffff;
-    font-size: 22px;
-    position: relative;
-    top: -180px;
-    left: 425px;
-    display: none;
 }
 
 .words-links{
@@ -212,22 +187,6 @@
     margin: 5px 0 0 235px;
 }
 
-#links-navigation{
-    background-color: #e4e4e4;
-    width: 170px;
-    height: 50px;
-    color: #ffffff;
-    font-size: 22px;
-    position: relative;
-    top: -180px;
-    left: 425px;
-    display: none;
-}
-
-.words-links{
-    padding: 10px 15px;
-}
-
 .nav-pills li{
     display: inline-block;
     width: 150px;
@@ -235,27 +194,14 @@
     margin:  0 15px 0 15px;
 }
 
-/* .nav-pills a
-{
-    margin:  0 10px 0 40px;
-    
-} */
-
 #steps{
     display: none;
-    position: absolute;
-    margin: 115px 0 0 210px;
+    margin: 10px 0 0 210px;
 }
 
 #steps-section{
     border: none;
 }
-
-/* .steps-item1{
-    width: 80px;
-    height: 40px;
-    border: 1px solid blue;
-} */
 
 #step-initial{
     border-radius: 4px;
@@ -289,27 +235,27 @@
     top: -4px;
 } 
 
-.steps-past{
-    background-color: #315061;
-}
-
 .steps-item p{
-    color: #fff;
-    font-size: 60px;
-    margin-top: -30px;
-    height: 45px;
-    width: 100px;
-    position: relative;
-    left: -41px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 60px;
+  margin-top: -30px;
+  height: 45px;
+  width: 100px;
+  position: relative;
+  left: -41px;
+  font-weight: bold;
 }
 
 .steps-item p span{
-    font-size: 18px;
-    position: absolute; 
-    margin: 30px 0 0 15px;
-    font-weight: normal;
+  font-size: 18px;
+  position: absolute; 
+  margin: 30px 0 0 15px;
+  font-weight: normal;
 } 
+
+.steps-past{
+    background-color: #315061;
+}
 
 .item-standard p span{
    margin-left: 45px;
@@ -339,10 +285,6 @@
     margin: 2px 0  0 12px;
 }
 
-.space-steps{
-    margin-top: 50px;
-}
-
 .step-page-thin-line{
     background-color: #ffae00;
     width: 47px;
@@ -352,7 +294,7 @@
 
 .step-2-part1-content{
     position: absolute;
-    margin: 215px 0 0 225px;
+    left: 23px;
 }
 
 .step-2-part1 span{
@@ -360,50 +302,8 @@
     font-weight: bold;
 }
 
-#menu-tabs{
-    padding-left: 425px;
-    margin-top: 20px;
-}
-
-#nav-tabs{
-    margin-left: 435px;
-}
-
-.tab-content{
-    margin-top: 25px;
-    margin-left: 435px;
-}
-
-.positive-answer{
-    display: none;
-}
-
-.pag-1{
-    margin: -60px 0 0 425px;
-    display: none;
-}
-
 .img-cash{
     margin-left: 425px;
-}
-
-#steps-page1-radio2{
-    margin-top: 65px;
-}
-
-#steps-page-content-one-part3{
-    margin-top: 100px;
-}
-
-.user-action-block1{
-    width: 140px;
-    height: 50px;
-    background-color: #00af59;
-    padding-top: 10px;
-    text-align: center;
-    margin: 120px 0 0 650px;
-    cursor: pointer;
-    color: #fff;
 }
 
 #step-1-part1{
@@ -417,13 +317,13 @@
 
 #activate-step-2{
     display: none;
-    margin: 75px 0 0 800px;
+    margin: 75px 0 0 715px;
     background-color: #11c164;
     font-size: 16px;
 }
 
 .step-3-image{
-    margin: 50px 0 0 540px;
+    margin: 50px 0 0 350px;
 }
 
 .step-3-image img{
@@ -445,31 +345,8 @@
    height: 100px;
 }
 
-#list-card{
-    width: 150px;
-    height: 50px;
-    background-color: brown;
-}
-
-.word-card{
-     margin-left: 20px;
-     text-align: right;
-}
-
 .nav-item{
     font-size: 15px;
-}
-
-.container{
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.input-part3-block1{
-    background-color: red;
-    margin-right: 15px;
 }
 
 .step-1-part3{
@@ -492,11 +369,6 @@
 .step-1-form{
 display: flex;
 } 
-
-#steps-page1-form-checkbox{
-    margin-top: 60px;
-    display: none;
-}
 
 .step-bank{
     width: 300px;
@@ -526,18 +398,9 @@ padding-left: 10px;
     cursor: pointer;
 }
 
- 
 .bank2{
     position: absolute;
     top: 262px;
-}
-
- #step-1-form-checkbo{
-    margin-top: 20px;
-} 
-
-.step-2-part1-text{
-    margin-bottom: 35px;
 }
 
 .step-2-content-bank{
@@ -579,7 +442,7 @@ padding-left: 10px;
 .page3-vertical4{
     position: absolute;
     top: 443px;
-    left: 436px;
+    left: 432px;
 }
 
 .step-2-image{
@@ -639,12 +502,6 @@ padding-left: 10px;
     height: 80px;
 }
 
-.image-bradesco{
-    width: 100px;
-    height: 80px;
-    margin: 15px  0 0 65px;
-}
-
 .step-2-image4{
     position: absolute;
     top: 275px;
@@ -658,12 +515,8 @@ padding-left: 10px;
 
 .page2-step-2-image4{
     position: absolute;
-    top: 455px;
+    top: 415px;
     left: 435px;
-}
-
-.line-vertical-bradesco{
-    margin-top: 120px;
 }
 
 .bank2-copy{
@@ -684,24 +537,10 @@ padding-left: 10px;
     margin-right: 5px;
 }
 
-.line-vertical-bradesco-copy4{
-    width: 1px;
-    border: 1px solid #BDBDBD;
-    position: absolute;
-    left: 200px;
-    height: 120px;
-}
-
-.copy-img-bradesco{
-    position: absolute;
-}
-
-
 .highlight{
     animation-name: highlight;
     animation-duration: 3s;
 }
-
 
 #step-2-action{
     background-color: #00aeff;
@@ -731,7 +570,7 @@ padding-left: 10px;
 
 .step-2-part2{
     position: absolute;
-    margin: 100px 0 0 110px;
+    margin: -135px 0 0 -100px;
     display: none;
 }
 
@@ -749,21 +588,11 @@ padding-left: 10px;
 }
 
 .step-2-part2-text1{
-    margin: 135px 0 10px 126px;
-    /* display: block ruby; */
+    margin-left: 126px;
 }
 
 .step-2-part2-text2{
    margin: 85px 0 0 124px;
-}
-
-.step-2-part2-textb{
-    margin: 50px 0 25px 0;
-}
-
-.step-2-part2-textb span{
-    font-size: 14px;
-    color: #9e8c8c;
 }
 
 .step-2-part2-content{
@@ -993,23 +822,14 @@ padding-left: 10px;
 
 .activate-step-5-2{
     font-size: 14px;
-    margin-left: 875px;
+    margin-left: 696px;
     width: 180px;
     cursor: pointer;
 }
 
-#steps-page3-action{
-    color: #fff;
-    background-color: #00aeff;
-    margin: 40px 0 0 520px;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
+#step-2-part2-content{
+   margin-top: 127px;
 }
-
-/* .steps-page4-content{
-    background-color: #ec3333;
-} */
 
 #steps-page4-action{
     color: #00aeff!important;
@@ -1023,13 +843,6 @@ padding-left: 10px;
 
 .activate-step-5-3{
     margin-left: 520px;
-    cursor: pointer;
-}
-
-.step-4-skip{
-    margin-left: 520px;
-    font-size: 14px;
-    width: 180px;
     cursor: pointer;
 }
 
@@ -1069,7 +882,7 @@ padding-left: 10px;
 }
 
 #activate-step-4{
-    margin: 150px 0 0 950px;
+    margin: 150px 0 0 715px;
     font-size: 16px;
     background-color: #11c164;
 }
@@ -1080,19 +893,18 @@ padding-left: 10px;
 }
 
 .step-5-part1-btns{
-    margin: 20px  0 0 350px;
+    margin: 20px  0 0 425px;
 }
 
 #activate-step-5{
-    /* position: relative; */
-    margin: 150px 0 0 920px;
+    margin: 150px 0 0 715px;
     display: none;
     background-color: #11c164;
     font-size: 16px;
 }
 
 .step-text{
-    margin: 210px 0 0 225px;
+   margin-left: 10px;
 }
 
 .gray-line{
@@ -1114,14 +926,15 @@ padding-left: 10px;
 }
 
 #step-btn-fake{
-    margin: 150px 0 0 920px;
+    margin: 150px 0 0 880px;
     background-color: #00af59;
     font-size: 16px;
 }
 
 .step-4-part1{
-    /* display: block; */
     margin-top: 70px;
+    position: relative;
+    right: 180px;
 }
 
 .step-4-part2{
@@ -1129,9 +942,7 @@ padding-left: 10px;
 }
 
 .step-4-part2-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 330px;
 }
 
 .step-4-part2-image img{
@@ -1140,7 +951,7 @@ padding-left: 10px;
 }
 
 .step-4-part2-text1{
-    margin: 50px 0 0 595px;
+    margin: 50px 0 0 350px;
 }
 
 .step-4-part2-text1 p span{
@@ -1148,11 +959,11 @@ padding-left: 10px;
 }
 
 .step-4-part2-text2{
-    margin-left: 505px;
+    margin-left: 265px;
 }
 
 .step-4-part2-actions{
-    margin: 50px  0 0 458px;
+    margin: 50px  0 0 228px;
 }
 
 #step-4-part2-actions1{
@@ -1169,7 +980,7 @@ padding-left: 10px;
 }
 
 .step-4-part3-text1{
-    margin-left: 572px;
+    margin-left: 365px;
 }
 
 .step-4-part3-text1 span{
@@ -1178,11 +989,11 @@ padding-left: 10px;
 }
 
 .step-4-part3-text2{
-    margin-left: 480px;
+    margin-left: 285px;
 }
 
 .step-4-part3-image{
-    margin: 30px 0 0 560px;
+    margin: 30px 0 0 350px;
 }
 
 .step-4-part3-image img{
@@ -1193,7 +1004,7 @@ padding-left: 10px;
 #activate-step-4-2{
     position: relative;
     width: 250px;
-    margin: 40px 0 0 840px;
+    margin: 40px 0 0 655px;
     font-size: 16px;
 }
 
@@ -1208,13 +1019,13 @@ padding-left: 10px;
 
 
 #step-btn-fake2{
-    margin: 200px 0 0 920px;
+    margin: 200px 0 0 715px;
     font-size: 16px;
     background-color: #00af59;
 }
 
 .step-5-part2{
-    margin: 300px 0px 0 600px;
+    margin: 50px 0px 0 305px;
     display: none;
 }
 
@@ -1285,25 +1096,29 @@ padding-left: 10px;
 
 .page2{
     display: none;
+    position: absolute;
+    top: 45px;
 }
 
 .page3{
     display: none;
+    position: absolute;
+    top: 45px;
 }
 
 .page-subtext1{
     margin: 120px 0 0 234px;
     font-size: 16px;
-    width: 27%;
+    width: 38%;
 }
 
 .page3-bank1{
-    margin: 45px 0 0 235px;
+    margin: 55px 0 0 235px;
 }
 
 .page3-step-image{
     position: absolute;
-    margin: 273px 0 0 235px;
+    margin: 230px 0 0 235px;
 }
 
 .page2-line-vertical{
@@ -1316,7 +1131,7 @@ padding-left: 10px;
 }
 
 .page2-bank2{
-    margin: 190px 0 0 235px;
+    margin: 145px 0 0 235px;
 }
 
 .page2-img-cash{
@@ -1337,7 +1152,7 @@ padding-left: 10px;
 }
 
 .page3-bank2{
-    margin: 350px 0 0 235px;
+    margin: 325px 0 0 235px;
 }
 
 .page3-img-cash{
@@ -1365,8 +1180,9 @@ padding-left: 10px;
 }
 
 .step-5-part1{
-    margin: 200px  0 0 215px;
     font-size: 14px;
+    position: relative;
+    right: 40px;
 }
 
 .step-5-part1 img{
@@ -1376,7 +1192,7 @@ padding-left: 10px;
 }
 
 .step-5-part1-title{
-    margin: 85px 0 0 292px;
+    margin: 85px 0 0 285px;
     font-size: 18px;
 }
 

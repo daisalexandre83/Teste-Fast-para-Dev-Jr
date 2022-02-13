@@ -108,8 +108,7 @@ jQuery(document).ready(function () {
             $('#steps').hide();
             $('.page-subtext1').show();
             $('.page3').show();
-            $('ul.setup-panel li a[href="#step-5"]').empity();
-        },3000)   
+        },3000)    
     })     
 
 }); 
@@ -263,7 +262,6 @@ $("#steps-page2b-selected-option").click(function () {
 })
 
 $(".step-3-image").click(function () {
-//    $("#steps-page3-action").toggleClass('highlight'); 
     $("#activate-step-4-2").toggleClass('highlight');
     $("#activate-step-4").toggleClass('highlight');
     $("#step-btn-fake").toggleClass('highlight');
