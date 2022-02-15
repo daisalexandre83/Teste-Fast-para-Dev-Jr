@@ -449,7 +449,7 @@ padding-left: 10px;
 
 .page3-vertical4{
     position: absolute;
-    top: 443px;
+    top: 402px;
     left: 432px;
 }
 
@@ -857,6 +857,10 @@ padding-left: 10px;
     font-size: 20px;
 }
 
+#steps-page4-action:hover{
+    background-color: #fff !important;
+}
+
 .activate-step-5-3{
     margin-left: 520px;
     cursor: pointer;
@@ -905,6 +909,10 @@ padding-left: 10px;
     background-color: #11c164;
 }
 
+#activate-step-4:hover{
+    background-color:#11c164 !important;
+}
+
 #activate-page2{
     background-color: #11c164;
     font-size: 16px;
@@ -921,8 +929,18 @@ padding-left: 10px;
     font-size: 16px;
 }
 
+#activate-step-5:hover{
+    background-color: #11c164 !important;
+}
+
 .step-text{
    margin-left: 10px;
+}
+
+.step-text p span{
+    font-size: 12px;
+    color: gray;
+    margin-left: 5px;
 }
 
 .gray-line{
@@ -942,6 +960,10 @@ padding-left: 10px;
     margin: 150px 0 0 880px;
     background-color: #00af59;
     font-size: 16px;
+}
+
+#step-btn-fake:hover{
+    background-color: #00af59 !important;
 }
 
 .step-4-part1{
@@ -1021,6 +1043,12 @@ padding-left: 10px;
     font-size: 16px;
 }
 
+#activate-step-4-2:hover {
+    background-color: #4285f4 !important;
+}
+
+
+
 #activate-return-step-2{
     font-size: 12px;
     margin-left: 73px;
@@ -1030,6 +1058,10 @@ padding-left: 10px;
     margin: 200px 0 0 715px;
     font-size: 16px;
     background-color: #00af59;
+}
+
+#step-btn-fake2:hover{
+    background-color: #00af59 !important;
 }
 
 .step-5-part2{
@@ -1166,6 +1198,10 @@ padding-left: 10px;
     border: none;
     background-color: #00aeff;
     color: #fff;
+}
+
+#page2-btn:hover{
+    background-color: #00aeff !important;
 }
 
 .page3-bank2-copy{
