@@ -32,17 +32,14 @@ jQuery(document).ready(function () {
 
     $('#activate-step-2').on('click',function(e) {
         e.preventDefault();
-    // $('ul.setup-panel li:eq(1)').removeClass('disabled');
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.steps-indication').hide();
         $('.indication-2').show();
-    // $('ul.setup-panel li a[href="#step-2"]').addClass('steps-indication');
     })
 
     
     
     $('#activate-return-step-2').on('click',function(e) {
-        
         e.preventDefault();
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.indication-4').hide();
@@ -50,7 +47,6 @@ jQuery(document).ready(function () {
         $('.indication-2').show();
         $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
         $('#activate-step-3-1').show();
-        // $('.steps-indication').hide();
     })   
 
     $('#activate-step-3').on('click',function(e) {
@@ -224,7 +220,6 @@ $('#step-2-medium6-input').click(function () {
 })
 
 $("#step-2-small1-input").click(function () {
-    console.log('biel')
     $("#step-2-accord-input").hide();
     $("#step-2-numbers-input").show();
     $("#step-2-label").show();
@@ -269,7 +264,6 @@ $(".step-3-image").click(function () {
 })
 
 $(".step-4-image").click(function () {
-    console.log('laura');
     $("#steps-page4-action").toggleClass('highlight');
     $('.step-4-skip2').toggleClass('highlight');
 })
@@ -286,7 +280,6 @@ $("#steps-page4-action").click(function () {
 })
 
 $(".step-doubts").click(function () {
-    console.log('daiane');
     $("#step-label-not1").toggleClass('highlight');
     $("#step-label-not2").toggleClass('highlight');
 })
@@ -337,7 +330,6 @@ $('#activate-page2').click(function () {
 })
 
  $('#activate-page').click(function () {
-    console.log('lorena');
     $('.page2').hide();
     $(".page-subtext").show();
     $(".page-thick-line").show();
