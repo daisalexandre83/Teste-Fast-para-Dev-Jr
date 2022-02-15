@@ -170,6 +170,10 @@
     margin: 60px 0 0 10px;
 }
 
+#user-action:hover{
+    background-color: #00aeff!important;
+}
+
 .words-links{
     padding: 10px 15px;
 }
@@ -320,6 +324,10 @@
     margin: 75px 0 0 715px;
     background-color: #11c164;
     font-size: 16px;
+}
+
+#activate-step-2:hover{
+    background-color: #11c164 !important;
 }
 
 .step-3-image{
@@ -554,6 +562,10 @@ padding-left: 10px;
     right: 515px;
 }
 
+#step-2-action:hover{
+    background-color: #00aeff !important;
+}
+
 .step-2-content-bank2{
     border: 1px solid #BDBDBD;
     width: 300px;
@@ -597,6 +609,10 @@ padding-left: 10px;
 
 .step-2-part2-content{
     display: none;
+}
+
+.step-2-part2-form{
+    margin: 25px 0 0 124px;
 }
 
 .step-2-part2-form input{
@@ -875,7 +891,9 @@ padding-left: 10px;
     font-size: 16px;
 }
 
-
+#activate-step-3:hover{
+    background-color: #11c164 !important;
+}
 #activate-return-step-4{
     font-size: 16px;
     color: white;
@@ -918,11 +936,6 @@ padding-left: 10px;
 
 .gray-line2{
   margin-top: 155px;
-}
-
-.gray-line-2{
-    position: absolute;
-    top:172px;
 }
 
 #step-btn-fake{
@@ -1013,11 +1026,6 @@ padding-left: 10px;
     margin-left: 73px;
 }
 
-.step-4-part3{
-    display: none;
-}
-
-
 #step-btn-fake2{
     margin: 200px 0 0 715px;
     font-size: 16px;
@@ -1045,10 +1053,6 @@ padding-left: 10px;
 
 }
 
-/* .step-5-part1-text2{
-    border: 1px solid blue;
-}
- */
 .step-5-part2-text1{
     position: relative;
     right: 45px;
@@ -1065,8 +1069,7 @@ padding-left: 10px;
     font-size: 18px;
 }
 
-
- .steps-indication{
+.steps-indication{
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     border-top: 15px solid #337ab7;
@@ -1088,10 +1091,6 @@ padding-left: 10px;
 
 .indication-5{
     display: none;
-}
-
-.step-2-part2-form{
-    margin: 25px 0 0 124px;
 }
 
 .page2{
