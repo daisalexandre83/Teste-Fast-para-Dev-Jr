@@ -4,9 +4,20 @@ $("#user-action").click(function() {
     $(".img-cash").hide();
     $("#user-action").hide(); 
     $("#steps").show();
-    $("#step-1-part2").hide();
     $(".page-subtext").hide();  
-    
+    $('ul.setup-panel li a[href="#step-1"]').trigger('click');
+    $('.steps-indication').show();
+    $('.indication-2').hide();
+    $('.indication-3').hide();
+    $('.indication-4').hide();
+    $('.indication-5').hide();
+    $("#step-1-part2").hide();
+    // $('.indication-2').show();
+    $(".step-2-part1").show();
+    $(".step-2-part2").hide();
+    $('ul.setup-panel li a[href="#step-2').removeClass('steps-past');
+    $('ul.setup-panel li a[href="#step-3').removeClass('steps-past');
+    $('ul.setup-panel li a[href="#step-4').removeClass('steps-past');
 })
 
 jQuery(document).ready(function () {
