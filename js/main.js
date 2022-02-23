@@ -133,6 +133,8 @@ $("#step-1-yes2-option").click(function () {
    
 })
 
+//$('input[type=checkbox]').prop('checked',true);
+
 
 $(".step-1-ckeckbox").click(function () {
 
