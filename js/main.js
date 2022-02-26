@@ -133,7 +133,7 @@ $("#step-1-yes2-option").click(function () {
    
 })
 
-//$('input[type=checkbox]').prop('checked',true);
+
 
 
 $(".step-1-ckeckbox").click(function () {
@@ -144,9 +144,17 @@ $(".step-1-ckeckbox").click(function () {
 
     if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
       $("#activate-step-2").show();
- }
+      /* let myinterval = setInterval(function () {
+          $(#step-1-confirm1).checked = false;
+          $(#step-1-confirm2).checked = false;
+          $(#step-1-confirm3).checked = false;
+      },5000)
+      clearInterval(myinterval); */
+    }
 
 }) 
+
+
 
 $(".step-bank").click(function() {
     console.log('daiane');
