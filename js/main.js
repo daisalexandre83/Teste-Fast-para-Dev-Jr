@@ -150,6 +150,13 @@ $(".step-1-ckeckbox").click(function () {
           $(#step-1-confirm3).checked = false;
       },5000)
       clearInterval(myinterval); */
+
+      let myinterval = setInterval(function(){
+          $('#step1-confirm1').prop('checked',false);
+          $('#step1-confirm2').prop('checked',false);
+          $('#step1-confirm3').prop('checked',false);
+      },5000)
+      clearInterval(myinterval);
     }
 
 }) 
