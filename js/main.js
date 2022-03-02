@@ -144,22 +144,22 @@ $(".step-1-ckeckbox").click(function () {
 
     if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
       $("#activate-step-2").show();
-      /* let myinterval = setInterval(function () {
+       /*  let myinterval = setInterval(function () {
           $(#step-1-confirm1).checked = false;
           $(#step-1-confirm2).checked = false;
           $(#step-1-confirm3).checked = false;
       },5000)
-      clearInterval(myinterval); */
-
-      let myinterval = setInterval(function(){
-          $('#step1-confirm1').prop('checked',false);
-          $('#step1-confirm2').prop('checked',false);
-          $('#step1-confirm3').prop('checked',false);
-      },5000)
-      clearInterval(myinterval);
+      clearInterval(myinterval);   */
     }
 
-}) 
+})  
+
+/* $(".step-1-checkbox").click(function () {
+    if($('step-1-confirm1').prop('checked',true) && $('step-1-confirm2').prop('checked',true) && $('step-1-confirm3').prop('checked',true)){
+        $("#activate-step-2").show();
+      }
+   
+}) */
 
 
 
