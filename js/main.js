@@ -1,3 +1,7 @@
+let checkbox1 = $('#step-1-confirm1');
+let checkbox2 = $('#step-1-confirm2');
+let checkbox3 = $('#step-1-confirm3');
+
 $("#user-action").click(function() {
     $(".page-subtext").hide();
     $(".page-thick-line").hide();
@@ -46,10 +50,14 @@ jQuery(document).ready(function () {
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
         $('.steps-indication').hide();
         $('.indication-2').show();
+
+        checkbox1 = $('#step-1-confirm1').prop('checked',false);
+        checkbox2 = $('#step-1-confirm2').prop('checked',false);
+        checkbox3 = $('#step-1-confirm3').prop('checked',false);
+        $(".step-1-part3").hide();
+        $('#activate-step-2').hide();
     })
 
-    
-    
     $('#activate-return-step-2').on('click',function(e) {
         e.preventDefault();
         $('ul.setup-panel li a[href="#step-2"]').trigger('click');
@@ -136,32 +144,19 @@ $("#step-1-yes2-option").click(function () {
 
 
 
+
 $(".step-1-ckeckbox").click(function () {
-
-    let checkbox1 = $('#step-1-confirm1');
-    let checkbox2 = $('#step-1-confirm2');
-    let checkbox3 = $('#step-1-confirm3');
-
     if(checkbox1.is(":checked") && checkbox2.is(":checked") && checkbox3.is(":checked")){
       $("#activate-step-2").show();
-       /*  let myinterval = setInterval(function () {
+        /* let myinterval = setInterval(function () {
           $(#step-1-confirm1).checked = false;
           $(#step-1-confirm2).checked = false;
           $(#step-1-confirm3).checked = false;
       },5000)
-      clearInterval(myinterval);   */
+      clearInterval(myinterval);   */ 
     }
 
 })  
-
-/* $(".step-1-checkbox").click(function () {
-    if($('step-1-confirm1').prop('checked',true) && $('step-1-confirm2').prop('checked',true) && $('step-1-confirm3').prop('checked',true)){
-        $("#activate-step-2").show();
-      }
-   
-}) */
-
-
 
 $(".step-bank").click(function() {
     console.log('daiane');
