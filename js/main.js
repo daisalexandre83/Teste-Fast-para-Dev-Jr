@@ -16,7 +16,6 @@ $("#user-action").click(function() {
     $('.indication-4').hide();
     $('.indication-5').hide();
     $("#step-1-part2").hide();
-    // $('.indication-2').show();
     $(".step-2-part1").show();
     $(".step-2-part2").hide();
     $('ul.setup-panel li a[href="#step-2').removeClass('steps-past');
@@ -162,6 +161,8 @@ $(".step-bank").click(function() {
     console.log('daiane');
     $(".bank1-copy").toggleClass('highlight');
 }) 
+
+/*rever o código*/
 
 $("#step-2-action").click(function() {
     $(".bank1-copy").toggleClass('highlight');
@@ -352,7 +353,7 @@ $('#activate-page2').click(function () {
     $('.page2').show();
 })
 
- $('#activate-page').click(function () {
+$('#activate-page').click(function () {
     $('.page2').hide();
     $(".page-subtext").show();
     $(".page-thick-line").show();
